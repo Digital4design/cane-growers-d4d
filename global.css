@@ -1,0 +1,334 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply py-3.5 px-8 uppercase inline-flex gap-3 items-center font-medium text-white transition-all bg-green hover:bg-dark-green;
+    }
+    .inner-banner {
+        @apply h-screen flex flex-wrap items-end justify-center;
+    }
+    .inner-banner h1 {
+        @apply text-6xl leading-72 mb-14 capitalize text-white;
+    }
+    .inner-banner-description {
+        @apply bg-light-black text-white py-16;
+    }
+    .inner-banner-description h2 {
+        @apply text-4xl leading-10 mb-6 capitalize text-white;
+    }
+    .inner-banner-description p {
+        @apply text-white opacity-50 mb-6 font-medium;
+    }   
+    .footer-banner h2 {
+        @apply text-6xl leading-72 text-white;
+    }
+    .footer-banner p {
+        @apply text-off-white-50 pt-5 pb-5 text-lg leading-8 font-medium;
+    }
+    .number-pagination {@apply mx-auto max-w-xl w-full flex text-sm w-full justify-between items-center;}
+    .number-pagination li a {@apply label flex flex-wrap items-center text-black-ish gap-x-3 px-3 border-b-2 border-b-transparent hover:text-dark-green;}
+    .number-pagination li:not(:first-child):not(:last-child) a {@apply hover:border-b-green;}
+
+    .number-pagination li.active a {@apply text-green border-b-green;}
+
+}
+@layer base {
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-serif capitalize;
+    }
+    h2 {
+        @apply text-6xl leading-72;
+    }
+    h3 {
+        @apply text-3xl leading-10;
+    }
+    h4 {
+        @apply text-4xl leading-10 text-black-ish;
+    }
+    h5 {
+        @apply text-5xl leading-60 text-black-ish;
+    }
+    h6 {
+        @apply text-lg leading-8;
+    }
+}
+@layer utilities {  
+    .tw-primery-color {
+        color: #ABBD26;
+    }
+    .image-as-object {
+        @apply object-cover object-center w-full h-full z-0 group-hover:scale-125 transition-transform;
+    }
+    .green-label {
+        @apply text-sm leading-7 uppercase font-medium text-dark-green;
+    }
+    .label {
+        @apply text-sm leading-7 uppercase font-medium;
+    }
+    .component-overlay {
+        @apply relative;
+        @apply before:absolute before:w-full before:h-full before:bg-component-overlay before:z-0 before:content-[''];
+    }
+    .content-with-14 {
+        @apply text-sm font-medium leading-6 opacity-50;
+    }
+    .overlay {
+        @apply relative;
+        @apply before:absolute before:w-full before:h-full before:z-0 before:content-[''];        
+    }
+    .custom-select-dropdown {
+        @apply w-96 h-20 border-b-2 border-b-off-white-50 text-white text-xl leading-8 font-serif px-8 py-1 text-center flex items-center flex-wrap justify-between relative z-20;
+    }
+    .custom-select-dropdown.show {@apply text-black-ish;}
+    .custom-select-dropdown-options {
+        display: none;
+        @apply absolute shadow-dropdown bg-off-white-100 rounded-b-lg text-lg leading-6 font-serif text-black-ish w-96 z-10;
+    }
+    .custom-select-dropdown-options.show {display: block;}
+
+}
+.site-header {
+    @apply fixed top-0 left-0 right-0 z-50;
+    @apply xl:w-auto xl:bottom-auto;
+}
+.site-header .mobile-logo {
+    @apply flex flex-wrap items-center justify-between p-4 w-full;
+    @apply xl:hidden;
+}
+.site-header .mobile-logo svg .logo-text {@apply fill-black-ish;}
+.site-header nav {
+    @apply fixed left-0 top-0 bg-off-white-100 w-full h-full translate-x-[-100%] duration-300;
+    @apply sm:w-[375px] sm:translate-x-[-375px];
+    @apply xl:w-auto xl:relative xl:bg-transparent xl:h-auto xl:left-auto xl:top-auto xl:translate-x-0;
+}
+.site-header nav.shown {@apply translate-x-0;}
+.site-header .container {
+    @apply px-0 flex flex-wrap justify-between mx-auto items-start flex-col;
+    @apply xl:px-4 xl:items-center xl:flex-row;
+}
+.site-header .site-logo {
+    @apply px-4 uppercase flex flex-wrap items-center justify-between w-full py-4;
+    @apply xl:px-0 xl:w-1/4 xl:py-0;
+}
+.menu-wrapper {
+    @apply flex flex-col w-full gap-x-5 px-4;
+    @apply xl:justify-end xl:flex-row xl:w-auto xl:gap-x-10;
+}
+.inner-heading {
+    @apply capitalize font-medium text-base leading-7 px-4 py-6;
+    @apply xl:hidden;
+}
+.mobile-back-btn {
+    @apply capitalize font-semibold py-4 px-7 text-base leading-7 flex flex-wrap items-center bg-off-white-50;
+    @apply xl:hidden;
+}
+.inner-menu {
+    @apply hidden bg-off-white-100 absolute left-0 right-0 top-0 bottom-0 z-10 pt-1;
+    @apply xl:block xl:relative;
+}
+.inner-menu.shown {
+    @apply block;
+}
+header ul li {@apply xl:border-b xl:border-charcoal-grey-200;  @apply xl:border-none;}
+header ul li:last-child {@apply border-none}
+header ul li a {
+    @apply text-black-ish font-sans text-base font-medium leading-7 flex flex-wrap items-center justify-between py-3.5 gap-1;
+    @apply xl:text-white xl:py-0
+}
+header.header-fixed ul li a {
+    @apply text-light-black
+}
+header.header-fixed .site-logo svg path.logo-text {@apply fill-black-ish}
+.member-login-link {
+    @apply text-base leading-7 font-medium bg-green text-white inline-flex items-center p-4 absolute bottom-0 left-0 right-0 m-auto rounded-none justify-center;
+    @apply xl:text-xs xl:leading-5 xl:px-5 xl:py-2 xl:m-initial xl:relative xl:mb-5 xl:rounded-b-2xl;
+}
+.member-login-link svg {@apply ms-1;}
+
+.dropdown-menu-heading {
+    @apply flex flex-wrap items-center justify-between px-10 xl:px-0;
+    @apply text-sm font-medium leading-5 text-black-ish  capitalize mb-6;
+    @apply xl:mb-3 xl:text-xs xl:text-green xl:uppercase xl:opacity-50;
+}
+.dropdown-menu-title {
+    @apply text-black font-medium text-sm leading-6;
+}
+.dropdown-menu-content {
+    @apply text-black font-medium text-xs leading-4 opacity-50;
+}
+.dropdown-listing li {@apply xl:mb-6 xl:last:mb-0  }
+.dropdown-listing li a {
+    @apply text-sm text-black-ish; 
+}
+.header-dropdown {
+    height: calc(100vh - 150px);
+    @apply absolute w-full right-0 mx-auto opacity-0 invisible z-down transition-all bg-off-white-100 bottom-16 top-[90px];
+    @apply sm:w-[375px];
+    @apply xl:w-[900px] xl:left-[-400px] xl:pt-12 xl:group-hover:pt-9 xl:bg-transparent xl:h-auto xl:bottom-auto xl:top-auto xl:group-hover:opacity-100 xl:group-hover:z-10 xl:group-hover:visible;
+}
+.dropable .header-dropdown.shown {
+    @apply opacity-100 z-10 visible;
+}
+header nav {
+    @apply w-full flex flex-col flex-wrap items-start;
+    @apply xl:w-3/4 xl:items-end xl:pb-3.5 xl:px-0;
+}
+header nav .menu-wrapper {
+    @apply overflow-auto;
+    @apply xl:overflow-visible;
+}
+@media screen and (min-width: 1200px) {
+    header ul li:hover a {@apply !text-black;}
+}
+@media screen and (max-width: 1199px) {
+    header .menu-wrapper {
+        height: calc(100vh - 160px)
+    }
+}
+
+/* Banner */
+.message-wrap {
+    @apply max-w-3xl mx-auto flex flex-wrap items-center flex-col;
+    @apply xl:max-w-full;
+}
+/* Information Hub */
+.information-hub-wrap {
+    @apply w-full flex flex-wrap items-center justify-center relative text-white text-center overflow-hidden transition-all;
+    @apply md:w-1/4 md:flex-row;
+    @apply before:absolute before:w-full before:h-full before:bg-black before:z-10 before:opacity-0 before:content-[''] hover:before:opacity-50 before:transition-all;
+}
+.information-hub-wrap .information-hub-title.big-title {@apply text-3xl leading-10;}
+.information-hub-wrap .information-hub-title {
+    @apply text-xl leading-7;
+}
+.information-hub-wrap .information-hub-link {
+    @apply text-sm leading-6 font-medium;
+}
+
+/* News */
+.grid-view-wrap {
+    @apply flex items-stretch gap-x-6;
+}
+.view {@apply flex flex-wrap;}
+.grid-view {@apply pb-10 xl:pb-16 mb-10 xl:mb-0;}
+.list-view {@apply pb-7 md:pb-10 mb-7 md:mb-10 flex-col md:flex-row;}
+
+.grid-view > div {
+    @apply w-full;
+}
+.badage {
+    @apply text-sm font-medium leading-7 uppercase text-white rounded-full inline-block px-6 py-px;
+}
+.news-badage {@apply bg-blue;}
+.resources-badage {@apply bg-off-white-500;}
+.news-title {
+    @apply capitalize text-black-ish leading-10;
+}
+.news-desc {@apply text-base font-medium leading-7;}
+.news-wrap {@apply border-b border-off-white-50;}
+.recent-news.last-news {@apply border-b-0;}
+
+.grid-view .news-title {
+    @apply text-xl pb-6;
+    @apply xl:text-3xl pb-6;
+}
+.list-view .news-title {
+    @apply text-xl;
+    @apply xl:text-2xl;
+}
+.news-top-area {@apply pt-6 md:pt-0 pb-6;}
+
+/* Classified */
+.classified .element {
+    margin: 0 12px;
+}
+.slick-list {
+    padding-left: 0px!important;
+}
+.classified-title {
+    @apply text-xl leading-8 text-black-ish mb-6;
+}
+.classified p {
+    @apply text-sm font-medium leading-6 text-black-ish opacity-50;
+}
+.classified .classified-icon-wrap {
+    @apply text-sm leading-6 text-black-ish font-medium mt-5;
+}
+.slider-arrow-wrap,
+.classified-slider-arrow {
+    @apply flex flex-wrap items-center
+}
+.classified-slider-wrapper {
+    padding-left:calc((100vw - 1280px) / 2);
+}
+/* Footer */
+footer ul li a {
+    @apply font-medium text-white transition-all hover:text-green;
+}
+footer ul.who-we-are li a {
+    @apply text-lg font-serif font-normal;
+}
+.footer-bottom {@apply text-xs text-white opacity-50;}
+.footer-bottom a {@apply transition-all font-medium hover:text-green;}
+
+/* Advocacy */
+.container {@apply px-4;}
+* div p:last-child{@apply mb-0;}
+
+.four-colsec-with-hover-info .col {@apply mb-12 px-3 w-full relative overflow-hidden; @apply sm:w-1/2 lg:w-1/3 xl:w-1/4;}
+.four-colsec-with-hover-info .text-col {@apply duration-700 min-h-1/2 w-auto absolute -bottom-full p-8 left-0 right-0 w-full bg-white text-black transition-all;}
+.four-colsec-with-hover-info .text-col h3 {@apply text-2xl leading-8 pb-5 font-normal text-black-ish;}
+.four-colsec-with-hover-info .text-col p {@apply text-black font-medium opacity-50;}
+.four-colsec-with-hover-info .text-col a {@apply flex gap-3 items-center my-3 text-sm font-medium;}
+.four-colsec-with-hover-info .col .img-col {@apply h-[440px] shadow-gallery;}
+.four-colsec-with-hover-info .img-col img {
+    @apply h-full object-cover object-center w-full transition-all;
+}
+
+.four-colsec-with-hover-info .col-grid-4 .col {@apply sm:w-1/2 lg:w-1/3 xl:w-1/4 px-0;}
+.four-colsec-with-hover-info .col-grid-3 .col {@apply sm:w-1/2 lg:w-1/3 xl:w-2/6 mb-0 px-0;}
+.four-colsec-with-hover-info .col-grid-2 .col {@apply sm:w-1/2 lg:w-1/2 mb-0 px-0;}
+.four-colsec-with-hover-info .col-grid-1 .col {@apply sm:w-1/2 lg:w-1/3 xl:w-full px-0;}
+.gallery-with-full-content.four-colsec-with-hover-info .text-col {@apply bg-aplha-black-88 h-full;}
+.gallery-with-full-content.four-colsec-with-hover-info .text-col h3 {@apply text-white;}
+.gallery-with-full-content.four-colsec-with-hover-info .text-col p {@apply text-white font-medium opacity-80 text-sm leading-6;}
+.gallery-with-full-content.four-colsec-with-hover-info .text-col a {@apply flex gap-3 items-center my-3 text-green text-sm font-medium pt-3;}
+.gallery-with-full-content.four-colsec-with-hover-info .col .img-col {@apply mb-0 overlay h-[600px] before:bg-gallery-overlay shadow-gallery duration-700;}
+
+.gallery-with-half-content.four-colsec-with-hover-info .text-col h3 {@apply text-2xl leading-8;}
+.gallery-with-half-content.four-colsec-with-hover-info .text-col p {@apply text-xs leading-6;}
+
+.single-advocacy-top {
+    @apply relative;
+    @apply before:absolute before:w-full before:h-50 before:bg-off-white-100  before:content-[''];
+}
+.single-advocacy-top strong {
+    @apply text-lg leading-8 font-medium text-black-ish;
+}
+.single-advocacy-top p {
+    @apply text-base leading-7 font-medium text-black-ish opacity-50 my-8;
+}
+.single-advocacy-top ul {@apply list-disc my-8;}
+.single-advocacy-top ul:last-child,
+.single-advocacy-top p:last-child {
+    @apply mb-0;
+}
+.single-advocacy-top ul li {
+    @apply text-base leading-7 font-medium text-black-ish opacity-50 first:list-none;
+}
+.key-issues-slider .col-grid {margin: 0 12px;}
+.key-issues-slider-wrap {padding-left: calc((100vw - 1280px)/2);}
+.quote-author {
+    @apply text-lg leading-8 font-medium text-dark-green mt-6 block;
+}
+.membership-title {
+    @apply text-lg leading-8 font-medium text-black-ish mb-3;
+}
+.membership-description {
+    @apply text-sm leading-6 font-medium text-black-ish opacity-50;
+}
+.membership-features p {
+    @apply content-with-14 text-white;
+}

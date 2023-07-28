@@ -1,0 +1,107 @@
+/* General Font Family */
+@font-face {
+    font-family: 'GeneralB';
+    src: url('../fonts/general/GeneralSans-Bold.eot'); 
+    src: url('../fonts/general/GeneralSans-Bold.eot') format('embedded-opentype'), 
+         url('../fonts/general/GeneralSans-Bold.woff2') format('woff2'),
+         url('../fonts/general/GeneralSans-Bold.woff') format('woff'), 
+         url('../fonts/general/GeneralSans-Bold.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'GeneralEL';
+    src: url('../fonts/general/GeneralSans-Extralight.eot'); 
+    src: url('../fonts/general/GeneralSans-Extralight.eot') format('embedded-opentype'), 
+         url('../fonts/general/GeneralSans-Extralight.woff2') format('woff2'),
+         url('../fonts/general/GeneralSans-Extralight.woff') format('woff'), 
+         url('../fonts/general/GeneralSans-Extralight.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'GeneralL';
+    src: url('../fonts/general/GeneralSans-Light.eot'); 
+    src: url('../fonts/general/GeneralSans-Light.eot') format('embedded-opentype'), 
+         url('../fonts/general/GeneralSans-Light.woff2') format('woff2'),
+         url('../fonts/general/GeneralSans-Light.woff') format('woff'), 
+         url('../fonts/general/GeneralSans-Light.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'GeneralM';
+    src: url('../fonts/general/GeneralSans-Medium.eot'); 
+    src: url('../fonts/general/GeneralSans-Medium.eot') format('embedded-opentype'), 
+         url('../fonts/general/GeneralSans-Medium.woff2') format('woff2'),
+         url('../fonts/general/GeneralSans-Medium.woff') format('woff'), 
+         url('../fonts/general/GeneralSans-Medium.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'GeneralR';
+    src: url('../fonts/general/GeneralSans-Regular.eot'); 
+    src: url('../fonts/general/GeneralSans-Regular.eot') format('embedded-opentype'), 
+         url('../fonts/general/GeneralSans-Regular.woff2') format('woff2'),
+         url('../fonts/general/GeneralSans-Regular.woff') format('woff'), 
+         url('../fonts/general/GeneralSans-Regular.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'GeneralSB';
+    src: url('../fonts/general/GeneralSans-Semibold.eot'); 
+    src: url('../fonts/general/GeneralSans-Semibold.eot') format('embedded-opentype'), 
+         url('../fonts/general/GeneralSans-Semibold.woff2') format('woff2'),
+         url('../fonts/general/GeneralSans-Semibold.woff') format('woff'), 
+         url('../fonts/general/GeneralSans-Semibold.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'GeneralV';
+    src: url('../fonts/general/GeneralSans-Variable.eot'); 
+    src: url('../fonts/general/GeneralSans-Variable.eot') format('embedded-opentype'), 
+         url('../fonts/general/GeneralSans-Variable.woff2') format('woff2'),
+         url('../fonts/general/GeneralSans-Variable.woff') format('woff'), 
+         url('../fonts/general/GeneralSans-Variable.ttf')  format('truetype');
+}
+
+/* Sentient Font Family */
+@font-face {
+    font-family: 'SentientB';
+    src: url('../fonts/sentient/Sentient-Bold.eot'); 
+    src: url('../fonts/sentient/Sentient-Bold.eot') format('embedded-opentype'), 
+         url('../fonts/sentient/Sentient-Bold.woff2') format('woff2'),
+         url('../fonts/sentient/Sentient-Bold.woff') format('woff'), 
+         url('../fonts/sentient/Sentient-Bold.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'SentientEL';
+    src: url('../fonts/sentient/Sentient-Extralight.eot'); 
+    src: url('../fonts/sentient/Sentient-Extralight.eot') format('embedded-opentype'), 
+         url('../fonts/sentient/Sentient-Extralight.woff2') format('woff2'),
+         url('../fonts/sentient/Sentient-Extralight.woff') format('woff'), 
+         url('../fonts/sentient/Sentient-Extralight.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'SentientL';
+    src: url('../fonts/sentient/Sentient-Light.eot'); 
+    src: url('../fonts/sentient/Sentient-Light.eot') format('embedded-opentype'), 
+         url('../fonts/sentient/Sentient-Light.woff2') format('woff2'),
+         url('../fonts/sentient/Sentient-Light.woff') format('woff'), 
+         url('../fonts/sentient/Sentient-Light.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'SentientM';
+    src: url('../fonts/sentient/Sentient-Medium.eot'); 
+    src: url('../fonts/sentient/Sentient-Medium.eot') format('embedded-opentype'), 
+         url('../fonts/sentient/Sentient-Medium.woff2') format('woff2'),
+         url('../fonts/sentient/Sentient-Medium.woff') format('woff'), 
+         url('../fonts/sentient/Sentient-Medium.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'SentientR';
+    src: url('../fonts/sentient/Sentient-Regular.eot'); 
+    src: url('../fonts/sentient/Sentient-Regular.eot') format('embedded-opentype'), 
+         url('../fonts/sentient/Sentient-Regular.woff2') format('woff2'),
+         url('../fonts/sentient/Sentient-Regular.woff') format('woff'), 
+         url('../fonts/sentient/Sentient-Regular.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'SentientV';
+    src: url('../fonts/sentient/Sentient-Variable.eot'); 
+    src: url('../fonts/sentient/Sentient-Variable.eot') format('embedded-opentype'), 
+         url('../fonts/sentient/Sentient-Variable.woff2') format('woff2'),
+         url('../fonts/sentient/Sentient-Variable.woff') format('woff'), 
+         url('../fonts/sentient/Sentient-Variable.ttf')  format('truetype');
+}
