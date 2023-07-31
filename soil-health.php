@@ -1,6 +1,5 @@
-    <?php @include 'header.php'; ?>
-    <?php @include './components/cane-to-coast-banner.php'; ?>
-    
+    <?php require('header.php'); ?>
+    <?php require('./components/cane-to-coast-banner.php'); ?>
 
     
       <section class="gallery-with-full-content four-colsec-with-hover-info py-32">       
@@ -191,8 +190,8 @@
 
       </section>
 
-      <?php @include './components/cane-to-coast-pagination.php'; ?>
+      <?php require('./components/cane-to-coast-pagination.php'); ?>
      
 
-   <?php @include './components/footer-banner.php'; ?>
-   <?php @include 'footer.php'; ?>
+   <?php require('./components/footer-banner.php'); ?>
+   <?php require('footer.php'); ?>

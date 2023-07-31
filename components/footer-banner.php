@@ -1,7 +1,7 @@
 <!-- Footer Banner -->
 <section class="footer-banner component-overlay sugercane-queenslan h-screen flex flex-wrap items-center justify-center bg-[url('../../assets/images/sugarcane-bg.jpg')] bg-no-repeat bg-cover bg-bottom">
     <div class="sugecane-text text-center container relative px-4">  
-        <h2>Do you grow sugarcane in Queensland?</h2>
+        <h2 class="text-white">Do you grow sugarcane in Queensland?</h2>
         <p>Join CANEGROWERS and we will work hard to advance and protect your interests.</p>
         <a href="#" class="btn mt-2">
             Talk to Us about becoming a member

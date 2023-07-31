@@ -21,9 +21,7 @@
     .inner-banner-description p {
         @apply text-white opacity-50 mb-6 font-medium;
     }   
-    .footer-banner h2 {
-        @apply text-6xl leading-72 text-white;
-    }
+    .inner-banner-description span {@apply block lg:text-lg text-off-white-400 mt-6 font-medium text-base;}
     .footer-banner p {
         @apply text-off-white-50 pt-5 pb-5 text-lg leading-8 font-medium;
     }
@@ -36,7 +34,7 @@
 }
 @layer base {
     h1, h2, h3, h4, h5, h6 {
-        @apply font-serif capitalize;
+        @apply font-serif capitalize font-medium;
     }
     h2 {
         @apply text-6xl leading-72;
@@ -53,11 +51,11 @@
     h6 {
         @apply text-lg leading-8;
     }
+    input[type="text"] {
+        @apply border-b border-b-black-ish bg-transparent leading-6 font-medium text-wireframe-dark py-3 max-w-md w-full;
+    }
 }
 @layer utilities {  
-    .tw-primery-color {
-        color: #ABBD26;
-    }
     .image-as-object {
         @apply object-cover object-center w-full h-full z-0 group-hover:scale-125 transition-transform;
     }
@@ -128,9 +126,7 @@
     @apply hidden bg-off-white-100 absolute left-0 right-0 top-0 bottom-0 z-10 pt-1;
     @apply xl:block xl:relative;
 }
-.inner-menu.shown {
-    @apply block;
-}
+.inner-menu.shown {@apply block;}
 header ul li {@apply xl:border-b xl:border-charcoal-grey-200;  @apply xl:border-none;}
 header ul li:last-child {@apply border-none}
 header ul li a {
@@ -213,7 +209,8 @@ header nav .menu-wrapper {
 }
 .view {@apply flex flex-wrap;}
 .grid-view {@apply pb-10 xl:pb-16 mb-10 xl:mb-0;}
-.list-view {@apply pb-7 md:pb-10 mb-7 md:mb-10 flex-col md:flex-row;}
+.list-view {@apply pb-7 md:pb-10 mb-7 md:mb-10 flex-col md:flex-row last:mb-0 last:pb-0;}
+.student-featured-resources .list-view {@apply first:border-t first:border-t-off-white-50 last:border-b last:border-b-off-white-50 mb-0 pb-0;}
 
 .grid-view > div {
     @apply w-full;
@@ -234,6 +231,7 @@ header nav .menu-wrapper {
     @apply text-xl pb-6;
     @apply xl:text-3xl pb-6;
 }
+.related-resource .grid-view .news-title {@apply text-xl;}
 .list-view .news-title {
     @apply text-xl;
     @apply xl:text-2xl;
@@ -316,7 +314,7 @@ footer ul.who-we-are li a {
     @apply mb-0;
 }
 .single-advocacy-top ul li {
-    @apply text-base leading-7 font-medium text-black-ish opacity-50 first:list-none;
+    @apply text-base leading-7 font-medium text-black-ish opacity-50 ml-7 first:list-none first:ml-0;
 }
 .key-issues-slider .col-grid {margin: 0 12px;}
 .key-issues-slider-wrap {padding-left: calc((100vw - 1280px)/2);}
@@ -331,4 +329,119 @@ footer ul.who-we-are li a {
 }
 .membership-features p {
     @apply content-with-14 text-white;
+}
+
+
+/* About Us */
+* p{
+    @apply mb-6;
+}
+
+.about-who-we-are{
+    @apply before:absolute before:left-0  lg:before:w-2/3 before:w-full before:top-0 before:h-full before:bg-off-white-100  before:content-['']
+}
+.about-who-we-are h2{
+    @apply leading-44 pt-3 pb-6 text-4xl;
+}
+.about-who-we-are p{
+    @apply mb-6;
+}
+
+.rural-industry{
+    @apply lg:pt-32 pt-16;
+}
+.rural-industry h3{
+    @apply mb-14 font-medium lg:text-3xl text-lg;
+}
+.rural-top-col{
+    @apply lg:mb-24 mb-10;
+}
+.rural-top-col > span{
+    @apply  text-mid-green flex flex-wrap items-end;
+}
+.rural-top-col span num{
+    @apply text-4xl leading-9;
+}
+.rural-top-col span{
+    @apply text-mid-green mb-3;
+}
+.rural-top-col span span{
+    @apply  text-lg;
+}
+.rural-top-col small {
+    @apply  text-sm text-black-ish leading-6 w-full opacity-50 font-medium;
+}
+
+.rural-bottom p{
+    @apply opacity-50 font-medium;
+}
+.our-vision{
+    @apply lg:py-36 py-16;
+}
+.our-vision h2{
+    @apply lg:text-6xl lg:leading-72 text-white text-3xl leading-10;
+}
+.vision-blocks {
+    @apply flex items-stretch gap-x-20 lg:mt-14 lg:pt-14 lg:mb-0 border-t mt-8 mb-8 pt-4;
+}
+.vision-blocks span {
+    @apply label mb-4 text-light-green mt-6;
+}
+.vision-blocks p {
+    @apply text-off-white-50 font-medium leading-7;
+}
+.tabbed-top-sec{
+    @apply bg-dark-green text-off-white-100 pt-16 text-center;
+}
+.tabbed-top-sec ul{
+    @apply flex flex-wrap justify-between text-center border-t border-alpha-white pt-9;
+}
+.tabbed-top-sec ul li{
+    @apply relative w-1/3 transition-all hover:transition-all text-lg border-b-8 font-medium text-center border-transparent
+     hover:border-white text-white opacity-50 hover:opacity-100 pb-3 cursor-pointer;
+   
+}
+.tabbed-top-sec ul li.active{
+    @apply border-white opacity-100;
+}
+.tabbed-content{
+    @apply bg-off-white-100 py-36;
+}
+.tabbed-content .content-col {@apply hidden;}
+.tabbed-content .content-col.active {@apply block;}
+.tabbed-content .content-top {
+    @apply mb-16 max-w-screen-md w-full;
+}
+.tabbed-content .content-top p{
+    @apply text-black-ish opacity-50 font-medium;
+}
+.team-row{
+    @apply flex justify-center gap-6 odd:mb-10 flex-wrap even:justify-end;
+}
+.team-row img{
+    @apply w-full object-cover;
+}
+.team-row h6 {
+    @apply text-2xl leading-8 text-black-ish pt-6 pb-5;
+}
+.team-row span{
+    @apply green-label border-t border-t-dark-green py-2 block;
+} 
+
+.team-single-top{
+    @apply pt-36 relative;
+    @apply before:absolute before:w-full before:h-96 before:bg-off-white-100 before:top-0 before:z-0 before:content-[''];
+}
+.person-detail span {
+    @apply uppercase text-dark-green border-t border-dark-green block pt-2 mt-2;
+}
+.person-image img{
+    @apply block w-full shadow-lg h-96 object-cover object-center;
+}
+
+.team-single-top .discription{
+    @apply mt-28 mb-24
+}
+.team-row-slider .team-col {
+    margin: 0 12px;
 }

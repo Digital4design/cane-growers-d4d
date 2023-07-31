@@ -23,6 +23,18 @@ jQuery(document).ready(function() {
         prevArrow: $('.prev-arrow'),
         nextArrow: $('.next-arrow'),
     })
+    jQuery('.team-row-slider').slick({
+        slidesToShow: 4,
+        centerMode: true,
+        centerPadding: '150px',
+        infinite:true,
+        slidesToScroll: 1,
+        autoplay: false,
+        nav:true,
+        autoplaySpeed: 2000,
+        prevArrow: $('.prev-arrow'),
+        nextArrow: $('.next-arrow'),
+    })
 });
 
 var oldScrollY = window.scrollY;
@@ -156,14 +168,15 @@ function openDropdownItems() {
     this.nextElementSibling.classList.toggle('show')
 }
 let dropdownOptions = document.querySelector('.custom-select-dropdown-options ul');
-let dropdownOptionsAll = dropdownOptions.querySelectorAll('a');
-dropdownOptionsAll.forEach(link=>
-    link.addEventListener('click', changeDropdownValue)
-)
-
-function changeDropdownValue() {
-    let dropdownText = document.querySelector('.custom-select-dropdown span');
-    dropdownText.textContent = this.dataset.value;
+if(dropdownOptions) {
+    
+    let dropdownOptionsAll = dropdownOptions.querySelectorAll('a');
+    dropdownOptionsAll.forEach(link=>link.addEventListener('click', changeDropdownValue))
+    
+    function changeDropdownValue() {
+        let dropdownText = document.querySelector('.custom-select-dropdown span');
+        dropdownText.textContent = this.dataset.value;
+    }
 }
 
 window.onclick = function(event) {
@@ -183,4 +196,29 @@ window.onclick = function(event) {
             }
         }
     }
+}
+
+/* About us Tabbing */
+let tabs = document.querySelectorAll('.tabbed-top-sec ul li');
+tabs.forEach(tab=>{
+    tab.addEventListener('click', changeTab);
+})
+function changeTab() {
+    /* Remove Class from tabs */
+    let tabItems = document.querySelectorAll('.tabbed-top-sec ul li');
+    tabItems.forEach(tabItem=>tabItem.classList.remove('active'));
+    this.classList.add('active');
+    
+    /* Remove Class from Tabs Content */
+    let tabContent = this.closest('.tabbed-top-sec').nextElementSibling;
+    tabContent.querySelector('.content-col').classList.remove('active');
+    
+    let tabContentPart = tabContent.querySelectorAll('.content-col');
+    tabContentPart.forEach(part=>{
+        if (part.getAttribute("data-match") === this.dataset.id) {
+            part.classList.add('active')
+        }else{
+            part.classList.remove('active')
+        }
+    })
 }

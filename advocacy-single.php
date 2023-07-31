@@ -11,7 +11,7 @@
             </a>
             <div class="green-label border-t border-dark-green mb-7">Key Issues</div>
             <h2 class="mb-11">Sugar Marketing</h2>
-            <div class="advocacy-banner mb-16">
+            <div class="advocacy-banner w-full mb-16">
                 <img class="w-full" src="assets/images/single-advocacy.jpg" alt="Single Banner">
             </div>
             <strong>CANEGROWERS has won a long campaign to secure choice and competition in sugar marketing services - just in time for the 2017 season.</strong>

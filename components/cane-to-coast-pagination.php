@@ -1,5 +1,5 @@
 <section class="cane-pagination bg-dark-green h-[290px]">
-    <div class="container max-w-screen-2xl mx-auto flex flex-wrap justify-between h-full">
+    <div class="container max-w-screen-2xl mx-auto flex flex-wrap justify-between items-center h-full">
         <div class="content self-center">
             <span class="text-base leading-7 text-off-white-50 font-serif">Up Next</span>
             <h5 class="text-white my-4">Nutrient Management</h5>

@@ -55,11 +55,13 @@ module.exports = {
         'dark-green':'#384B00',
         'blue':'#035374',
         'black-ish':'#1e1e1e',
+        'wireframe-dark':'#2E4857',
         'light-black':'rgba(30,30,30,0.5)',
         'aplha-black-16':'rgba(0,0,0,0.16)',
         'aplha-black-48':'rgba(0,0,0,0.48)',
         'aplha-black-64':'rgba(0,0,0,0.64)',
         'aplha-black-88':'rgba(0,0,0,0.88)',
+        'alpha-white':'rgba(255,255,255,0.3)',
         'charcoal-grey': {
           '200':'#E4E8EE'
         },
@@ -77,7 +79,7 @@ module.exports = {
           '800': '#38331D',
           '900': '#13110A',
         },
-    },
+      },
       fontFamily: {
         'sans': ['"General Sans"', 'sans-serif'],
         'serif': ['Sentient', 'serif'],

@@ -4,13 +4,13 @@
 <section class="inner-banner-nbg pt-40 pb-16 bg-off-white-100">
     <div class="container max-w-screen-2xl mx-auto flex flex-wrap items-center justify-between">
         <div class="w-full lg:w-7/12">
-            <span class="green-label">INFORMATION HUB</span>
-            <h2 class="">Explore Our Resources</h2>            
-            <p class="opacity-50 font-medium leading-7 text-black mt-4">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
+            <span class="green-label">NEws & Media</span>
+            <h2 class="">Latest News & Media</h2>            
+            <p class="opacity-50 font-medium leading-7 text-black mt-4">Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim</p>
             <form class="flex flex-wrap items-center justify-between mt-20">
-                <input type="text" name="" id="" placeholder="Search Our Information Hub" />
+                <input type="text" name="" id="" placeholder="Search Our News  & Media" />
                 <button class="btn">
-                    Search Information 
+                    Search news & media
                     <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
                         <path d="M1.00012 1.5L5.00012 5.5L1 9.5" stroke="white" stroke-width="2"/>
                     </svg>
@@ -28,7 +28,7 @@
     <div class="max-w-screen-2xl container mx-auto">
         <div class="news-top flex justify-between items-center pb-8 xl:pb-14">
             <div class="w-full xl:w-1/2">
-                <h2 class="text-2xl xl:text-4xl text-black leading-8 xl:leading-44 capitalize font-serif font-medium">Featured Resources</h2>
+                <h2 class="text-2xl xl:text-4xl text-black leading-8 xl:leading-44 capitalize font-serif font-medium">Featured News & Media</h2>
             </div>
         </div>
         
@@ -41,11 +41,11 @@
                     </div>
                     <div class="news-content xl:px-8">
                         <div class="news-top-area py-6 xl:pt-10 xl:pb-10">
-                            <span class="badage resources-badage">Student Resources</span>
+                            <span class="badage news-badage">News</span>
                             <span class="date font-medium text-black-ish opacity-50 pl-8">22nd April, 2023</span>
                         </div>
-                        <h3 class="news-title">The sweet facts about how sugar is grown and processed</h3>
-                        <p class="news-desc">Sugarcane is a tall tropical plant that is similar to bamboo. Cane is tall, reaching two to six metres in height. It has strong, jointed, fibrous stalks that store carbohydrates in the form of various sugars....</p>
+                        <h3 class="news-title">Could 2023 be the bumper year we've been waiting for?</h3>
+                        <p class="news-desc">The 2023 sugarcane crush is just weeks away and once again growers are heading into harvest with a sense of trepidation and optimism.While Queensland's sugar mills are yet to release their official crop estimates, we...</p>
                     </div>
                 </div>
             </div> 
@@ -58,9 +58,9 @@
                     </div>
                     <div class="news-content w-full md:w-1/2 md:pl-8">
                         <div class="news-top-area">
-                            <span class="badage resources-badage">Learn About Sugarcane</span>
+                            <span class="badage news-badage">Media Releases</span>
                         </div>
-                        <h3 class="news-title">CANEGROWERS Virtual Bus Tour</h3>
+                        <h3 class="news-title">Is government failing Australians on fire ants?</h3>
                     </div>
                 </div>                    
                 <div class="view list-view recent-news news-wrap">
@@ -69,9 +69,9 @@
                     </div>
                     <div class="news-content w-full md:w-1/2 md:pl-8">
                         <div class="news-top-area">
-                            <span class="badage resources-badage">Projects</span>
+                            <span class="badage news-badage">Video</span>
                         </div>
-                        <h3 class="news-title">Smartcane BMP is the Queensland sugarcane industry's voluntary best practice program</h3>
+                        <h3 class="news-title">Sugarcane - the solution to air travel's emissions problem</h3>
                     </div>
                 </div>
                 <div class="view list-view last-news recent-news news-wrap">
@@ -80,33 +80,24 @@
                     </div>
                     <div class="news-content w-full md:w-1/2 md:pl-8">
                         <div class="news-top-area">
-                            <span class="badage resources-badage">Industry Information</span>
+                            <span class="badage news-badage">Magazine</span>
                         </div>
-                        <h3 class="news-title">Check out our collection of important links to our industry partners</h3>
+                        <h3 class="news-title">Changing Face of Grower Representation - Australian Canegrower - August 2022</h3>
                     </div>
                 </div>
             </div>
         </div>
-                
-        <div class="md:hidden mt-16">
-            <a href="#" class="btn bg-mid-green text-white">
-                Browse all news & media
-                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
-                    <path d="M1.00012 1.5L5.00012 5.5L1 9.5" stroke="white" stroke-width="2" />
-                </svg>
-            </a>
-        </div>
-        
     </div>
 </section>
 
 
 
-<?php @include './components/explore-information.php'; ?>
+<?php require('./components/explore-information.php'); ?>
+
 <div class="container mx-auto px-4 py-36">
     <div class="news-top flex justify-between items-center pb-8 xl:pb-14">
         <div class="w-full xl:w-1/2">
-            <h2 class="text-2xl xl:text-4xl text-black leading-8 xl:leading-44 capitalize font-serif font-medium">All Information Hub Resources</h2>
+            <h2 class="text-2xl xl:text-4xl text-black leading-8 xl:leading-44 capitalize font-serif font-medium">All News & Media</h2>
         </div>
         <div class="hidden md:flex justify-end w-full xl:w-1/2">
             
