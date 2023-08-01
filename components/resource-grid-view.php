@@ -8,7 +8,7 @@
                 <span class="badage resources-badage">Student Resources</span>
                 <span class="date font-medium text-black-ish opacity-50 pl-8">18th April, 2023</span>
             </div>
-            <h3 class="news-title">The sweet facts about how sugar is grown and processed</h3>
+            <h5 class="news-title">The sweet facts about how sugar is grown and processed</h5>
             <p class="news-desc">Sugarcane is a tall tropical plant that is similar to bamboo. Cane is tall, reaching two to six metres in height. It has strong, jointed, fibrous stalks that store carbohydrates in the form of various sugars....</p>
         </div>
     </div>

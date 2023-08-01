@@ -1,9 +1,9 @@
 <!-- Inner Banner -->
-<section class="overlay before:bg-cane-banner-overlay inner-banner bg-[url('../../assets/images/soil-health.jpg')] bg-no-repeat bg-cover bg-bottom ">
+<section class="overlay before:bg-cane-banner-overlay inner-banner bg-[url('../../assets/images/sugarcane-bg.jpg')] bg-no-repeat bg-cover bg-bottom ">
     <div class="inner-banner-content w-full shadow-caneBanner relative">
         <div class="max-w-screen-xl mx-auto">
             <span class="green-label !text-white">Cane To Coast</span>
-            <h1 class="">Soil Health</h1>            
+            <h2 class="text-white mb-14">Soil Health</h2>            
         </div>
         <div class="inner-banner-description bg-aplha-black-64 !py-0">
             <div class="max-w-screen-xl mx-auto w-2/3/">
@@ -11,7 +11,7 @@
                     <div class="flex flex-wrap items-center justify-between">
                         <div class="relative">
                             <button class="custom-select-dropdown" type="button">
-                                <span>Soil Health</span>
+                                <small class="text-lg">Soil Health</small>
                                 <svg class="w-2.5 h-2.5 ml-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                                 </svg>
@@ -41,7 +41,7 @@
                             </div>
                         </div>
                         <div>
-                            <ul class="flex flex-wrap items-center gap-x-16">
+                            <ul class="flex flex-wrap items-center !gap-x-16">
                                 <li class="font-medium opacity-50 text-off-white-50">JUMP TO:</li>
                                 <li><a class="cursor-pointer font-medium text-off-white-50 hover:!text-green">Controlled Traffic</a></li>
                                 <li><a class="cursor-pointer font-medium text-off-white-50 hover:!text-green">Fallow Management</a></li>

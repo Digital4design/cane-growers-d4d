@@ -12,11 +12,11 @@
 </section>
 
  <!-- Latest News -->
- <section class="latest-news pb-14 pt-7 lg:pt-12 lg:pb-24 xl:pt-16 xl:pb-32 bg-off-white-100">
+ <section class="latest-news bg-off-white-100">
     <div class="max-w-screen-2xl container mx-auto">
         <div class="news-top flex justify-between items-center pb-8 xl:pb-14">
             <div class="w-full xl:w-1/2">
-                <h2 class="text-2xl xl:text-4xl text-black leading-8 xl:leading-44 capitalize font-serif font-medium">Featured Student Resources</h2>
+                <h4>Featured Student Resources</h4>
             </div>
         </div>
         
@@ -30,7 +30,7 @@
                         <span class="badage resources-badage">Student Resources</span>
                         <span class="date font-medium text-black-ish opacity-50 pl-8">22nd April, 2023</span>
                     </div>
-                    <h3 class="news-title">The sweet facts about how sugar is grown and processed</h3>
+                    <h5 class="news-title">The sweet facts about how sugar is grown and processed</h5>
                     <p class="font-medium mt-5">Sugarcane is a tall tropical plant that is similar to bamboo. Cane is tall, reaching two to six metres in height. It has strong, jointed, fibrous stalks that store carbohydrates in the form of various sugars....</p>
                 </div>
             </div>                    
@@ -43,7 +43,7 @@
                         <span class="badage resources-badage">Student Resources</span>
                         <span class="date font-medium text-black-ish opacity-50 pl-8">22nd April, 2023</span>
                     </div>
-                    <h3 class="news-title">Smartcane BMP is the Queensland sugarcane industry's voluntary best practice program</h3>
+                    <h5 class="news-title">Smartcane BMP is the Queensland sugarcane industry's voluntary best practice program</h5>
                     <p class="font-medium mt-5">Sugarcane is a tall tropical plant that is similar to bamboo. Cane is tall, reaching two to six metres in height. It has strong, jointed, fibrous stalks that store carbohydrates in the form of various sugars....</p>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                         <span class="badage resources-badage">Student Resources</span>
                         <span class="date font-medium text-black-ish opacity-50 pl-8">22nd April, 2023</span>
                     </div>
-                    <h3 class="news-title">Check out our collection of important links to our industry partners</h3>
+                    <h5 class="news-title">Check out our collection of important links to our industry partners</h5>
                     <p class="font-medium mt-5">Sugarcane is a tall tropical plant that is similar to bamboo. Cane is tall, reaching two to six metres in height. It has strong, jointed, fibrous stalks that store carbohydrates in the form of various sugars....</p>
                 </div>
             </div>
@@ -78,77 +78,8 @@
 <div class="container mx-auto px-4 py-36">
     <div class="news-top flex justify-between items-center pb-8 xl:pb-14">
         <div class="w-full xl:w-1/2">
-            <h2 class="text-2xl xl:text-4xl text-black leading-8 xl:leading-44 capitalize font-serif font-medium">All Information Hub Resources</h2>
+            <h4>All Information Hub Resources</h4>
         </div>
-        <!-- <div class="hidden md:flex justify-end w-full xl:w-1/2">
-            <div class="flex flex-wrap items-center justify-end">
-                <span>category by</span>
-            
-                <div class="relative">
-                    <button class="custom-select-dropdown" type="button">
-                        <span>Soil Health</span>
-                        <svg class="w-2.5 h-2.5 ml-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                        </svg>
-                    </button> -->
-                    <!-- Dropdown menu -->
-                    <!-- <div class="custom-select-dropdown-options pt-20 top-0">
-                        <ul class="py-2" aria-labelledby="dropdownDefaultButton">
-                            <li>
-                                <a data-value="Overview" class="cursor-pointer block px-8 py-4 hover:opacity-50">Overview</a>
-                            </li>
-                            <li>
-                                <a data-value="Soil Health" class="cursor-pointer block px-8 py-4 hover:opacity-50">Soil Health</a>
-                            </li>
-                            <li>
-                                <a data-value="Nutrient Management" class="cursor-pointer block px-8 py-4 hover:opacity-50">Nutrient Management</a>
-                            </li>
-                            <li>
-                                <a data-value="Water Sense" class="cursor-pointer block px-8 py-4 hover:opacity-50">Water Sense</a>
-                            </li>
-                            <li>
-                                <a data-value="Growers, Research & the Reef" class="cursor-pointer block px-8 py-4 hover:opacity-50">Growers, Research & the Reef</a>
-                            </li>
-                            <li>
-                                <a data-value="Our Growers. Our Story" class="cursor-pointer block px-8 py-4 hover:opacity-50">Our Growers. Our Story</a>
-                            </li>
-                        </ul>
-                    </div> -->
-                <!-- </div>
-                <span>filter by</span>
-                <div class="relative">
-                    <button class="custom-select-dropdown" type="button">
-                        <span>Soil Health</span>
-                        <svg class="w-2.5 h-2.5 ml-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                        </svg>
-                    </button> -->
-                    <!-- Dropdown menu -->
-                    <!-- <div class="custom-select-dropdown-options pt-20 top-0">
-                        <ul class="py-2" aria-labelledby="dropdownDefaultButton">
-                            <li>
-                                <a data-value="Overview" class="cursor-pointer block px-8 py-4 hover:opacity-50">Overview</a>
-                            </li>
-                            <li>
-                                <a data-value="Soil Health" class="cursor-pointer block px-8 py-4 hover:opacity-50">Soil Health</a>
-                            </li>
-                            <li>
-                                <a data-value="Nutrient Management" class="cursor-pointer block px-8 py-4 hover:opacity-50">Nutrient Management</a>
-                            </li>
-                            <li>
-                                <a data-value="Water Sense" class="cursor-pointer block px-8 py-4 hover:opacity-50">Water Sense</a>
-                            </li>
-                            <li>
-                                <a data-value="Growers, Research & the Reef" class="cursor-pointer block px-8 py-4 hover:opacity-50">Growers, Research & the Reef</a>
-                            </li>
-                            <li>
-                                <a data-value="Our Growers. Our Story" class="cursor-pointer block px-8 py-4 hover:opacity-50">Our Growers. Our Story</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </div>
     <div class="grid-view-wrap">
         <?php @include './components/resource-grid-view.php'; ?>
@@ -161,9 +92,9 @@
         
     <ul class="number-pagination">
         <li>
-            <a href="#">
+            <a href="#" class="group">
                 <svg xmlns="http://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5 8" fill="none">
-                    <path class="group-hover:stroke-dark-green" d="M4 1L1 4L4 7" stroke="#1E1E1E" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path class="group-hover:stroke-green" d="M4 1L1 4L4 7" stroke="#1E1E1E" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
                 Previous
             </a>
@@ -174,10 +105,10 @@
         <li><a href="#">4</a></li>
         <li><a href="#">5</a></li>
         <li>
-            <a href="#">
+            <a href="#" class="group">
                 Next
                 <svg xmlns="http://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5 8" fill="none">
-                    <path class="group-hover:stroke-dark-green" d="M1 7L4 4L1 1" stroke="#1E1E1E" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path class="group-hover:stroke-green" d="M1 7L4 4L1 1" stroke="#1E1E1E" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </a>
         </li>

@@ -34,7 +34,7 @@
                 <div class="w-full xl:w-4/5">
                     <div class="flex flex-wrap">
                         <div class="w-full md:w-1/4">
-                            <h3 class="title text-lg text-white pb-7">What We Do</h3>
+                            <h5 class="title text-lg text-white pb-7">What We Do</h5>
                             <div class="pb-10">
                                 <span class="text-xs opacity-50 uppercase block mb-3">For Growers</span>
                                 <ul class="flex flex-col gap-3">
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                         <div class="w-1/4">
-                            <h3 class="title text-lg text-white pb-7">News & Media</h3>
+                            <h5 class="title text-lg text-white pb-7">News & Media</h5>
                             <div class="pb-10">
                                 <span class="text-xs opacity-50 uppercase block mb-3">NEWS</span>
                                 <ul class="flex flex-col gap-3">
@@ -76,7 +76,7 @@
                             </div>
                         </div>
                         <div class="w-1/4">
-                            <h3 class="title text-lg text-white pb-7">Information Hub</h3>
+                            <h5 class="title text-lg text-white pb-7">Information Hub</h5>
                             <div class="pb-10">
                                 <span class="text-xs opacity-50 uppercase block mb-3">LEARN</span>
                                 <ul class="flex flex-col gap-3">
@@ -118,7 +118,7 @@
                     </div>
                 </div>
                 <div class="w-full xl:w-1/5">
-                    <h3 class="title text-lg text-white pb-7">Who We Are</h3>
+                    <h5 class="title text-lg text-white pb-7">Who We Are</h5>
                     <div class="pb-10">                    
                         <ul class="flex flex-col gap-3 who-we-are">
                             <li><a href="#">Classifieds</a></li>

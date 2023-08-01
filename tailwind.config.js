@@ -34,7 +34,8 @@ module.exports = {
       boxShadow: {
         'caneBanner': '0px 10px 10px -5px rgba(0, 0, 0, 0.04), 0px 20px 25px -5px rgba(0, 0, 0, 0.10)',
         'dropdown':'0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10)',
-        'gallery':'0px 2px 4px -1px rgba(0, 0, 0, 0.06), 0px 4px 6px -1px rgba(0, 0, 0, 0.10)'
+        'gallery':'0px 2px 4px -1px rgba(0, 0, 0, 0.06), 0px 4px 6px -1px rgba(0, 0, 0, 0.10)',
+        'drpodownMenu':'0px 10px 10px -5px rgba(0, 0, 0, 0.04), 0px 20px 25px -5px rgba(0, 0, 0, 0.10)'
       },
       transitionProperty: {
         'top': 'top',
@@ -47,6 +48,7 @@ module.exports = {
       },
       height: {
         '50': '50rem',
+        '400':'400px',
       },
       colors: {
         'green':'#5E9732',

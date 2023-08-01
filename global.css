@@ -9,24 +9,21 @@
     .inner-banner {
         @apply h-screen flex flex-wrap items-end justify-center;
     }
-    .inner-banner h1 {
-        @apply text-6xl leading-72 mb-14 capitalize text-white;
-    }
     .inner-banner-description {
         @apply bg-light-black text-white py-16;
     }
-    .inner-banner-description h2 {
+    /* .inner-banner-description h2 {
         @apply text-4xl leading-10 mb-6 capitalize text-white;
-    }
+    } */
     .inner-banner-description p {
         @apply text-white opacity-50 mb-6 font-medium;
     }   
-    .inner-banner-description span {@apply block lg:text-lg text-off-white-400 mt-6 font-medium text-base;}
+    .inner-banner-description span {@apply block lg:text-lg text-off-white-50 mt-6 font-medium text-base;}
     .footer-banner p {
         @apply text-off-white-50 pt-5 pb-5 text-lg leading-8 font-medium;
     }
     .number-pagination {@apply mx-auto max-w-xl w-full flex text-sm w-full justify-between items-center;}
-    .number-pagination li a {@apply label flex flex-wrap items-center text-black-ish gap-x-3 px-3 border-b-2 border-b-transparent hover:text-dark-green;}
+    .number-pagination li a {@apply text-base font-medium leading-8 flex flex-wrap items-center text-black-ish gap-x-3 px-3 border-b-2 border-b-transparent hover:text-green;}
     .number-pagination li:not(:first-child):not(:last-child) a {@apply hover:border-b-green;}
 
     .number-pagination li.active a {@apply text-green border-b-green;}
@@ -36,21 +33,13 @@
     h1, h2, h3, h4, h5, h6 {
         @apply font-serif capitalize font-medium;
     }
-    h2 {
-        @apply text-6xl leading-72;
-    }
-    h3 {
-        @apply text-3xl leading-10;
-    }
-    h4 {
-        @apply text-4xl leading-10 text-black-ish;
-    }
-    h5 {
-        @apply text-5xl leading-60 text-black-ish;
-    }
-    h6 {
-        @apply text-lg leading-8;
-    }
+    h1 {}
+    h2 {@apply text-6xl leading-72;} /*60*/
+    h3 {@apply text-2xl leading-8 xl:text-5xl xl:leading-60 text-black-ish;} /*48*/
+    h4 {@apply text-2xl leading-8 xl:text-4xl xl:leading-44 text-black-ish;} /* 36 */
+    h5 {@apply text-xl leading-7 xl:text-3xl xl:leading-10;} /*30*/
+    h6 {@apply text-xl leading-7 xl:text-2xl xl:leading-8;} /* 24 */
+    
     input[type="text"] {
         @apply border-b border-b-black-ish bg-transparent leading-6 font-medium text-wireframe-dark py-3 max-w-md w-full;
     }
@@ -60,10 +49,10 @@
         @apply object-cover object-center w-full h-full z-0 group-hover:scale-125 transition-transform;
     }
     .green-label {
-        @apply text-sm leading-7 uppercase font-medium text-dark-green;
+        @apply text-base leading-8 uppercase font-medium text-dark-green;
     }
     .label {
-        @apply text-sm leading-7 uppercase font-medium;
+        @apply text-base leading-8 uppercase font-medium;
     }
     .component-overlay {
         @apply relative;
@@ -85,7 +74,14 @@
         @apply absolute shadow-dropdown bg-off-white-100 rounded-b-lg text-lg leading-6 font-serif text-black-ish w-96 z-10;
     }
     .custom-select-dropdown-options.show {display: block;}
-
+    .custom-container {
+        @apply mx-auto container;
+        @apply 2xl:max-w-screen-2xl;
+    }
+    .link-with-arrow {
+        @apply text-off-white-50 font-medium flex flex-wrap items-center gap-2;
+        @apply md:gap-6;
+    }
 }
 .site-header {
     @apply fixed top-0 left-0 right-0 z-50;
@@ -149,7 +145,7 @@ header.header-fixed .site-logo svg path.logo-text {@apply fill-black-ish}
     @apply xl:mb-3 xl:text-xs xl:text-green xl:uppercase xl:opacity-50;
 }
 .dropdown-menu-title {
-    @apply text-black font-medium text-sm leading-6;
+    @apply text-black font-medium text-sm leading-6 mb-0;
 }
 .dropdown-menu-content {
     @apply text-black font-medium text-xs leading-4 opacity-50;
@@ -160,10 +156,19 @@ header.header-fixed .site-logo svg path.logo-text {@apply fill-black-ish}
 }
 .header-dropdown {
     height: calc(100vh - 150px);
+    @apply overflow-auto absolute w-full right-0 mx-auto opacity-0 invisible z-down transition-all bg-off-white-100 bottom-16 top-[90px];
+    @apply sm:w-[375px];
+    @apply xl:w-[900px] xl:left-[-400px] xl:pt-12 xl:group-hover:pt-9 xl:bg-transparent xl:h-auto xl:bottom-auto xl:top-auto xl:group-hover:opacity-100 xl:group-hover:z-10 xl:group-hover:visible xl:overflow-hidden;
+}
+.header-dropdown.news {
     @apply absolute w-full right-0 mx-auto opacity-0 invisible z-down transition-all bg-off-white-100 bottom-16 top-[90px];
     @apply sm:w-[375px];
-    @apply xl:w-[900px] xl:left-[-400px] xl:pt-12 xl:group-hover:pt-9 xl:bg-transparent xl:h-auto xl:bottom-auto xl:top-auto xl:group-hover:opacity-100 xl:group-hover:z-10 xl:group-hover:visible;
+    @apply xl:w-[640px] xl:left-[-320px] xl:bg-transparent xl:group-hover:opacity-100 xl:group-hover:visible xl:group-hover:z-10 xl:pt-12 xl:group-hover:pt-9  xl:h-auto xl:bottom-auto xl:top-auto;
 }
+.dropable .header-dropdown > div {
+    @apply xl:shadow-drpodownMenu;
+}
+.dropable .header-dropdown.news.shown,
 .dropable .header-dropdown.shown {
     @apply opacity-100 z-10 visible;
 }
@@ -183,24 +188,113 @@ header nav .menu-wrapper {
         height: calc(100vh - 160px)
     }
 }
+/* Homepage */
+/* Voice of Queensland */
+.grower-parteners {
+    @apply flex justify-center bg-cover pt-16;
+    @apply xl:pt-24;
+}
+.grower-parteners h4 {
+    @apply text-center mb-0 capitalize;
+    @apply xl:mb-24;
+}
+.grower-parteners .voice-of-queensland {
+    @apply before:hidden before:content-[''] before:bg-off-white-100 before:w-full before:bottom-0 before:absolute before:bottom-0 relative z-0;
+    @apply sm:before:top-[50px];
+    @apply md:before:block;
+    @apply lg:before:top-[100px];
+}
+.grower-parteners .voice-of-queensland .queensland {
+    @apply bg-off-white-100 flex flex-wrap items-center relative mt-16 z-50;
+    @apply md:bg-transparent md:flex-row-reverse;
+    @apply xl:mt-0;
+}
+.grower-parteners .content-column {
+    @apply w-full px-4 py-12;
+    @apply sm:px-7;
+    @apply md:w-1/2 md:pl-0 md:pt-12 md:pb-0;
+    @apply lg:pt-24;
+    @apply xl:px-16 xl:pt-24 xl:pb-0;
+}
+.grower-parteners .image-column {
+    @apply w-full mx-auto px-4 self-end;
+    @apply sm:w-3/5 md:w-1/2;
+}
+
+/* For Growers */
+.advocacy-membership {@apply my-6; @apply md:my-16;}
+.advocacy-membership .custom-container {@apply px-4 flex flex-col gap-6; @apply md:flex-row;}
+.advocacy-membership .advocacy-column {@apply w-full overflow-hidden relative even:flex even:flex-wrap even:self-start; @apply md:w-1/2 odd:md:mt-64;}
+.advocacy-membership .advocacy-column .content-part {@apply transition-all absolute bottom-0 left-0 right-0 w-full p-6; @apply lg:p-16;}
+
+/* Cane to Coast */
+.coast-list ul li a {
+    @apply w-full flex items-center justify-between text-white py-6 md:py-8 font-serif font-medium text-lg leading-7  border-b border-b-off-white-50 cursor-pointer;
+    @apply md:text-2xl md:leading-8;
+}
+
+/* Classified Outer */
+.classified-outer {
+    @apply bg-off-white-100 py-14; @apply lg:py-24; @apply xl:py-32;
+}
+.classified-inner {
+    @apply flex flex-col justify-between pb-8 relative; @apply xl:pb-14; @apply md:flex-row;
+}
+.classified-inner > div {
+    @apply even:flex even:justify-around even:flex-col; @apply md:even:items-end;   
+}
+
+/* Latest News */
+.latest-news {
+    @apply py-14 px-4; @apply lg:py-24; @apply xl:py-32;
+}
+.latest-news .news-top {
+    @apply flex justify-between items-center pb-8; @apply xl:pb-14;
+}
+.latest-news .news-top > div {
+    @apply w-full even:hidden even:justify-end;
+    @apply md:even:flex;
+    @apply xl:w-1/2;
+}
+.latest-news .news-feature-data {
+    @apply flex flex-col gap-x-6; @apply lg:flex-row;
+}
+.latest-news .news-feature-data > div {
+    @apply w-full odd:overflow-hidden; @apply lg:w-1/2;
+}
+/* .latest-news .news-top-area {@apply pt-6 md:pt-0 pb-6;} */
+.latest-news .grid-view .news-top-area {@apply py-6; @apply xl:py-10;}
+.latest-news .list-view .news-top-area {@apply py-6; @apply lg:pb-7 lg:pt-0;}
+.latest-news .news-top-area .date {@apply font-medium text-black-ish opacity-50 pl-8;}
+.latest-news .list-view .news-title {@apply pb-0;}
+.latest-news .news-desc {@apply text-base font-medium leading-7;}
+.grid-view {@apply pb-10 xl:pb-16 mb-10 xl:mb-0;}
+.grid-view .news-title {@apply pb-6;}
+.list-view {@apply pb-7 md:pb-10 mb-7 md:mb-8 flex-col md:flex-row last:mb-0 last:pb-0;}
+
+
+/* Explore Information */
+.explore-info .top-title {
+    @apply bg-dark-green w-full py-12 pb-12 text-center;
+}
+
+/* Information Hub */
+.information-hub-wrap {
+    @apply w-full h-32 flex flex-wrap items-center justify-center relative text-white text-center overflow-hidden transition-all;
+    @apply md:flex-row md:h-auto;
+    @apply before:absolute before:w-full before:h-full before:bg-black before:z-10 before:opacity-0 before:content-[''] hover:before:opacity-50 before:transition-all;
+}
+.information-hub-wrap {@apply h-32; @apply md:h-72;}
+.information-hub-wrap.two-col {@apply md:w-1/2; @apply xl:h-400;}
+.information-hub-wrap.four-col {@apply md:w-1/2; @apply xl:w-1/4;}
+.information-hub-wrap .information-hub-content {@apply absolute top-auto left-auto bottom-auto right-auto z-20;}
+.information-hub-wrap .information-hub-title.small-title {@apply text-xl leading-7;}
+.information-hub-wrap .information-hub-link {@apply text-sm leading-6 font-medium;}
 
 /* Banner */
 .message-wrap {
     @apply max-w-3xl mx-auto flex flex-wrap items-center flex-col;
     @apply xl:max-w-full;
-}
-/* Information Hub */
-.information-hub-wrap {
-    @apply w-full flex flex-wrap items-center justify-center relative text-white text-center overflow-hidden transition-all;
-    @apply md:w-1/4 md:flex-row;
-    @apply before:absolute before:w-full before:h-full before:bg-black before:z-10 before:opacity-0 before:content-[''] hover:before:opacity-50 before:transition-all;
-}
-.information-hub-wrap .information-hub-title.big-title {@apply text-3xl leading-10;}
-.information-hub-wrap .information-hub-title {
-    @apply text-xl leading-7;
-}
-.information-hub-wrap .information-hub-link {
-    @apply text-sm leading-6 font-medium;
 }
 
 /* News */
@@ -208,8 +302,7 @@ header nav .menu-wrapper {
     @apply flex items-stretch gap-x-6;
 }
 .view {@apply flex flex-wrap;}
-.grid-view {@apply pb-10 xl:pb-16 mb-10 xl:mb-0;}
-.list-view {@apply pb-7 md:pb-10 mb-7 md:mb-10 flex-col md:flex-row last:mb-0 last:pb-0;}
+
 .student-featured-resources .list-view {@apply first:border-t first:border-t-off-white-50 last:border-b last:border-b-off-white-50 mb-0 pb-0;}
 
 .grid-view > div {
@@ -220,25 +313,26 @@ header nav .menu-wrapper {
 }
 .news-badage {@apply bg-blue;}
 .resources-badage {@apply bg-off-white-500;}
-.news-title {
-    @apply capitalize text-black-ish leading-10;
-}
-.news-desc {@apply text-base font-medium leading-7;}
+
 .news-wrap {@apply border-b border-off-white-50;}
 .recent-news.last-news {@apply border-b-0;}
 
-.grid-view .news-title {
+.related-resource .grid-view {@apply pb-0;}
+.related-resource .grid-view .news-title {@apply text-xl;}
+/* .grid-view .news-title {
     @apply text-xl pb-6;
     @apply xl:text-3xl pb-6;
-}
-.related-resource .grid-view .news-title {@apply text-xl;}
-.list-view .news-title {
+} */
+/* .list-view .news-title {
     @apply text-xl;
     @apply xl:text-2xl;
-}
-.news-top-area {@apply pt-6 md:pt-0 pb-6;}
+} */
+
 
 /* Classified */
+.classified-slider-wrapper .element > div {
+    @apply border border-aplha-black-16 bg-white rounded pt-8 px-6 pb-6 pl-6; @apply xl:pr-14;
+}
 .classified .element {
     margin: 0 12px;
 }
@@ -258,9 +352,6 @@ header nav .menu-wrapper {
 .classified-slider-arrow {
     @apply flex flex-wrap items-center
 }
-.classified-slider-wrapper {
-    padding-left:calc((100vw - 1280px) / 2);
-}
 /* Footer */
 footer ul li a {
     @apply font-medium text-white transition-all hover:text-green;
@@ -272,12 +363,12 @@ footer ul.who-we-are li a {
 .footer-bottom a {@apply transition-all font-medium hover:text-green;}
 
 /* Advocacy */
-.container {@apply px-4;}
+/* .container {@apply px-4;} */
 * div p:last-child{@apply mb-0;}
 
 .four-colsec-with-hover-info .col {@apply mb-12 px-3 w-full relative overflow-hidden; @apply sm:w-1/2 lg:w-1/3 xl:w-1/4;}
 .four-colsec-with-hover-info .text-col {@apply duration-700 min-h-1/2 w-auto absolute -bottom-full p-8 left-0 right-0 w-full bg-white text-black transition-all;}
-.four-colsec-with-hover-info .text-col h3 {@apply text-2xl leading-8 pb-5 font-normal text-black-ish;}
+.four-colsec-with-hover-info .text-col h6 {@apply pb-5;}
 .four-colsec-with-hover-info .text-col p {@apply text-black font-medium opacity-50;}
 .four-colsec-with-hover-info .text-col a {@apply flex gap-3 items-center my-3 text-sm font-medium;}
 .four-colsec-with-hover-info .col .img-col {@apply h-[440px] shadow-gallery;}
@@ -290,12 +381,12 @@ footer ul.who-we-are li a {
 .four-colsec-with-hover-info .col-grid-2 .col {@apply sm:w-1/2 lg:w-1/2 mb-0 px-0;}
 .four-colsec-with-hover-info .col-grid-1 .col {@apply sm:w-1/2 lg:w-1/3 xl:w-full px-0;}
 .gallery-with-full-content.four-colsec-with-hover-info .text-col {@apply bg-aplha-black-88 h-full;}
-.gallery-with-full-content.four-colsec-with-hover-info .text-col h3 {@apply text-white;}
+.gallery-with-full-content.four-colsec-with-hover-info .text-col h6 {@apply text-white;}
 .gallery-with-full-content.four-colsec-with-hover-info .text-col p {@apply text-white font-medium opacity-80 text-sm leading-6;}
 .gallery-with-full-content.four-colsec-with-hover-info .text-col a {@apply flex gap-3 items-center my-3 text-green text-sm font-medium pt-3;}
 .gallery-with-full-content.four-colsec-with-hover-info .col .img-col {@apply mb-0 overlay h-[600px] before:bg-gallery-overlay shadow-gallery duration-700;}
 
-.gallery-with-half-content.four-colsec-with-hover-info .text-col h3 {@apply text-2xl leading-8;}
+.gallery-with-half-content.four-colsec-with-hover-info .text-col h6 {@apply text-2xl leading-8;}
 .gallery-with-half-content.four-colsec-with-hover-info .text-col p {@apply text-xs leading-6;}
 
 .single-advocacy-top {
@@ -333,25 +424,21 @@ footer ul.who-we-are li a {
 
 
 /* About Us */
-* p{
+* p {
     @apply mb-6;
 }
 
 .about-who-we-are{
     @apply before:absolute before:left-0  lg:before:w-2/3 before:w-full before:top-0 before:h-full before:bg-off-white-100  before:content-['']
 }
-.about-who-we-are h2{
-    @apply leading-44 pt-3 pb-6 text-4xl;
-}
-.about-who-we-are p{
-    @apply mb-6;
-}
+.about-who-we-are h4 {@apply pt-3 pb-6;}
+.about-who-we-are p {@apply mb-6 opacity-50 font-medium;}
 
 .rural-industry{
     @apply lg:pt-32 pt-16;
 }
-.rural-industry h3{
-    @apply mb-14 font-medium lg:text-3xl text-lg;
+.rural-industry h5{
+    @apply mb-14 text-center;
 }
 .rural-top-col{
     @apply lg:mb-24 mb-10;
@@ -379,13 +466,13 @@ footer ul.who-we-are li a {
     @apply lg:py-36 py-16;
 }
 .our-vision h2{
-    @apply lg:text-6xl lg:leading-72 text-white text-3xl leading-10;
+    @apply text-white;
 }
 .vision-blocks {
     @apply flex items-stretch gap-x-20 lg:mt-14 lg:pt-14 lg:mb-0 border-t mt-8 mb-8 pt-4;
 }
 .vision-blocks span {
-    @apply label mb-4 text-light-green mt-6;
+    @apply label mb-4 text-light-green mt-6 block;
 }
 .vision-blocks p {
     @apply text-off-white-50 font-medium leading-7;
@@ -422,7 +509,7 @@ footer ul.who-we-are li a {
     @apply w-full object-cover;
 }
 .team-row h6 {
-    @apply text-2xl leading-8 text-black-ish pt-6 pb-5;
+    @apply pt-6 pb-5;
 }
 .team-row span{
     @apply green-label border-t border-t-dark-green py-2 block;
@@ -433,14 +520,14 @@ footer ul.who-we-are li a {
     @apply before:absolute before:w-full before:h-96 before:bg-off-white-100 before:top-0 before:z-0 before:content-[''];
 }
 .person-detail span {
-    @apply uppercase text-dark-green border-t border-dark-green block pt-2 mt-2;
+    @apply green-label border-t border-dark-green block pt-2 mt-2;
 }
 .person-image img{
     @apply block w-full shadow-lg h-96 object-cover object-center;
 }
 
 .team-single-top .discription{
-    @apply mt-28 mb-24
+    @apply mt-28 mb-24 opacity-50 font-medium;
 }
 .team-row-slider .team-col {
     margin: 0 12px;

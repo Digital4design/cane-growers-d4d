@@ -3,7 +3,7 @@
 
 <section class="team-single-top">
     <div class="max-w-screen-2xl container mx-auto px-4 relative">
-        <a href="#" class="flex flex-wrap items-center gap-3 uppercase text-base text-black-ish text-xs mb-16"><i class="fa-solid fa-angle-left"></i> back to about us</a>
+        <a href="#" class="flex gap-2 label items-center text-black-ish hover:text-dark-green mb-14 group"><i class="fa-solid fa-angle-left"></i> back to about us</a>
         <div class="single-top-info flex justify-between">
             <div class="lg:w-1/2 w-full">
                 <div class="person-detail">
@@ -32,19 +32,17 @@
     <div class="max-w-screen-2xl container mx-auto px-4 relative">
         <div class="flex justify-between pb-8 xl:pb-14 relative">
             <div class="w-1/2">                    
-                <h2 class="text-2xl xl:text-4xl text-black leading-8 xl:leading-44 capitalize font-serif font-medium">Meet The Rest Of The Team</h2>
+                <h4>Meet The Rest Of The Team</h4>
             </div>
             <div class="w-1/2 hidden lg:flex justify-around flex-col items-end">
                 <div class="classified-slider-arrow gap-x-3">
-                    <svg class="prev-arrow cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" style="display: block;">
-                        <g>
-                            <circle cx="18" cy="18" r="17" transform="rotate(-180 18 18)" fill="white" fill-opacity="0.16" stroke="#384B00" stroke-width="2"></circle>
-                            <path d="M18.9999 22L14.9999 18L19 14" stroke="#384B00" stroke-width="2"></path>
-                        </g>
+                    <svg class="prev-arrow cursor-pointer group" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" style="display: block;">
+                        <circle class="group-hover:stroke-dark-green" cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#E7E3D0" stroke-width="2"></circle>
+                        <path class="group-hover:stroke-dark-green" d="M18.9999 22L14.9999 18L19 14" stroke="#E7E3D0" stroke-width="2"></path>
                     </svg>
-                    <svg class="next-arrow cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" style="display: block;">
-                        <circle cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#384B00" stroke-width="2"></circle>
-                        <path d="M17.0001 14L21.0001 18L17 22" stroke="#384B00" stroke-width="2"></path>
+                    <svg class="next-arrow cursor-pointer group" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" style="display: block;">
+                        <circle class="group-hover:stroke-dark-green" cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#E7E3D0" stroke-width="2"></circle>
+                        <path class="group-hover:stroke-dark-green" d="M17.0001 14L21.0001 18L17 22" stroke="#E7E3D0" stroke-width="2"></path>
                     </svg>
                 </div>
             </div>

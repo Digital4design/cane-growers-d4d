@@ -13,11 +13,11 @@
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-1.jpg" alt="" />
                         <div class="absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
-                            <h2 class="text-2xl leading-8 capitalize">Bulk Sugar Terminals</h2>
+                            <h6>Bulk Sugar Terminals</h6>
                         </div>
                     </div>
                     <div class="text-col group-hover:bottom-0">
-                        <h3>Bulk Sugar Terminals</h3>
+                        <h6>Bulk Sugar Terminals</h6>
                         <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
                         <a>
                             Learn more
@@ -31,11 +31,11 @@
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-2.png" alt="" />
                         <div class="absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
-                            <h2 class="text-2xl leading-8 capitalize">Environment</h2>
+                            <h6>Environment</h6>
                         </div>
                     </div>
                     <div class="text-col group-hover:bottom-0">
-                        <h3>Environment</h3>
+                        <h6>Environment</h6>
                         <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
                         <a>
                             Learn more
@@ -49,11 +49,11 @@
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-3.png" alt="" />
                         <div class="absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
-                            <h2 class="text-2xl leading-8 capitalize">Sugar Marketing</h2>
+                            <h6>Sugar Marketing</h6>
                         </div>
                     </div>
                     <div class="text-col group-hover:bottom-0">
-                        <h3>Sugar Marketing</h3>
+                        <h6>Sugar Marketing</h6>
                         <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
                         <a>
                             Learn more
@@ -67,11 +67,11 @@
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-4.png" alt="" />
                         <div class="absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
-                            <h2 class="text-2xl leading-8 capitalize">Electricity</h2>
+                            <h6>Electricity</h6>
                         </div>
                     </div>
                     <div class="text-col group-hover:bottom-0">
-                        <h3>Electricity</h3>
+                        <h6>Electricity</h6>
                         <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
                         <a>
                             Learn more
@@ -87,11 +87,11 @@
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-5.png" alt="" />
                         <div class="absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
-                            <h2 class="text-2xl leading-8 capitalize">Trade</h2>
+                            <h6>Trade</h6>
                         </div>
                     </div>
                     <div class="text-col group-hover:bottom-0">
-                        <h3>Trade</h3>
+                        <h6>Trade</h6>
                         <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
                         <a>
                             Learn more
@@ -105,11 +105,11 @@
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-6.png" alt="" />
                         <div class="absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
-                            <h2 class="text-2xl leading-8 capitalize">Transport</h2>
+                            <h6>Transport</h6>
                         </div>
                     </div>
                     <div class="text-col group-hover:bottom-0">
-                        <h3>Transport</h3>
+                        <h6>Transport</h6>
                         <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
                         <a>
                             Learn more
@@ -123,11 +123,11 @@
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-7.png" alt="" />
                         <div class="absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
-                            <h2 class="text-2xl leading-8 capitalize">RD&E</h2>
+                            <h6>RD&E</h6>
                         </div>
                     </div>
                     <div class="text-col group-hover:bottom-0">
-                        <h3>RD&E</h3>
+                        <h6>RD&E</h6>
                         <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
                         <a>
                             Learn more
@@ -141,11 +141,11 @@
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-8.png" alt="" />
                         <div class="absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
-                            <h2 class="text-2xl leading-8 capitalize">Water</h2>
+                            <h6>Water</h6>
                         </div>
                     </div>
                     <div class="text-col group-hover:bottom-0">
-                        <h3>Water</h3>
+                        <h6>Water</h6>
                         <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
                         <a>
                             Learn more
@@ -161,11 +161,11 @@
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-9.png" alt="" />
                         <div class="absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
-                            <h2 class="text-2xl leading-8 capitalize">Biosecurity</h2>
+                            <h6>Biosecurity</h6>
                         </div>
                     </div>
                     <div class="text-col group-hover:bottom-0">
-                        <h3>Biosecurity</h3>
+                        <h6>Biosecurity</h6>
                         <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
                         <a>
                             Learn more
@@ -179,11 +179,11 @@
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-10.png" alt="" />
                         <div class="absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
-                            <h2 class="text-2xl leading-8 capitalize">Reef Water Quality</h2>
+                            <h6>Reef Water Quality</h6>
                         </div>
                     </div>
                     <div class="text-col group-hover:bottom-0">
-                        <h3>Reef Water Quality</h3>
+                        <h6>Reef Water Quality</h6>
                         <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
                         <a>
                             Learn more

@@ -230,7 +230,7 @@
                             </div>
                             
                             <!-- Mobile Inner Dropdown Heading -->
-                            <div class="inner-heading">Information Hub</div>
+                            <div class="inner-heading">Information Hub <span class="font-medium text-sm text-green leading-5 text-center capitalize ml-4">Browse All</span></div>
                             <div class="flex flex-wrap bg-off-white-100 xl:p-10 xl:rounded-l-2xl w-full xl:w-8/12">
                                 <div class="w-full xl:w-1/2 xl:pr-5 outer-menu">    
                                     <p class="dropdown-menu-heading">
@@ -356,12 +356,12 @@
                                 </div>
                                 <!-- <p class="hidden xl:block font-medium text-xl leading-7 text-dark-green font-serif mb-2">Cane To Coast</p> -->
                             </div>
-                            <div class="w-full xl:w-1/2 xl:pl-5">
+                            <div class="w-full xl:w-1/2 xl:pl-5 xl:hidden">
                                 <p class="dropdown-menu-heading">
                                     Browse All
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-3 rotate-270 xl:rotate-0 xl:hidden">
+                                    <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-3 rotate-270 xl:rotate-0 xl:hidden">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                                    </svg>
+                                    </svg> -->
                                 </p>
                             </div>
                             
@@ -374,42 +374,89 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                         </svg>
                     </a>  
-                    <div class="absolute w-[640px] left-[-320px] right-0 mx-auto opacity-0 invisible z-down transition-all group-hover:opacity-100 group-hover:visible group-hover:z-10 pt-12 group-hover:pt-9">
-                        <div class="flex flex-wrap bg-off-white-100 p-10 rounded-2xl">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11" fill="none" class="absolute left-0 right-0 top-10 transition-all delay-200 group-hover:top-[25px] mx-auto dropdown-arrow">
+                    <div class="header-dropdown news">
+                        <div class="flex flex-wrap flex-col xl:flex-row">
+                            <!-- Desktop Dropdown Arrow Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="11" viewBox="0 0 16 11" fill="none" class="absolute left-0 right-0 top-10 transition-all delay-200 group-hover:top-[25px] mx-auto dropdown-arrow hidden xl:inline-block">
                                 <path d="M8 0L16 11H0L8 0Z" fill="#F5F4EC"/>
                             </svg>
-                            <div class="w-1/2 pr-5">
-                                <p class="dropdown-menu-heading">NEWS</p>
-                                <div>
-                                    <p class="dropdown-menu-title">Latest News</p>
-                                    <p class="dropdown-menu-content">Korem ipsum dolor sit amet, consect adipiscing elit</p>
-                                </div>
-                                <div class="mt-6 mb-8">
-                                    <p class="dropdown-menu-title">Media Releases</p>
-                                    <p class="dropdown-menu-content">Korem ipsum dolor sit amet, consect adipiscing elit</p>
-                                </div>
-                            </div>
-                            <div class="w-1/2 pl-5">
-                                <p class="dropdown-menu-heading">MEDIA</p>
-                                <div>
-                                    <p class="dropdown-menu-title">Magazine</p>
-                                    <p class="dropdown-menu-content">Korem ipsum dolor sit amet, consect adipiscing elit</p>
-                                </div>
-                                <div class="mt-6">
-                                    <p class="dropdown-menu-title">Videos</p>
-                                    <p class="dropdown-menu-content">Korem ipsum dolor sit amet, consect adipiscing elit</p>
-                                </div>
-                                <div class="mt-6">
-                                    <p class="dropdown-menu-title">Podcast</p>
-                                    <p class="dropdown-menu-content">Korem ipsum dolor sit amet, consect adipiscing elit</p>
-                                </div>
-                            </div>
-                            <div class="w-full px-5 font-medium text-sm text-black-ish leading-5 text-center flex flex-wrap items-center justify-center pt-8 gap-3 capitalize">
-                                Browse All News & Media
-                                <svg xmlns="http://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5 8" fill="none">
-                                    <path d="M1 7L4 4L1 1" stroke="#1E1E1E" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+                            
+                            <!-- Mobile Back Button -->
+                            <div class="mobile-back-btn second-layer-back-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-3 rotate-90 xl:hidden mr-2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                                 </svg>
+                                Back
+                            </div>
+
+                            <!-- Mobile Inner Dropdown Heading -->
+                            <div class="inner-heading">
+                                News & Media
+                                <span class="font-medium text-sm text-green leading-5 text-center capitalize ml-4">Browse All</span>
+                            </div>
+                            <div class="flex flex-wrap bg-off-white-100 xl:p-10 xl:rounded-2xl w-full">
+                                <div class="w-full xl:w-1/2 xl:pr-5 outer-menu">   
+                                    <p class="dropdown-menu-heading">
+                                        News
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-3 rotate-270 xl:rotate-0 xl:hidden">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                        </svg>
+                                    </p>
+                                    <div class="inner-menu">
+                                         <!-- Mobile Back Button -->
+                                         <div class="mobile-back-btn third-layer-back-btn">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-3 rotate-90 xl:hidden mr-2">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                            </svg>
+                                            Back
+                                        </div>
+                                        <div class="inner-heading">News</div>
+                                        <div class="flex flex-wrap items-center justify-between px-10 xl:px-0">
+                                            <p class="dropdown-menu-title">Latest News</p>
+                                            <p class="dropdown-menu-content hidden xl:block">Korem ipsum dolor sit amet, consect adipiscing elit</p>
+                                        </div>
+                                        <div class="mt-6 mb-8 flex flex-wrap items-center justify-between px-10 xl:px-0">
+                                            <p class="dropdown-menu-title">Media Releases</p>
+                                            <p class="dropdown-menu-content hidden xl:block">Korem ipsum dolor sit amet, consect adipiscing elit</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-full xl:w-1/2 xl:pr-5 outer-menu"> 
+                                    <p class="dropdown-menu-heading">
+                                        Media
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-3 rotate-270 xl:rotate-0 xl:hidden">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                        </svg>
+                                    </p>
+                                    <div class="inner-menu">
+                                        <!-- Mobile Back Button -->
+                                        <div class="mobile-back-btn third-layer-back-btn">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-3 rotate-90 xl:hidden mr-2">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                            </svg>
+                                            Back
+                                        </div>
+                                        <div class="inner-heading">Media</div>
+                                        <div class="flex flex-wrap items-center justify-between px-10 xl:px-0">
+                                            <p class="dropdown-menu-title">Magazine</p>
+                                            <p class="dropdown-menu-content hidden xl:block">Korem ipsum dolor sit amet, consect adipiscing elit</p>
+                                        </div>
+                                        <div class="mt-6 mb-8 flex flex-wrap items-center justify-between px-10 xl:px-0">
+                                            <p class="dropdown-menu-title">Videos</p>
+                                            <p class="dropdown-menu-content hidden xl:block">Korem ipsum dolor sit amet, consect adipiscing elit</p>
+                                        </div>
+                                        <div class="mt-6 mb-8 flex flex-wrap items-center justify-between px-10 xl:px-0">
+                                            <p class="dropdown-menu-title">Podcast</p>
+                                            <p class="dropdown-menu-content hidden xl:block">Korem ipsum dolor sit amet, consect adipiscing elit</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hidden w-full px-5 font-medium text-sm text-black-ish leading-5 text-center xl:flex flex-wrap items-center justify-center pt-8 gap-3 capitalize">
+                                    Browse All News & Media
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5 8" fill="none">
+                                        <path d="M1 7L4 4L1 1" stroke="#1E1E1E" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
                             </div>
                         </div>
                     </div>                      

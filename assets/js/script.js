@@ -10,6 +10,24 @@ jQuery(document).ready(function() {
         autoplaySpeed: 2000,
         prevArrow: $('.prev-arrow'),
         nextArrow: $('.next-arrow'),
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerPadding: '150px',
+              }
+            },
+            {
+              breakpoint: 640,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerPadding: '75px',
+              }
+            },
+          ]
     })
     jQuery('.key-issues-slider').slick({
         slidesToShow: 4,

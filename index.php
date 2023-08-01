@@ -29,72 +29,71 @@
     </div> 
     
     <!-- Grower Partner -->
-    <section class="grower-parteners flex justify-center bg-cover pt-16 xl:pt-24">
-        <div class="max-w-screen-2xl mx-auto container">
+    <section class="grower-parteners">
+        <div class="custom-container">
             <div class="partener-top flex flex-col px-4">
                 <div class="img-col flex justify-center pb-5">
                     <img src="assets/images/mini-logo.svg" alt="" />
                 </div>
-                <h2 class="text-col text-xl xl:text-4xl leading-8 xl:leading-10 text-center text-black-ish mb-0 xl:mb-24 capitalize">CANEGROWERS are Your Partner for a
-                    Secure,<br class="hidden md:block" />
-                    Profitable & Sustainable Cane Industry
-                </h2>
+                <h4>CANEGROWERS are Your Partner for a Secure,<br class="hidden md:block" /> Profitable & Sustainable Cane Industry</h4>
             </div>
-            <div class="voice flex flex-row md:flex-col items-end bg-off-white-100 relative mt-16 md:mt-24 max-w-screen-2xl mx-auto">
-                <div class="w-full md:w-1/2 px-7 xl:px-16 py-16 xl:py-24">
-                    <h2 class="text-2xl xl:text-5xl leading-8 xl:leading-60 pb-6 text-black-ish">The Voice of Queensland Cane Growers since 1926</h2>
-                    <p class="opacity-50 font-medium leading-7 text-black">Our formal name is Queensland Cane Growers Organisation Ltd (QCGO) but
-                        everyone
-                        knows us as
-                        CANEGROWERS. We have been advancing and protecting the interests of cane farming families in
-                        Queensland since 1926.
-                    </p>
-                    <a href="#" class="btn bg-green uppercase text-white mt-6">Learn more about us
-                        <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
-                            <path d="M1.00012 1.5L5.00012 5.5L1 9.5" stroke="white" stroke-width="2"/>
-                        </svg>
-                    </a>
-                </div>
-                <div class="absolute left-5 bottom-0 w-1/2">
-                    <img class="w-full" src="assets/images/person.png" alt="" />
+            <div class="voice-of-queensland">
+                <div class="queensland voice">
+                    <div class="content-column">
+                        <h3 class="pb-3 lg:pb-6">The Voice of Queensland Cane Growers since 1926</h3>
+                        <p class="opacity-50 font-medium leading-7 text-black">Our formal name is Queensland Cane Growers Organisation Ltd (QCGO) but
+                            everyone
+                            knows us as
+                            CANEGROWERS. We have been advancing and protecting the interests of cane farming families in
+                            Queensland since 1926.
+                        </p>
+                        <a href="#" class="btn bg-green lg:mt-6">Learn more about us
+                            <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
+                                <path d="M1.00012 1.5L5.00012 5.5L1 9.5" stroke="white" stroke-width="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="image-column">
+                        <img class="w-full" src="assets/images/person.png" alt="" />
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     
-    <!-- Membership -->
-    <section class="advocacy-membership my-16">
-        <div class="container max-w-screen-2xl mx-auto px-4 flex flex-col md:flex-row gap-6">
-            <div class="w-1/2 overflow-hidden relative mt-64">
-                <a href="" class="group">
+    <!-- Voice of Queensland -->
+    <section class="advocacy-membership">
+        <div class="custom-container">
+            <div class="advocacy-column">
+                <a class="group w-full">
                     <img class="image-as-object" src="assets/images/advocacy.jpg" alt="" />
-                    <span class="transition-all absolute bottom-0 left-0 right-0 w-full p-16 bg-black/50 group-hover:bg-black/70">
-                        <span class="uppercase text-light-green font-medium">ADVOCACY</span>
-                        <h2 class="text-4xl text-4xl text-white py-5 capitalize leading-44">Building a Positive Future for Cane Growers</h2>
-                        <span class="text-off-white-50 font-medium flex flex-wrap items-center gap-6">
+                    <span class="content-part bg-aplha-black-48 group-hover:bg-aplha-black-64">
+                        <span class="label text-light-green">ADVOCACY</span>
+                        <h4 class="text-white py-5 capitalize">Building a Positive Future for Cane Growers</h4>
+                        <span class="link-with-arrow group-hover:text-light-green">
                             Learn About Our Key Issues
-                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
-                                <circle cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#E7E3D0" stroke-width="2"/>
-                                <path d="M17.0001 14L21.0001 18L17 22" stroke="#E7E3D0" stroke-width="2"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" fill="none" class="w-7 h-7 lg:w-9 lg:h-9">
+                                <circle class="group-hover:fill-black-ish group-hover:stroke-light-green" cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#E7E3D0" stroke-width="2"/>
+                                <path class="group-hover:stroke-light-green" d="M17.0001 14L21.0001 18L17 22" stroke="#E7E3D0" stroke-width="2"/>
                             </svg>
                         </span>
                     </span>
                 </a>
             </div>
-            <div class="w-1/2 overflow-hidden relative flex flex-wrap self-start">
-                <a href="" class="group">
+            <div class="advocacy-column">
+                <a class="group w-full">
                     <img class="image-as-object" src="assets/images/advocacy.jpg" alt="" />
-                    <span class="transition-all absolute bottom-0 left-0 right-0 w-full p-16 bg-black/50 group-hover:bg-black/70">
-                        <span class="uppercase text-light-green font-medium">membership</span>
-                        <h2 class="text-4xl text-4xl text-white py-5 capitalize leading-44">a professional, cohesive voice for Queensland Cane Farming</h2>
-                        <sapn class="text-off-white-50 font-medium flex flex-wrap items-center gap-6">
+                    <span class="content-part bg-aplha-black-48 group-hover:bg-aplha-black-64">
+                        <span class="label text-light-green">membership</span>
+                        <h4 class="text-white py-5 capitalize">a professional, cohesive voice for Queensland Cane Farming</h4>
+                        <sapn class="link-with-arrow group-hover:text-light-green">
                             Learn About Becoming A Member
-                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
-                                <circle cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#E7E3D0" stroke-width="2"/>
-                                <path d="M17.0001 14L21.0001 18L17 22" stroke="#E7E3D0" stroke-width="2"/>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" fill="none" class="w-7 h-7 lg:w-9 lg:h-9">
+                                <circle class="group-hover:fill-black-ish group-hover:stroke-light-green" cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#E7E3D0" stroke-width="2"/>
+                                <path class="group-hover:stroke-light-green" d="M17.0001 14L21.0001 18L17 22" stroke="#E7E3D0" stroke-width="2"/>
                             </svg>
                         </span>
-                    </div>
+                    </span>
                 </a>
             </div>
         </div>        
@@ -102,20 +101,20 @@
     
     
     <!-- Cane To Coast -->
-    <section class="caneToCost  component-overlay m-6 bg-[url('../../assets/images/sugarcane-bg.jpg')] bg-no-repeat bg-cover bg-bottom">
-        <div class="contianer max-w-screen-3xl px-4 py-8 md:px-40 md:py-40 mx-auto relative">
-            <div class="md:pb-16">
-                <h3 class="text-4xl font-serif font-medium text-white">Cane To Coast</h3>
-                <span class="text-light-green">Driving Sustainability and Diversification in Cane Farming</span>
+    <section class="caneToCost component-overlay bg-[url('../../assets/images/sugarcane-bg.jpg')] bg-no-repeat bg-cover bg-bottom">
+        <div class="container lg:max-w-screen-lg px-4 py-8 md:py-16 xl:py-40 mx-auto relative">
+            <div class="pb-8 md:pb-16">
+                <h4 class="text-white">Cane To Coast</h4>
+                <span class="text-light-green font-medium">Driving Sustainability and Diversification in Cane Farming</span>
             </div>
-            <div class="cost-list">
+            <div class="coast-list">
                 <span class="text-sm text-off-white-50 border-b border-x-off-white-50 block pb-3">Innovative Farming for a Sustainable Future</span>
                 <ul>
                     <li>
-                        <a href="" class="w-100 flex items-center text-white py-8 font-serif font-medium text-2xl justify-between border-b border-x-off-white-50">
+                        <a>
                             <span>Soil Health</span>
                             <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" fill="none" class="w-7 h-7 md:w-9 md:h-9">
                                     <circle cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#E7E3D0" stroke-width="2"></circle>
                                     <path d="M17.0001 14L21.0001 18L17 22" stroke="#E7E3D0" stroke-width="2"></path>
                                 </svg>
@@ -123,10 +122,10 @@
                         </a>                        
                     </li>
                     <li>
-                        <a href="" class="w-100 flex items-center text-white py-8 font-serif font-medium text-2xl justify-between border-b border-x-off-white-50">
+                        <a>
                             <span>Nutrient Management</span>
                             <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" fill="none" class="w-7 h-7 md:w-9 md:h-9">
                                     <circle cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#E7E3D0" stroke-width="2"></circle>
                                     <path d="M17.0001 14L21.0001 18L17 22" stroke="#E7E3D0" stroke-width="2"></path>
                                 </svg>
@@ -134,10 +133,10 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" class="w-100 flex items-center text-white py-8 font-serif font-medium text-2xl justify-between border-b border-x-off-white-50">
+                        <a>
                             <span>Water Sense</span>
                             <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" fill="none" class="w-7 h-7 md:w-9 md:h-9">
                                     <circle cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#E7E3D0" stroke-width="2"></circle>
                                     <path d="M17.0001 14L21.0001 18L17 22" stroke="#E7E3D0" stroke-width="2"></path>
                                 </svg>
@@ -145,10 +144,10 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" class="w-100 flex items-center text-white py-8 font-serif font-medium text-2xl justify-between border-b border-x-off-white-50">
+                        <a>
                             <span>Growers, Research & The Reef</span>
                             <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" fill="none" class="w-7 h-7 md:w-9 md:h-9">
                                     <circle cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#E7E3D0" stroke-width="2"></circle>
                                     <path d="M17.0001 14L21.0001 18L17 22" stroke="#E7E3D0" stroke-width="2"></path>
                                 </svg>
@@ -156,10 +155,10 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" class="w-100 flex items-center text-white py-8 font-serif font-medium text-2xl justify-between border-b border-x-off-white-50">
+                        <a>
                             <span>Our Growers. Our Story</span>
                             <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" fill="none" class="w-7 h-7 md:w-9 md:h-9">
                                     <circle cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#E7E3D0" stroke-width="2"></circle>
                                     <path d="M17.0001 14L21.0001 18L17 22" stroke="#E7E3D0" stroke-width="2"></path>
                                 </svg>
@@ -178,44 +177,42 @@
     
     
     <!-- Classifieds News -->
-    <section class="bg-off-white-100 py-14 lg:py-24 xl:py-32 classified-outer">
-        <div class="max-w-screen-2xl container mx-auto px-4 relative">
+    <section class="classified-outer">
+        <div class="custom-container px-4 relative">
             <img src="./assets/images/classified-bg.svg" alt="" class="absolute right-[100px] top-[-100px] z-0" />
-            <div class="flex justify-between pb-8 xl:pb-14 relative">
-                <div class="w-1/2">
-                    <span class="text-dark-green uppercase font-medium leading-8">CLASSIFIED ADS</span>
-                    <h2 class="text-2xl xl:text-4xl text-black leading-8 xl:leading-44 capitalize font-serif font-medium">Browse our range of classifieds <br class="hidden xl:block"/> from across the region</h2>
+            <div class="classified-inner">
+                <div class="w-full md:w-1/2">
+                    <span class="green-label">CLASSIFIED ADS</span>
+                    <h4>Browse our range of classifieds <br class="hidden xl:block"/> from across the region</h4>
                     <p class="pt-6">To find current classified listings in your local area simply head to our classifieds page and use our interactive map.</p>
                 </div>
-                <div class="w-1/2 hidden md:flex justify-around flex-col items-end">
-                    <a href="#" class="btn">
+                <div class="w-full md:w-1/2">
+                    <a href="#" class="btn hidden md:flex">
                         Browse all classifieds
                         <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
                             <path d="M1.00012 1.5L5.00012 5.5L1 9.5" stroke="white" stroke-width="2" />
                         </svg>
                     </a>
-                    <div class="classified-slider-arrow gap-x-3">
-                        <svg class="prev-arrow cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
-                            <g>
-                                <circle cx="18" cy="18" r="17" transform="rotate(-180 18 18)" fill="white" fill-opacity="0.16" stroke="#384B00" stroke-width="2"/>
-                                <path d="M18.9999 22L14.9999 18L19 14" stroke="#384B00" stroke-width="2"/>
-                            </g>
+                    <div class="classified-slider-arrow mt-7 md:mt-0 gap-x-3">
+                        <svg class="prev-arrow cursor-pointer group" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                            <circle class="group-hover:stroke-dark-green" cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#E7E3D0" stroke-width="2"/>
+                            <path class="group-hover:stroke-dark-green" d="M18.9999 22L14.9999 18L19 14" stroke="#E7E3D0" stroke-width="2"/>
                         </svg>
-                        <svg class="next-arrow cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
-                            <circle cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#384B00" stroke-width="2"/>
-                            <path d="M17.0001 14L21.0001 18L17 22" stroke="#384B00" stroke-width="2"/>
+                        <svg class="next-arrow cursor-pointer group" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                            <circle class="group-hover:stroke-dark-green" cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#E7E3D0" stroke-width="2"/>
+                            <path class="group-hover:stroke-dark-green" d="M17.0001 14L21.0001 18L17 22" stroke="#E7E3D0" stroke-width="2"/>
                         </svg>
                     </div>
                 </div>
             </div>
         </div>
         
-        <div class="classified-slider-wrapper">
+        <div class="classified-slider-wrapper pl-0 sm:pl-[calc((100vw-640px)/2)] md:pl-[calc((100vw-768px)/2)] lg:pl-[calc((100vw-1024px)/2)] xl:pl-[calc((100vw-1200px)/2)] 2xl:pl-[calc((100vw-1280px)/2)]">
             <div class="classified">
                 <div class="element">
-                    <div class="border border-aplha-black-16 bg-white rounded pt-8 pr-14 pb-6 pl-6">
+                    <div>
                         <div class="green-label">classified</div>
-                        <h3 class="classified-title">D Massey Ferguson 3635 4WD</h3>
+                        <h5 class="classified-title">D Massey Ferguson 3635 4WD</h5>
                         <p>5,500hrs, 6tonne tipper bin, Silvan Euro Spand CX2 Spreader, Portable bulk bin, Hustler Super Z Zero turn mower, Bunning Lowlander Mk 40-60 Ag Spreader(near new),Complete tracks to suit cane harvester.</p>
                         <div class="flex flex-wrap items-center classified-icon-wrap">
                             <span class="flex flex-wrap items-center">
@@ -234,9 +231,9 @@
                     </div>
                 </div>
                 <div class="element">
-                    <div class="border border-aplha-black-16 bg-white rounded pt-8 pr-14 pb-6 pl-6">
+                    <div>
                         <div class="green-label">classified</div>
-                        <h3 class="classified-title">D Massey Ferguson 3635 4WD</h3>
+                        <h5 class="classified-title">D Massey Ferguson 3635 4WD</h5>
                         <p>5,500hrs, 6tonne tipper bin, Silvan Euro Spand CX2 Spreader, Portable bulk bin, Hustler Super Z Zero turn mower, Bunning Lowlander Mk 40-60 Ag Spreader(near new),Complete tracks to suit cane harvester.</p>
                         <div class="flex flex-wrap items-center classified-icon-wrap">
                             <span class="flex flex-wrap items-center">
@@ -255,9 +252,9 @@
                     </div>
                 </div>
                 <div class="element">
-                    <div class="border border-aplha-black-16 bg-white rounded pt-8 pr-14 pb-6 pl-6">
+                    <div>
                         <div class="green-label">classified</div>
-                        <h3 class="classified-title">D Massey Ferguson 3635 4WD</h3>
+                        <h5 class="classified-title">D Massey Ferguson 3635 4WD</h5>
                         <p>5,500hrs, 6tonne tipper bin, Silvan Euro Spand CX2 Spreader, Portable bulk bin, Hustler Super Z Zero turn mower, Bunning Lowlander Mk 40-60 Ag Spreader(near new),Complete tracks to suit cane harvester.</p>
                         <div class="flex flex-wrap items-center classified-icon-wrap">
                             <span class="flex flex-wrap items-center">
@@ -276,9 +273,9 @@
                     </div>
                 </div>
                 <div class="element">
-                    <div class="border border-aplha-black-16 bg-white rounded pt-8 pr-14 pb-6 pl-6">
+                    <div>
                         <div class="green-label">classified</div>
-                        <h3 class="classified-title">D Massey Ferguson 3635 4WD</h3>
+                        <h5 class="classified-title">D Massey Ferguson 3635 4WD</h5>
                         <p>5,500hrs, 6tonne tipper bin, Silvan Euro Spand CX2 Spreader, Portable bulk bin, Hustler Super Z Zero turn mower, Bunning Lowlander Mk 40-60 Ag Spreader(near new),Complete tracks to suit cane harvester.</p>
                         <div class="flex flex-wrap items-center classified-icon-wrap">
                             <span class="flex flex-wrap items-center">
@@ -296,9 +293,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="md:hidden mt-16">
+            </div>            
+        </div>
+
+        <div class="custom-container px-4 md:hidden">
+            <div class="mt-8">
                 <a href="#" class="btn">
                     Browse all classifieds
                     <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
@@ -306,7 +305,6 @@
                     </svg>
                 </a>
             </div>
-            
         </div>
     </section> 
             
