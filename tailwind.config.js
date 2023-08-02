@@ -23,6 +23,11 @@ module.exports = {
       },
       minHeight:{
         '1/2':'50%',
+        '48':'48px',
+        'initial':'initial',
+      },
+      padding:{
+        '10per':'10%',
       },
       backgroundImage: {
         'component-overlay': 'linear-gradient(90deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%)',
@@ -49,6 +54,9 @@ module.exports = {
       height: {
         '50': '50rem',
         '400':'400px',
+        '768':'768px',
+        '826':'826px',
+        '923':'923px',
       },
       colors: {
         'green':'#5E9732',
@@ -88,6 +96,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-labeled-groups')(['scoped'])
+  ],
 }
 

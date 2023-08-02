@@ -1,6 +1,6 @@
         <!-- Footer  -->
         <footer class="site-footer bg-off-white-900">
-            <div class="top-footer px-4 max-w-screen-2xl container mx-auto flex flex-wrap justify-between py-24 pb-12 border-off-white-50 border-b">
+            <!-- <div class="top-footer px-4 max-w-screen-2xl container mx-auto flex flex-wrap justify-between py-24 pb-12 border-off-white-50 border-b">
                 <div class="footer-logo w-1/4 text-white">
                     <a href="#"><img src="assets/images/footer-logo.svg" alt="footer Logo" /></a>
                 </div>
@@ -28,7 +28,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> -->
                         
             <div class="middle-footer px-4 max-w-screen-2xl  container mx-auto flex flex-wrap justify-between py-24 pb-14 text-white border-off-white-50 border-b flex-col md:flex-row">
                 <div class="w-full xl:w-4/5">

@@ -2,26 +2,31 @@
    <?php @include 'header.php'; ?>
     
     <!-- Banner -->
-     <div class="bg-video abc relative min-h-screen xl:h-screen">
-        <video autoplay muted loop class="object-cover object-center min-h-screen xl:h-full w-full">
+     <div class="bg-video">
+        <video autoplay muted loop>
             <source src="./assets/images/banner-video.mp4" type="video/mp4">
             <source src="./assets/images/banner-video.webm" type="video/webm">
         </video>
-        <div class="bg-banner-overlay absolute top-0 bottom-0 left-0 right-0 overflow-hidden px-4">
-            <div class="banner-content max-w-screen-lg mx-auto flex flex-wrap items-center justify-around text-center h-full">
-                <div class="content pt-24">
-                    <h1 class="text-light-green text-5xl xl:text-7xl leading-60 xl:leading-88"><span class="text-white block">Our Voice</span> Growing Queensland</h1>
-                    <p class="font-medium text-white capitalize text-lg xl:text-2xl mt-3">Uniting Farmers for a Secure, <br class="xl:hidden"/> Profitable & Sustainable Future</p>
+        <div class="bg-banner-overlay">
+            <div class="banner-content">
+                <div class="content">
+                    <h1><span class="text-white block">Our Voice</span> Growing Queensland</h1>
+                    <p class="sub-title">Uniting Farmers for a Secure, <br class="xl:hidden"/> Profitable & Sustainable Future</p>
                 </div>
                 <div class="message-wrap">
                     <svg xmlns="http://www.w3.org/2000/svg" width="35" height="27" viewBox="0 0 35 27" fill="none" class="mx-auto mb-7">
                         <path opacity="0.3" d="M24.6986 27C23.7057 27 22.7955 26.6786 21.9681 26.0357C21.1407 25.3929 20.4787 24.5089 19.9823 23.3839C19.5686 22.1786 19.3617 20.8929 19.3617 19.5268C19.3617 16.2321 20.6442 12.7768 23.2092 9.16071C25.7742 5.46428 29.0426 2.41071 33.0142 0L35 1.92857C31.8558 4.41964 29.7045 6.75 28.5461 8.91964C27.3877 11.0893 26.8085 13.0982 26.8085 14.9464C26.8085 16.3125 27.2636 17.558 28.1738 18.683C29.1667 19.7277 30.3664 20.5714 31.773 21.2143V23.5045C30.0355 24.5491 28.7116 25.3125 27.8014 25.7946C26.8913 26.2768 26.2293 26.5982 25.8156 26.7589C25.4019 26.9196 25.0295 27 24.6986 27ZM5.33688 27C4.34397 27 3.43381 26.6786 2.60638 26.0357C1.8617 25.3929 1.24113 24.5089 0.74468 23.3839C0.248227 22.1786 0 20.8929 0 19.5268C0 16.2321 1.28251 12.7768 3.84752 9.16071C6.41253 5.46428 9.68085 2.41071 13.6525 0L15.6383 1.92857C12.4941 4.41964 10.3428 6.75 9.1844 8.91964C8.026 11.0893 7.44681 13.0982 7.44681 14.9464C7.44681 16.3125 7.90189 17.558 8.81206 18.683C9.80496 19.7277 11.0047 20.5714 12.4113 21.2143V23.5045C10.6738 24.5491 9.34988 25.3125 8.43972 25.7946C7.52955 26.2768 6.86761 26.5982 6.4539 26.7589C6.04019 26.9196 5.66785 27 5.33688 27Z" fill="#e7e3d0"/>
                     </svg>
-                    <h2 class="message capitalize text-white text-base xl:text-3xl leading-7 xl:leading-10">The strength of CANEGROWERS is our capacity to stand shoulder to shoulder and ensure the voices of growers are heard in our communities, by government and in international forums.</h2>
-                    <p class="text-off-white-50 font-medium text-sm xl:text-lg leading-6 xl:leading-8 mt-4">Paul Schembri, CANEGROWERS Chairman (2013-2022)</p>
-                    <svg class="scroll-down cursor-pointer mt-10" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" class="mx-auto mt-10 cursor-pointer">
+                    <h2 class="message">The strength of CANEGROWERS is our capacity to stand shoulder to shoulder and ensure the voices of growers are heard in our communities, by government and in international forums.</h2>
+                    <p class="quote-text">Paul Schembri, CANEGROWERS Chairman (2013-2022)</p>
+                </div>
+                <div>
+                    <svg class="scroll-down cursor-pointer mt-4 xl:mt-10 block mx-auto" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" class="mx-auto mt-10 cursor-pointer">
                         <circle cx="18" cy="18" r="17" transform="rotate(90 18 18)" fill="white" fill-opacity="0.16" stroke="#E7E3D0" stroke-width="2"/>
                         <path d="M22 17.0001L18 21.0001L14 17" stroke="#E7E3D0" stroke-width="2"/>
+                    </svg>
+                    <svg class="scroll-bar block mx-auto" xmlns="http://www.w3.org/2000/svg" width="2" height="64" viewBox="0 0 2 64" fill="none">
+                        <path d="M1 0L1 64" stroke="#E7E3D0"/>
                     </svg>
                 </div>
             </div>

@@ -18,7 +18,7 @@
     <div class="container">
         <div class="site-logo">
             <!-- Logo -->
-            <a href="#">
+            <a href="index.php">
                 <svg xmlns="http://www.w3.org/2000/svg" width="247" height="57" viewBox="0 0 247 57" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M28.2493 44.7853C28.2493 44.7853 18.2236 23.4711 16.8848 20.9871C15.5461 18.5032 12.4224 17.4323 10.1093 19.7824C7.79626 22.1324 3.37097 26.4533 3.37097 26.4533C3.37097 26.4533 5.51296 25.1816 9.06807 28.2307C12.6232 31.2798 28.2418 44.7853 28.2418 44.7853H28.2493Z" fill="#579542"/>
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M28.7181 39.0515L29.7593 11.23H18.6998L11.9912 17.9678C11.9912 17.9678 14.0365 17.1944 15.6802 18.1389C17.3239 19.0759 17.8296 19.8791 18.6998 21.4557C19.57 23.0324 28.7255 39.0515 28.7255 39.0515H28.7181Z" fill="#ABBC3A"/>
@@ -92,7 +92,7 @@
             </a>
             
             <ul class="menu-wrapper">
-                <li><a href="#">Who We Are</a></li>                   
+                <li><a href="about-us.php">Who We Are</a></li>                   
                 
                 <li class="xl:relative group dropable">
                     <!-- Menu Item without dropdown menu -->
@@ -142,7 +142,7 @@
                                         <p class="dropdown-menu-content hidden xl:block">Korem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                     </div>
                                     <div class="mt-6 flex flex-wrap items-center justify-between px-10 xl:px-0">
-                                        <p class="dropdown-menu-title">Advocacy</p>
+                                        <a href="advocacy.php" class="dropdown-menu-title">Advocacy</a>
                                         <p class="dropdown-menu-content hidden xl:block">Korem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                     </div>
                                 </div>
@@ -207,7 +207,7 @@
                 
                 
                 <li class="xl:relative group dropable">
-                    <a href="#">
+                    <a href="information-hub.php">
                         Information Hub
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-3 rotate-270 xl:rotate-0">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />

@@ -2,12 +2,12 @@
 <!-- Inner Banner -->
 <section class="inner-banner bg-[url('../../assets/images/sugarcane-bg.jpg')] bg-no-repeat bg-cover bg-bottom ">
     <div class="inner-banner-content w-full">
-        <div class="container m-auto">
+        <div class="custom-container px-4">
             <span class="green-label !text-white">What we Do for growers</span>
             <h2 class="text-white mb-14">Advocacy</h2>            
         </div>
         <div class="inner-banner-description bg-aplha-black-64">
-            <div class="container mx-auto w-2/3/">
+            <div class="custom-container px-4">
                 <div class="max-w-5xl">
                     <svg class="mb-4" xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
                         <path opacity="0.3" d="M11.9965 13C11.5142 13 11.0721 12.8452 10.6702 12.5357C10.2683 12.2262 9.94681 11.8006 9.70567 11.2589C9.50473 10.6786 9.40425 10.0595 9.40425 9.40179C9.40425 7.81548 10.0272 6.15179 11.273 4.41071C12.5189 2.63095 14.1064 1.16071 16.0355 0L17 0.92857C15.4728 2.12798 14.4279 3.25 13.8652 4.29464C13.3026 5.33929 13.0213 6.30655 13.0213 7.19643C13.0213 7.85417 13.2423 8.45387 13.6844 8.99554C14.1667 9.49851 14.7494 9.90476 15.4326 10.2143V11.317C14.5886 11.8199 13.9456 12.1875 13.5035 12.4196C13.0615 12.6518 12.74 12.8066 12.539 12.8839C12.3381 12.9613 12.1572 13 11.9965 13ZM2.5922 13C2.10993 13 1.66785 12.8452 1.26596 12.5357C0.904255 12.2262 0.602837 11.8006 0.361702 11.2589C0.120567 10.6786 0 10.0595 0 9.40179C0 7.81548 0.622931 6.15179 1.86879 4.41071C3.11466 2.63095 4.70213 1.16071 6.6312 0L7.59574 0.92857C6.06856 2.12798 5.02364 3.25 4.46099 4.29464C3.89834 5.33929 3.61702 6.30655 3.61702 7.19643C3.61702 7.85417 3.83806 8.45387 4.28014 8.99554C4.76241 9.49851 5.34515 9.90476 6.02837 10.2143V11.317C5.1844 11.8199 4.54137 12.1875 4.09929 12.4196C3.65721 12.6518 3.3357 12.8066 3.13475 12.8839C2.93381 12.9613 2.75295 13 2.5922 13Z" fill="white"/>
@@ -22,21 +22,21 @@
 
 
 <!-- About Who we are -->
-<section class="about-who-we-are lg:py-24 py-8 relative">
+<section class="about-who-we-are px-4 py-16 lg:py-24 relative">
     <div class="about-who-we-are-content w-full relative ">
-        <div class="container max-w-screen-xl mx-auto flex flex-wrap justify-between">
-            <div class="lg:w-1/2 w-full lg:pr-28">
+        <div class="custom-container flex flex-wrap justify-between">
+            <div class="lg:w-1/2 w-full lg:px-10 xl:px-20">
                 <div class="text-block">
                     <span class="green-label !text-green">Who We Are</span>
                     <h4>Your Partner for a Sustainable Cane Industry</h4> 
                     <p>CANEGROWERS is a not-for-profit public company providing a professional and cohesive voice for the members of 13 local grower companies, located in all of the sugarcane regions of Queensland.</p>
                     <p>CANEGROWERS members have large and small farms, are individuals, families and corporate bodies. We draw on this diversity as we set priorities to achieve our vision of a secure and profitable future.</p>
-                    <div class="abt-left-img mt-12 lg:mb-0 mb-4">
+                    <div class="abt-left-img mt-8 xl:mt-20 lg:mb-0 mb-4">
                         <img class="shadow-xl block w-full" src="./assets/images/about-1.png" alt="about-1" />
                     </div>
                 </div>
             </div>
-            <div class="lg:w-1/2 w-full">
+            <div class="lg:w-1/2 w-full lg:pl-4 xl:pl-8">
                 <img class="shadow-xl block w-full" src="./assets/images/about-right.jpg" alt="Who We Are" />
             </div>
                        
@@ -46,51 +46,51 @@
 </section>
 
 <!-- Rural Industry -->
-    <section class="rural-industry">
-        <div class="container max-w-screen-xl mx-auto">
+    <section class="rural-industry px-4">
+        <div class="custom-container">
             <div class="rural-top">
                 <h5>Sugarcane is a vital component of Australia's rural industry.</h5>
                 <div class="rural-top-col flex flex-wrap">
-                    <div class="lg:w-1/6 w-1/2 flex flex-wrap lg:px-6 px-3 lg:mb-0 mb-7">
-                        <span>
+                    <div class="w-1/2 md:w-1/3 xl:w-1/6 lg:px-6 px-3 xl:mb-0 mb-7">
+                        <span class="w-full block">
                             <num>2</num>
                             <span>nd</span>
                         </span>
-                        <small>Largest raw sugar exporter in the world</small>
+                        <small class="w-full block">Largest raw sugar exporter in the world</small>
                     </div>
-                    <div class="lg:w-1/6 w-1/2 flex flex-wrap lg:px-6 px-3 lg:mb-0 mb-7">
-                        <span>
+                    <div class="w-1/2 md:w-1/3 xl:w-1/6 lg:px-6 px-3 xl:mb-0 mb-7">
+                        <span class="w-full block">
                             <num>35</num>
                             <span>million</span>
                         </span>
-                        <small>Tonnes of cane grown each year</small>
+                        <small class="w-full block">Tonnes of cane grown each year</small>
                     </div>
-                    <div class="lg:w-1/6 w-1/2 flex flex-wrap lg:px-6 px-3 lg:mb-0 mb-7">
-                        <span>
+                    <div class="w-1/2 md:w-1/3 xl:w-1/6 lg:px-6 px-3 xl:mb-0 mb-7">
+                        <span class="w-full block">
                             <num>$2.5</num>
                             <span>billion</span>
                         </span>
-                        <small>Value of production in the industry</small>
+                        <small class="w-full block">Value of production in the industry</small>
                     </div>
-                    <div class="lg:w-1/6 w-1/2 flex flex-wrap lg:px-6 px-3 lg:mb-0 mb-7">
-                        <span>
+                    <div class="w-1/2 md:w-1/3 xl:w-1/6 lg:px-6 px-3 xl:mb-0 mb-7">
+                        <span class="w-full block">
                             <num>4</num>
                             <span>million</span>
                         </span>
-                        <small>Tonnes of raw sugar produced each year</small>
+                        <small class="w-full block">Tonnes of raw sugar produced each year</small>
                     </div>
-                    <div class="lg:w-1/6 w-1/2 flex flex-wrap lg:px-6 px-3 lg:mb-0 mb-7">
-                        <span>
+                    <div class="w-1/2 md:w-1/3 xl:w-1/6 lg:px-6 px-3 xl:mb-0 mb-7">
+                        <span class="w-full block">
                             <num>4,000</num>
                             
                         </span>
-                        <small>Cane farm businesses</small>
+                        <small class="w-full block">Cane farm businesses</small>
                     </div>
-                    <div class="lg:w-1/6 w-1/2 flex flex-wrap lg:px-6 px-3 lg:mb-0 mb-7">
-                        <span>
+                    <div class="w-1/2 md:w-1/3 xl:w-1/6 lg:px-6 px-3 xl:mb-0 mb-7">
+                        <span class="w-full block">
                             <num>35</num>                            
                         </span>
-                        <small>Australian sugar mills</small>
+                        <small class="w-full block">Australian sugar mills</small>
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                 <div class="lg:w-1/2 img-col">
                     <img src="assets/images/man-rural.png" alt="Person Image">
                 </div>
-                <div class="lg:w-1/2 text-col pb-28">
+                <div class="lg:w-1/2 text-col pb-16 lg:pb-28">
                     <h4 class="mb-7">Grower involvement extends from local committees through state and national bodies to reach internationally.</h4>
                     <p>Members elect a local board and each board appoints representatives to the statewide Policy Council and QCGO Board.</p>
                     <p>Through these bodies, grower members determine CANEGROWERS policy, which is implemented by staff in our offices in Brisbane and across the state.</p>
@@ -108,7 +108,6 @@
 
             </div>
         </div>
-
     </section>
 
     <!-- Our Vision -->

@@ -10,7 +10,7 @@
         @apply h-screen flex flex-wrap items-end justify-center;
     }
     .inner-banner-description {
-        @apply bg-light-black text-white py-16;
+        @apply bg-light-black text-white py-8 xl:py-16;
     }
     /* .inner-banner-description h2 {
         @apply text-4xl leading-10 mb-6 capitalize text-white;
@@ -19,9 +19,7 @@
         @apply text-white opacity-50 mb-6 font-medium;
     }   
     .inner-banner-description span {@apply block lg:text-lg text-off-white-50 mt-6 font-medium text-base;}
-    .footer-banner p {
-        @apply text-off-white-50 pt-5 pb-5 text-lg leading-8 font-medium;
-    }
+    
     .number-pagination {@apply mx-auto max-w-xl w-full flex text-sm w-full justify-between items-center;}
     .number-pagination li a {@apply text-base font-medium leading-8 flex flex-wrap items-center text-black-ish gap-x-3 px-3 border-b-2 border-b-transparent hover:text-green;}
     .number-pagination li:not(:first-child):not(:last-child) a {@apply hover:border-b-green;}
@@ -34,13 +32,22 @@
         @apply font-serif capitalize font-medium;
     }
     h1 {}
-    h2 {@apply text-6xl leading-72;} /*60*/
+    h2 {@apply text-3xl leading-10 xl:text-5xl xl:leading-60 4xl:text-6xl 4xl:leading-72;} /*60*/
     h3 {@apply text-2xl leading-8 xl:text-5xl xl:leading-60 text-black-ish;} /*48*/
     h4 {@apply text-2xl leading-8 xl:text-4xl xl:leading-44 text-black-ish;} /* 36 */
     h5 {@apply text-xl leading-7 xl:text-3xl xl:leading-10;} /*30*/
     h6 {@apply text-xl leading-7 xl:text-2xl xl:leading-8;} /* 24 */
     
     input[type="text"] {
+        @apply border-b border-b-black-ish bg-transparent leading-6 font-medium text-wireframe-dark py-3 max-w-md w-full;
+    }
+    .custom-form input[type="text"], .custom-form input{
+        @apply border rounded border-aplha-black-16 py-3 px-5 text-xs font-medium w-full bg-white max-w-full;
+    }
+    form textarea{
+        @apply border rounded border-aplha-black-16 py-3 px-5 text-xs font-medium w-full bg-white h-28 resize-none;
+    }
+    .inner-banner-nbg input[type="text"] {
         @apply border-b border-b-black-ish bg-transparent leading-6 font-medium text-wireframe-dark py-3 max-w-md w-full;
     }
 }
@@ -292,6 +299,23 @@ header nav .menu-wrapper {
 .information-hub-wrap .information-hub-link {@apply text-sm leading-6 font-medium;}
 
 /* Banner */
+.bg-video {
+    @apply relative min-h-screen h-826 md:h-768 xl:h-screen;
+}
+.bg-video video {
+    @apply object-cover object-center min-h-screen h-826 md:h-768 xl:h-full w-full;
+}
+.bg-video .bg-banner-overlay {
+    @apply absolute top-0 bottom-0 left-0 right-0 overflow-hidden px-4;
+}
+.banner-content {
+    @apply pt-28 mx-auto flex flex-col items-center justify-between text-center min-h-screen h-826 md:h-768 xl:h-full lg:max-w-screen-lg;
+}
+.banner-content > div {@apply w-full first:py-10per;}
+.banner-content h1 {@apply text-light-green text-5xl leading-60 xl:text-6xl xl:leading-88 4xl:text-7xl 4xl:leading-88;}
+.banner-content .sub-title {@apply font-medium text-white capitalize text-lg xl:text-2xl mt-3;}
+.banner-content h2 {@apply capitalize text-white text-base xl:text-3xl leading-7 xl:leading-10;}
+.banner-content .quote-text {@apply text-off-white-50 font-medium text-sm xl:text-lg leading-6 xl:leading-8 mt-4;}
 .message-wrap {
     @apply max-w-3xl mx-auto flex flex-wrap items-center flex-col;
     @apply xl:max-w-full;
@@ -353,6 +377,13 @@ header nav .menu-wrapper {
     @apply flex flex-wrap items-center
 }
 /* Footer */
+.footer-banner {
+    @apply component-overlay py-32 flex flex-wrap items-center justify-center bg-no-repeat bg-cover bg-bottom text-center px-4;
+    @apply xl:h-screen;
+}
+.footer-banner p {
+    @apply text-base leading-8 xl:text-lg xl:leading-8 text-off-white-50 pt-5 pb-5 font-medium;
+}
 footer ul li a {
     @apply font-medium text-white transition-all hover:text-green;
 }
@@ -435,13 +466,13 @@ footer ul.who-we-are li a {
 .about-who-we-are p {@apply mb-6 opacity-50 font-medium;}
 
 .rural-industry{
-    @apply lg:pt-32 pt-16;
+    @apply 2xl:pt-36 pt-16;
 }
 .rural-industry h5{
     @apply mb-14 text-center;
 }
 .rural-top-col{
-    @apply lg:mb-24 mb-10;
+    @apply lg:mb-20 mb-10;
 }
 .rural-top-col > span{
     @apply  text-mid-green flex flex-wrap items-end;
@@ -531,4 +562,48 @@ footer ul.who-we-are li a {
 }
 .team-row-slider .team-col {
     margin: 0 12px;
+}
+
+/* Region Page Or Contact Page */
+.address-col span{
+    @apply text-black-ish text-xs opacity-50 block font-medium;
+}
+.address-col p{
+    @apply text-sm font-medium text-black-ish mb-4 uppercase;
+}
+.form-col{
+    @apply mb-8;
+}
+.form-col label{
+    @apply block text-sm font-medium text-black-ish mb-1;
+}
+.list-title{
+    @apply gap-4 text-lg text-black-ish flex flex-wrap items-center cursor-pointer py-5;
+}
+.list-title .num{
+    @apply h-9 w-8 bg-no-repeat bg-center flex pt-1 justify-center leading-5 text-white;
+}
+.accordian-icon span{
+    @apply border-2 border-dark-green rounded-3xl text-dark-green text-xl font-medium h-5 w-5 flex items-center justify-center;
+}
+.accordian-list{
+    @apply border-b border-aplha-black-16 ;
+}
+.contact-office{
+    @apply py-10 text-black-ish text-base font-medium;
+}
+.contact-office > span, .stay-conected > span{
+    @apply font-medium mb-4 block text-lg;
+}
+.contact-office li{
+    @apply flex flex-wrap items-center gap-3 mb-4;
+}
+.contact-office li i{
+    @apply h-8 w-8 text-mid-green flex items-center justify-center border border-mid-green rounded-2xl;
+}
+.contact-office li a{
+    @apply text-black-ish;
+}
+.stay-conected ul{
+    @apply flex gap-3 items-center text-3xl text-mid-green;
 }

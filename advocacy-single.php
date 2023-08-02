@@ -3,7 +3,7 @@
    <!-- Inner Banner -->
     <section class="single-advocacy-top">
         <div class="container max-w-4xl mx-auto flex flex-wrap flex-col justify-center pt-40 relative">
-            <a href="#" class="flex gap-2 label items-center text-black-ish hover:text-dark-green mb-14 group">
+            <a href="advocacy.php" class="flex gap-2 label items-center text-black-ish hover:text-dark-green mb-14 group">
                 <svg xmlns="http://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5 8" fill="none">
                     <path class="group-hover:stroke-dark-green" d="M4 1L1 4L4 7" stroke="#1E1E1E" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
