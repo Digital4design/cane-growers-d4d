@@ -240,3 +240,21 @@ function changeTab() {
         }
     })
 }
+
+/* Accordion */
+let allAccordionTitle = document.querySelectorAll('.accordion-title');
+let allAccordionContent = document.querySelectorAll('.accordion-content');
+allAccordionTitle.forEach(title=>{
+    title.addEventListener('click', openAccordion);
+});
+function openAccordion() {
+    if(window.innerWidth < 1024) {
+        console.log('hello')
+        allAccordionContent.forEach(accordionContent=>{
+            if(accordionContent.classList.contains('show')) {
+                accordionContent.classList.remove('show');
+            }
+        })
+        this.nextElementSibling.classList.add('show');
+    }
+}
