@@ -784,10 +784,18 @@ form textarea {
 
 .inner-banner {
   display: flex;
-  height: 100vh;
+  height: auto;
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: center;
+  padding-top: 10rem;
+}
+
+@media (min-width: 1024px) {
+  .inner-banner {
+    height: 100vh;
+    padding-top: 0px;
+  }
 }
 
 .inner-banner-description {
@@ -1299,6 +1307,10 @@ form textarea {
   cursor: pointer;
 }
 
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
 .\!flex-row {
   flex-direction: row !important;
 }
@@ -1349,6 +1361,10 @@ form textarea {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .gap-2 {
@@ -3935,24 +3951,6 @@ footer ul.who-we-are li a {
   padding-right: 0.75rem;
 }
 
-@media (min-width: 640px) {
-  .four-colsec-with-hover-info .col {
-    width: 50%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .four-colsec-with-hover-info .col {
-    width: 33.333333%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .four-colsec-with-hover-info .col {
-    width: 25%;
-  }
-}
-
 .four-colsec-with-hover-info .text-col {
   position: absolute;
   bottom: -100%;
@@ -4907,6 +4905,10 @@ footer ul.who-we-are li a {
     max-width: 24rem;
   }
 
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .sm\:pl-\[calc\(\(100vw-640px\)\/2\)\] {
     padding-left: calc((100vw - 640px) / 2);
   }
@@ -5097,6 +5099,11 @@ footer ul.who-we-are li a {
 
   .lg\:border-b-0 {
     border-bottom-width: 0px;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .lg\:px-10 {

@@ -3,12 +3,12 @@
 
     <!-- Key issues -->
     <section class="gallery-with-half-content four-colsec-with-hover-info py-16">
-        <div class="container mx-auto">
+        <div class="container mx-auto lg:px-0 px-4">
             <div class="green-label border-t border-dark-green mb-10">Key Issues</div>
         </div>
         
         <div class="container mx-auto">
-            <div class="col-grid col-grid-4 gap-x-6 flex flex-stretch">
+            <div class="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-1">
                 <div class="col group">
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-1.jpg" alt="" />
@@ -82,7 +82,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-grid col-grid-4 gap-x-6 flex flex-stretch">
+            <div class="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-1">
                 <div class="col group">
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-5.png" alt="" />
@@ -156,7 +156,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-grid col-grid-4 gap-x-6 flex flex-stretch">
+            <div class="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-1">
                 <div class="col group">
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-9.png" alt="" />
