@@ -2,11 +2,11 @@
 
 <!-- Inner Banner -->
 <section class="inner-banner-nbg pt-40 pb-16 bg-off-white-100">
-    <div class="container max-w-screen-2xl mx-auto flex flex-wrap items-center justify-between">
+    <div class="custom-container mx-auto flex flex-wrap items-center justify-between">
         <div class="w-full lg:w-7/12">
             <span class="green-label">INFORMATION HUB - Student resources</span>
             <h2 class="">Student Resources</h2>            
-            <p class="opacity-50 font-medium leading-7 text-black mt-4">Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim</p>
+            <p>Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim</p>
         </div>
     </div>
 </section>
@@ -22,11 +22,11 @@
         
         <div class="student-featured-resources flex flex-col"> 
             <div class="view list-view recent-news news-wrap">
-                <div class="news-pic w-full md:w-2/5 block">
+                <div class="news-pic w-full lg:w-2/5 block">
                     <img class="w-full" src="./assets/images/featured-resource-1.jpg" alt="Featured Image" />
                 </div>
-                <div class="news-content w-full md:w-3/5 md:pl-11 py-11">
-                    <div class="news-top-area flex flex-col md:flex-row items-center gap-3">
+                <div class="news-content w-full lg:w-3/5">
+                    <div class="news-top-area">
                         <span class="badage resources-badage">Student Resources</span>
                         <span class="date font-medium text-black-ish opacity-50 pl-8">22nd April, 2023</span>
                     </div>
@@ -35,10 +35,10 @@
                 </div>
             </div>                    
             <div class="view list-view recent-news news-wrap">
-                <div class="news-pic w-full md:w-2/5 block">
+                <div class="news-pic w-full lg:w-2/5 block">
                     <img class="w-full" src="./assets/images/featured-resource-2.jpg" alt="Featured Image" />
                 </div>
-                <div class="news-content w-full md:w-3/5 md:pl-11 py-11">
+                <div class="news-content w-full lg:w-3/5">
                     <div class="news-top-area">
                         <span class="badage resources-badage">Student Resources</span>
                         <span class="date font-medium text-black-ish opacity-50 pl-8">22nd April, 2023</span>
@@ -48,10 +48,10 @@
                 </div>
             </div>
             <div class="view list-view last-news recent-news news-wrap">
-                <div class="news-pic w-full md:w-2/5 block">
+                <div class="news-pic w-full lg:w-2/5 block">
                     <img class="w-full" src="./assets/images/featured-resource-3.jpg" alt="Featured Image" />
                 </div>
-                <div class="news-content w-full md:w-3/5 md:pl-11 py-11">
+                <div class="news-content w-full lg:w-3/5">
                     <div class="news-top-area">
                         <span class="badage resources-badage">Student Resources</span>
                         <span class="date font-medium text-black-ish opacity-50 pl-8">22nd April, 2023</span>
@@ -75,7 +75,7 @@
 </section>
 
 
-<div class="container mx-auto px-4 py-36">
+<div class="container mx-auto px-4 lg:py-36 py:20">
     <div class="news-top flex justify-between items-center pb-8 xl:pb-14">
         <div class="w-full xl:w-1/2">
             <h4>All Information Hub Resources</h4>

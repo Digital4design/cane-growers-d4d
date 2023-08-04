@@ -84,15 +84,633 @@
             <div class="flex flex-wrap w-full">
                 <div class="w-1/2 h-900 pt-8">
                     <div class="contact-accordian py-8 pr-8 mr-4 h-900 overflow-auto custom-scroll">
-                        <div class="accordian-list">
-                            <div class="list-title flex justify-between">
-                                <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
-                                <div class="accordian-icon active">
-                                    <span>+</span>
-                                    
+                        <div class="accordian-list accordionItem close accordionItem close">
+                            
+                                <div class="list-title flex justify-between accordionItemHeading">
+                                    <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
+                                    <div class="accordian-icon active">
+                                        <span>+</span>
+                                        
+                                    </div>
+                                
+                            </div>
+                            <div class="accordian-content accordionItemContent">
+                                
+                                <div class="flex flex-wrap">
+                                <span class="label text-green w-full mb-3">Mossman Canegrowers Limited</span>
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Address</span>
+                                            <p>1 Front St, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Postal</span>
+                                            <p>PO Box 789, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="flex flex-wrap justify-between address-col">
+                                            <div class="w-full md:w-1/2">
+                                                <span>Phone</span>
+                                                <p>07 4098 2377</p>
+                                            </div>
+                                            <div class="w-full md:w-1/2">
+                                                <span>Fax</span>
+                                                <p>07 4098 3567</p>
+                                            </div>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>ABN</span>
+                                            <p>55 111 943 616</p>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Email</span>
+                                            <p><a href="mailto:mos@canegrowers.com.au">mos@canegrowers.com.au</a></p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Manager</span>
+                                            <p>Evelyn Matthews</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Directors</span>
+                                            <p>Matthew Watson (Chair) <br> Scott Fasano <br> Michael Giudice <br> Ben McClelland</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="accordian-content">
+                        </div>
+                        <div class="accordian-list accordionItem close accordionItem close">
+                            
+                                <div class="list-title flex justify-between accordionItemHeading">
+                                    <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
+                                    <div class="accordian-icon active">
+                                        <span>+</span>
+                                        
+                                    </div>
+                                
+                            </div>
+                            <div class="accordian-content accordionItemContent">
+                                
+                                <div class="flex flex-wrap">
+                                <span class="label text-green w-full mb-3">Mossman Canegrowers Limited</span>
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Address</span>
+                                            <p>1 Front St, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Postal</span>
+                                            <p>PO Box 789, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="flex flex-wrap justify-between address-col">
+                                            <div class="w-full md:w-1/2">
+                                                <span>Phone</span>
+                                                <p>07 4098 2377</p>
+                                            </div>
+                                            <div class="w-full md:w-1/2">
+                                                <span>Fax</span>
+                                                <p>07 4098 3567</p>
+                                            </div>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>ABN</span>
+                                            <p>55 111 943 616</p>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Email</span>
+                                            <p><a href="mailto:mos@canegrowers.com.au">mos@canegrowers.com.au</a></p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Manager</span>
+                                            <p>Evelyn Matthews</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Directors</span>
+                                            <p>Matthew Watson (Chair) <br> Scott Fasano <br> Michael Giudice <br> Ben McClelland</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordian-list accordionItem close accordionItem close">
+                            
+                                <div class="list-title flex justify-between accordionItemHeading">
+                                    <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
+                                    <div class="accordian-icon active">
+                                        <span>+</span>
+                                        
+                                    </div>
+                                
+                            </div>
+                            <div class="accordian-content accordionItemContent">
+                                
+                                <div class="flex flex-wrap">
+                                <span class="label text-green w-full mb-3">Mossman Canegrowers Limited</span>
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Address</span>
+                                            <p>1 Front St, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Postal</span>
+                                            <p>PO Box 789, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="flex flex-wrap justify-between address-col">
+                                            <div class="w-full md:w-1/2">
+                                                <span>Phone</span>
+                                                <p>07 4098 2377</p>
+                                            </div>
+                                            <div class="w-full md:w-1/2">
+                                                <span>Fax</span>
+                                                <p>07 4098 3567</p>
+                                            </div>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>ABN</span>
+                                            <p>55 111 943 616</p>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Email</span>
+                                            <p><a href="mailto:mos@canegrowers.com.au">mos@canegrowers.com.au</a></p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Manager</span>
+                                            <p>Evelyn Matthews</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Directors</span>
+                                            <p>Matthew Watson (Chair) <br> Scott Fasano <br> Michael Giudice <br> Ben McClelland</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordian-list accordionItem close accordionItem close">
+                            
+                                <div class="list-title flex justify-between accordionItemHeading">
+                                    <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
+                                    <div class="accordian-icon active">
+                                        <span>+</span>
+                                        
+                                    </div>
+                                
+                            </div>
+                            <div class="accordian-content accordionItemContent">
+                                
+                                <div class="flex flex-wrap">
+                                <span class="label text-green w-full mb-3">Mossman Canegrowers Limited</span>
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Address</span>
+                                            <p>1 Front St, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Postal</span>
+                                            <p>PO Box 789, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="flex flex-wrap justify-between address-col">
+                                            <div class="w-full md:w-1/2">
+                                                <span>Phone</span>
+                                                <p>07 4098 2377</p>
+                                            </div>
+                                            <div class="w-full md:w-1/2">
+                                                <span>Fax</span>
+                                                <p>07 4098 3567</p>
+                                            </div>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>ABN</span>
+                                            <p>55 111 943 616</p>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Email</span>
+                                            <p><a href="mailto:mos@canegrowers.com.au">mos@canegrowers.com.au</a></p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Manager</span>
+                                            <p>Evelyn Matthews</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Directors</span>
+                                            <p>Matthew Watson (Chair) <br> Scott Fasano <br> Michael Giudice <br> Ben McClelland</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordian-list accordionItem close accordionItem close">
+                            
+                                <div class="list-title flex justify-between accordionItemHeading">
+                                    <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
+                                    <div class="accordian-icon active">
+                                        <span>+</span>
+                                        
+                                    </div>
+                                
+                            </div>
+                            <div class="accordian-content accordionItemContent">
+                                
+                                <div class="flex flex-wrap">
+                                <span class="label text-green w-full mb-3">Mossman Canegrowers Limited</span>
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Address</span>
+                                            <p>1 Front St, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Postal</span>
+                                            <p>PO Box 789, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="flex flex-wrap justify-between address-col">
+                                            <div class="w-full md:w-1/2">
+                                                <span>Phone</span>
+                                                <p>07 4098 2377</p>
+                                            </div>
+                                            <div class="w-full md:w-1/2">
+                                                <span>Fax</span>
+                                                <p>07 4098 3567</p>
+                                            </div>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>ABN</span>
+                                            <p>55 111 943 616</p>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Email</span>
+                                            <p><a href="mailto:mos@canegrowers.com.au">mos@canegrowers.com.au</a></p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Manager</span>
+                                            <p>Evelyn Matthews</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Directors</span>
+                                            <p>Matthew Watson (Chair) <br> Scott Fasano <br> Michael Giudice <br> Ben McClelland</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordian-list accordionItem close accordionItem close">
+                            
+                                <div class="list-title flex justify-between accordionItemHeading">
+                                    <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
+                                    <div class="accordian-icon active">
+                                        <span>+</span>
+                                        
+                                    </div>
+                                
+                            </div>
+                            <div class="accordian-content accordionItemContent">
+                                
+                                <div class="flex flex-wrap">
+                                <span class="label text-green w-full mb-3">Mossman Canegrowers Limited</span>
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Address</span>
+                                            <p>1 Front St, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Postal</span>
+                                            <p>PO Box 789, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="flex flex-wrap justify-between address-col">
+                                            <div class="w-full md:w-1/2">
+                                                <span>Phone</span>
+                                                <p>07 4098 2377</p>
+                                            </div>
+                                            <div class="w-full md:w-1/2">
+                                                <span>Fax</span>
+                                                <p>07 4098 3567</p>
+                                            </div>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>ABN</span>
+                                            <p>55 111 943 616</p>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Email</span>
+                                            <p><a href="mailto:mos@canegrowers.com.au">mos@canegrowers.com.au</a></p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Manager</span>
+                                            <p>Evelyn Matthews</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Directors</span>
+                                            <p>Matthew Watson (Chair) <br> Scott Fasano <br> Michael Giudice <br> Ben McClelland</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordian-list accordionItem close accordionItem close">
+                            
+                                <div class="list-title flex justify-between accordionItemHeading">
+                                    <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
+                                    <div class="accordian-icon active">
+                                        <span>+</span>
+                                        
+                                    </div>
+                                
+                            </div>
+                            <div class="accordian-content accordionItemContent">
+                                
+                                <div class="flex flex-wrap">
+                                <span class="label text-green w-full mb-3">Mossman Canegrowers Limited</span>
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Address</span>
+                                            <p>1 Front St, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Postal</span>
+                                            <p>PO Box 789, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="flex flex-wrap justify-between address-col">
+                                            <div class="w-full md:w-1/2">
+                                                <span>Phone</span>
+                                                <p>07 4098 2377</p>
+                                            </div>
+                                            <div class="w-full md:w-1/2">
+                                                <span>Fax</span>
+                                                <p>07 4098 3567</p>
+                                            </div>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>ABN</span>
+                                            <p>55 111 943 616</p>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Email</span>
+                                            <p><a href="mailto:mos@canegrowers.com.au">mos@canegrowers.com.au</a></p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Manager</span>
+                                            <p>Evelyn Matthews</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Directors</span>
+                                            <p>Matthew Watson (Chair) <br> Scott Fasano <br> Michael Giudice <br> Ben McClelland</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordian-list accordionItem close accordionItem close">
+                            
+                                <div class="list-title flex justify-between accordionItemHeading">
+                                    <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
+                                    <div class="accordian-icon active">
+                                        <span>+</span>
+                                        
+                                    </div>
+                                
+                            </div>
+                            <div class="accordian-content accordionItemContent">
+                                
+                                <div class="flex flex-wrap">
+                                <span class="label text-green w-full mb-3">Mossman Canegrowers Limited</span>
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Address</span>
+                                            <p>1 Front St, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Postal</span>
+                                            <p>PO Box 789, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="flex flex-wrap justify-between address-col">
+                                            <div class="w-full md:w-1/2">
+                                                <span>Phone</span>
+                                                <p>07 4098 2377</p>
+                                            </div>
+                                            <div class="w-full md:w-1/2">
+                                                <span>Fax</span>
+                                                <p>07 4098 3567</p>
+                                            </div>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>ABN</span>
+                                            <p>55 111 943 616</p>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Email</span>
+                                            <p><a href="mailto:mos@canegrowers.com.au">mos@canegrowers.com.au</a></p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Manager</span>
+                                            <p>Evelyn Matthews</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Directors</span>
+                                            <p>Matthew Watson (Chair) <br> Scott Fasano <br> Michael Giudice <br> Ben McClelland</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordian-list accordionItem close accordionItem close">
+                            
+                                <div class="list-title flex justify-between accordionItemHeading">
+                                    <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
+                                    <div class="accordian-icon active">
+                                        <span>+</span>
+                                        
+                                    </div>
+                                
+                            </div>
+                            <div class="accordian-content accordionItemContent">
+                                
+                                <div class="flex flex-wrap">
+                                <span class="label text-green w-full mb-3">Mossman Canegrowers Limited</span>
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Address</span>
+                                            <p>1 Front St, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Postal</span>
+                                            <p>PO Box 789, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="flex flex-wrap justify-between address-col">
+                                            <div class="w-full md:w-1/2">
+                                                <span>Phone</span>
+                                                <p>07 4098 2377</p>
+                                            </div>
+                                            <div class="w-full md:w-1/2">
+                                                <span>Fax</span>
+                                                <p>07 4098 3567</p>
+                                            </div>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>ABN</span>
+                                            <p>55 111 943 616</p>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Email</span>
+                                            <p><a href="mailto:mos@canegrowers.com.au">mos@canegrowers.com.au</a></p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Manager</span>
+                                            <p>Evelyn Matthews</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Directors</span>
+                                            <p>Matthew Watson (Chair) <br> Scott Fasano <br> Michael Giudice <br> Ben McClelland</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordian-list accordionItem close accordionItem close">
+                            
+                                <div class="list-title flex justify-between accordionItemHeading">
+                                    <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
+                                    <div class="accordian-icon active">
+                                        <span>+</span>
+                                        
+                                    </div>
+                                
+                            </div>
+                            <div class="accordian-content accordionItemContent">
+                                
+                                <div class="flex flex-wrap">
+                                <span class="label text-green w-full mb-3">Mossman Canegrowers Limited</span>
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Address</span>
+                                            <p>1 Front St, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Postal</span>
+                                            <p>PO Box 789, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="flex flex-wrap justify-between address-col">
+                                            <div class="w-full md:w-1/2">
+                                                <span>Phone</span>
+                                                <p>07 4098 2377</p>
+                                            </div>
+                                            <div class="w-full md:w-1/2">
+                                                <span>Fax</span>
+                                                <p>07 4098 3567</p>
+                                            </div>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>ABN</span>
+                                            <p>55 111 943 616</p>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Email</span>
+                                            <p><a href="mailto:mos@canegrowers.com.au">mos@canegrowers.com.au</a></p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Manager</span>
+                                            <p>Evelyn Matthews</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Directors</span>
+                                            <p>Matthew Watson (Chair) <br> Scott Fasano <br> Michael Giudice <br> Ben McClelland</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordian-list accordionItem close accordionItem close">
+                            
+                                <div class="list-title flex justify-between accordionItemHeading">
+                                    <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
+                                    <div class="accordian-icon active">
+                                        <span>+</span>
+                                        
+                                    </div>
+                                
+                            </div>
+                            <div class="accordian-content accordionItemContent">
+                                
+                                <div class="flex flex-wrap">
+                                <span class="label text-green w-full mb-3">Mossman Canegrowers Limited</span>
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Address</span>
+                                            <p>1 Front St, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Postal</span>
+                                            <p>PO Box 789, MOSSMAN QLD 4873</p>
+                                        </div>
+                                        <div class="flex flex-wrap justify-between address-col">
+                                            <div class="w-full md:w-1/2">
+                                                <span>Phone</span>
+                                                <p>07 4098 2377</p>
+                                            </div>
+                                            <div class="w-full md:w-1/2">
+                                                <span>Fax</span>
+                                                <p>07 4098 3567</p>
+                                            </div>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>ABN</span>
+                                            <p>55 111 943 616</p>
+                                        </div>
+                                    </div>
+                    
+                                    <div class="w-full md:w-1/2">
+                                        <div class="address-col">
+                                            <span>Email</span>
+                                            <p><a href="mailto:mos@canegrowers.com.au">mos@canegrowers.com.au</a></p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Manager</span>
+                                            <p>Evelyn Matthews</p>
+                                        </div>
+                                        <div class="address-col">
+                                            <span>Directors</span>
+                                            <p>Matthew Watson (Chair) <br> Scott Fasano <br> Michael Giudice <br> Ben McClelland</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordian-list accordionItem close accordionItem close">
+                            
+                                <div class="list-title flex justify-between accordionItemHeading">
+                                    <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
+                                    <div class="accordian-icon active">
+                                        <span>+</span>
+                                        
+                                    </div>
+                                
+                            </div>
+                            <div class="accordian-content accordionItemContent">
                                 
                                 <div class="flex flex-wrap">
                                 <span class="label text-green w-full mb-3">Mossman Canegrowers Limited</span>
@@ -139,146 +757,7 @@
                             </div>
                         </div>
 
-                        <div class="accordian-list">
-                            <div class="list-title flex justify-between">
-                                <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
-                                <div class="accordian-icon active">
-                                    <span>+</span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="accordian-list">
-                            <div class="list-title flex justify-between">
-                                <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
-                                <div class="accordian-icon active">
-                                    <span>+</span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="accordian-list">
-                            <div class="list-title flex justify-between">
-                                <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
-                                <div class="accordian-icon active">
-                                    <span>+</span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="accordian-list">
-                            <div class="list-title flex justify-between">
-                                <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
-                                <div class="accordian-icon active">
-                                    <span>+</span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="accordian-list">
-                            <div class="list-title flex justify-between">
-                                <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
-                                <div class="accordian-icon active">
-                                    <span>+</span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="accordian-list">
-                            <div class="list-title flex justify-between">
-                                <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
-                                <div class="accordian-icon active">
-                                    <span>+</span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="accordian-list">
-                            <div class="list-title flex justify-between">
-                                <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
-                                <div class="accordian-icon active">
-                                    <span>+</span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="accordian-list">
-                            <div class="list-title flex justify-between">
-                                <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
-                                <div class="accordian-icon active">
-                                    <span>+</span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="accordian-list">
-                            <div class="list-title flex justify-between">
-                                <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
-                                <div class="accordian-icon active">
-                                    <span>+</span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="accordian-list">
-                            <div class="list-title flex justify-between">
-                                <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
-                                <div class="accordian-icon active">
-                                    <span>+</span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="accordian-list">
-                            <div class="list-title flex justify-between">
-                                <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
-                                <div class="accordian-icon active">
-                                    <span>+</span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="accordian-list">
-                            <div class="list-title flex justify-between">
-                                <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
-                                <div class="accordian-icon active">
-                                    <span>+</span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="accordian-list">
-                            <div class="list-title flex justify-between">
-                                <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
-                                <div class="accordian-icon active">
-                                    <span>+</span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="accordian-list">
-                            <div class="list-title flex justify-between">
-                                <div class="count flex gap-4"><span class="num bg-[url('../../assets/images/location-icon.svg')]">1</span><span>Mossman</span></div>
-                                <div class="accordian-icon active">
-                                    <span>+</span>
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
+                        
 
                     </div>
                 </div>

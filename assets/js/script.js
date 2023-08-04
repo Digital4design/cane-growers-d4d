@@ -41,6 +41,7 @@ jQuery(document).ready(function() {
         prevArrow: $('.prev-arrow'),
         nextArrow: $('.next-arrow'),
     })
+    
     jQuery('.team-row-slider').slick({
         slidesToShow: 4,
         centerMode: true,
@@ -52,6 +53,24 @@ jQuery(document).ready(function() {
         autoplaySpeed: 2000,
         prevArrow: $('.prev-arrow'),
         nextArrow: $('.next-arrow'),
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerPadding: '150px',
+              }
+            },
+            {
+              breakpoint: 640,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerPadding: '75px',
+              }
+            },
+          ]
     })
 });
 
@@ -258,3 +277,20 @@ function openAccordion() {
         this.nextElementSibling.classList.add('show');
     }
 }
+
+
+/* Contact Accordion */
+var accItem = document.getElementsByClassName('accordionItem');
+    var accHD = document.getElementsByClassName('accordionItemHeading');
+    for (i = 0; i < accHD.length; i++) {
+        accHD[i].addEventListener('click', toggleItem, false);
+    }
+    function toggleItem() {
+        var itemClass = this.parentNode.className;
+        for (i = 0; i < accItem.length; i++) {
+            accItem[i].className = 'accordionItem close';
+        }
+        if (itemClass == 'accordionItem close') {
+            this.parentNode.className = 'accordionItem open';
+        }
+    }

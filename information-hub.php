@@ -1,12 +1,12 @@
 <?php @include 'header.php'; ?>
 
 <!-- Inner Banner -->
-<section class="inner-banner-nbg pt-40 bg-off-white-100">
-    <div class="container max-w-screen-2xl mx-auto flex flex-wrap items-center justify-between">
+<section class="inner-banner-nbg pt-40 pb-16 bg-off-white-100">
+    <div class="custom-container mx-auto flex flex-wrap items-center justify-between">
         <div class="w-full lg:w-7/12">
             <span class="green-label">INFORMATION HUB</span>
             <h2 class="">Explore Our Resources</h2>            
-            <p class="opacity-50 font-medium leading-7 text-black mt-4">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
+            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
             <form class="flex flex-wrap items-center justify-between mt-20">
                 <input type="text" name="" id="" placeholder="Search Our Information Hub" />
                 <button class="btn">
@@ -86,7 +86,7 @@
             </div>
         </div>
                 
-        <div class="md:hidden mt-16">
+        <div class="md:hidden my-16">
             <a class="btn btn-green">
                 Browse all news & media
                 <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
@@ -100,7 +100,7 @@
 
 <?php @include './components/explore-information.php'; ?>
 
-<div class="container mx-auto px-4 py-36">
+<div class="container mx-auto px-4 lg:py-36 py-20">
     <div class="news-top flex justify-between items-center pb-8 xl:pb-14">
         <div class="w-full xl:w-1/2">
             <h2 class="text-2xl xl:text-4xl text-black leading-8 xl:leading-44 capitalize font-serif font-medium">All Information Hub Resources</h2>

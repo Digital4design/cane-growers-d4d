@@ -2,8 +2,8 @@
 
 <!-- Inner Banner -->
 <section class="inner-banner-nbg pt-40 bg-off-white-100">
-    <div class="container max-w-screen-2xl mx-auto flex flex-wrap items-center justify-between">
-        <div class="w-full lg:w-7/12">
+    <div class="custom-container mx-auto flex flex-wrap items-center justify-between">
+        <div class="w-full xl:w-7/12">
             <span class="green-label">NEws & Media</span>
             <h2 class="">Latest News & Media</h2>            
             <p class="opacity-50 font-medium leading-7 text-black mt-4">Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim</p>
@@ -17,8 +17,8 @@
                 </button>
             </form>
         </div>
-        <div class="w-full lg:w-5/12">
-            <img src="./assets/images/internal-banner-logo.png" alt="" class="max-w-5xl w-full" />
+        <div class="w-full xl:w-5/12">
+            <img src="./assets/images/internal-banner-logo.png" alt="" class="max-w-5xl md:max-w-md sm:max-w-sm w-full my-8 mx-auto" />
         </div>
     </div>
 </section>
@@ -86,7 +86,7 @@
             </div>
         </div>
                 
-        <div class="md:hidden mt-16">
+        <div class="md:hidden my-16">
             <a class="btn btn-green">
                 Browse all news & media
                 <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
@@ -102,7 +102,7 @@
 
 <?php require('./components/explore-information.php'); ?>
 
-<div class="container mx-auto px-4 py-36">
+<div class="container mx-auto px-4 md:py-36 py-16">
     <div class="news-top flex justify-between items-center pb-8 xl:pb-14">
         <div class="w-full xl:w-1/2">
             <h4>All News & Media</h4>

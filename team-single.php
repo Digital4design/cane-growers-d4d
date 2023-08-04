@@ -2,9 +2,9 @@
 <?php @include 'header.php'; ?>
 
 <section class="team-single-top">
-    <div class="max-w-screen-2xl container mx-auto px-4 relative">
+    <div class="custom-container mx-auto px-4 relative">
         <a href="#" class="flex gap-2 label items-center text-black-ish hover:text-dark-green mb-14 group"><i class="fa-solid fa-angle-left"></i> back to about us</a>
-        <div class="single-top-info flex justify-between">
+        <div class="single-top-info ">
             <div class="lg:w-1/2 w-full">
                 <div class="person-detail">
                    <h2>Dan Galligan</h2>
@@ -30,11 +30,11 @@
 
 <section class="team-slider pt-36 pb-24 bg-off-white-100">
     <div class="max-w-screen-2xl container mx-auto px-4 relative">
-        <div class="flex justify-between pb-8 xl:pb-14 relative">
-            <div class="w-1/2">                    
+        <div class="flex flex-wrap justify-between pb-8 xl:pb-14 relative">
+            <div class="lg:w-1/2 w-full">                    
                 <h4>Meet The Rest Of The Team</h4>
             </div>
-            <div class="w-1/2 hidden lg:flex justify-around flex-col items-end">
+            <div class="lg:w-1/2 w-full flex lg:justify-end justify-start lg:items-end items-start my-6 lg:my-0">
                 <div class="classified-slider-arrow gap-x-3">
                     <svg class="prev-arrow cursor-pointer group" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" style="display: block;">
                         <circle class="group-hover:stroke-dark-green" cx="18" cy="18" r="17" fill="white" fill-opacity="0.16" stroke="#E7E3D0" stroke-width="2"></circle>

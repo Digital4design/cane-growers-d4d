@@ -18,7 +18,7 @@
                  <img class="w-full" src="assets/images/single-advocacy.jpg" alt="Single Banner">
              </div>
              <div class="resource-meta flex flex-wrap items-center w-full text-black-ish font-medium py-8 border-y border-y-aplha-black-16 mb-16">
-                <div class="flex flex-wrap items-center w-1/2 gap-x-12">
+                <div class="flex flex-wrap items-center md:w-1/2 w-full gap-x-12">
                     <div>
                         <span class="mr-4">Date</span>
                         <span class="opacity-50">22nd April, 2023</span>
@@ -103,7 +103,7 @@
       
 
     <section class="bg-off-white-100 py-16">
-        <div class="max-w-screen-2xl container mx-auto relative">
+        <div class="custom-container px-4 xl:px-0 mx-auto relative">
             <div class="flex justify-between pb-8 xl:pb-14 relative">
                 <div class="w-1/2">
                     <h4>Related Resources</h4>
@@ -111,9 +111,10 @@
             </div>
         </div>
          
-        <div class="">
-            <div class="container max-w-screen-2xl flex items-stretch gap-x-6 mx-auto related-resource">
-                <div class="md:w-1/4 w-full overflow-hidden group">
+        <div class="related-section">
+            
+            <div class="custom-container px-4 xl:px-0 grid lg:grid-cols-2 xl:grid-cols-4 related-resource gap-x-6">
+                <div class="overflow-hidden group">
                     <div class="grid-view view featured-news">
                         <div class="news-pic block">
                             <img src="./assets/images/resource-bg.jpg" alt="Featured Image" width="100%" />
@@ -127,7 +128,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="md:w-1/4 w-full overflow-hidden group">
+                <div class="overflow-hidden group">
                     <div class="grid-view view featured-news">
                         <div class="news-pic block">
                             <img src="./assets/images/resource-bg.jpg" alt="Featured Image" width="100%" />
@@ -141,7 +142,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="md:w-1/4 w-full overflow-hidden group">
+                <div class="overflow-hidden group">
                     <div class="grid-view view featured-news">
                         <div class="news-pic block">
                             <img src="./assets/images/resource-bg.jpg" alt="Featured Image" width="100%" />
@@ -155,7 +156,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="md:w-1/4 w-full overflow-hidden group">
+                <div class="overflow-hidden group">
                     <div class="grid-view view featured-news">
                         <div class="news-pic block">
                             <img src="./assets/images/resource-bg.jpg" alt="Featured Image" width="100%" />
