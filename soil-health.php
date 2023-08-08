@@ -12,7 +12,7 @@
                     <p>The need to focus on soil health, not just nitrogen, and the importance of good agronomic practices is clear. Its evident that improved soil biology achieves healthier soils resulting in better yields, benefiting both the farm business and the environment.</p>
                 </div>
             </div>
-            <div class="col-grid col-grid-3 gap-x-6 flex items-stretch">
+            <div class="grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
                 <div class="col group">
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/robert.jpg" alt="" />

@@ -316,7 +316,7 @@ header nav .menu-wrapper {
     @apply flex flex-col gap-x-6; @apply xl:flex-row;
 }
 .latest-news .news-feature-data > div {
-    @apply w-full odd:overflow-hidden; @apply lg:w-1/2;
+    @apply w-full odd:overflow-hidden; @apply xl:w-1/2;
 }
 /* .latest-news .news-top-area {@apply pt-6 md:pt-0 pb-6;} */
 

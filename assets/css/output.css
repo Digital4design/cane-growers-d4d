@@ -1363,10 +1363,6 @@ form textarea {
   justify-content: space-around;
 }
 
-.gap-1 {
-  gap: 0.25rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
 }
@@ -1377,6 +1373,10 @@ form textarea {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .gap-x-12 {
@@ -2985,7 +2985,7 @@ header nav .menu-wrapper {
   overflow: hidden;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .latest-news .news-feature-data > div {
     width: 50%;
   }
@@ -5255,6 +5255,10 @@ footer ul.who-we-are li a {
   .xl\:rotate-0 {
     --tw-rotate: 0deg;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .xl\:grid-cols-4 {

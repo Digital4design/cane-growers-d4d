@@ -8,7 +8,7 @@
         </div>
         
         <div class="container mx-auto">
-            <div class="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-1">
+            <div class="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6">
                 <div class="col group">
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-1.jpg" alt="" />
@@ -82,7 +82,7 @@
                     </div>
                 </div>
             </div>
-            <div class="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-1">
+            <div class="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6">
                 <div class="col group">
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-5.png" alt="" />
@@ -156,7 +156,7 @@
                     </div>
                 </div>
             </div>
-            <div class="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-1">
+            <div class="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6">
                 <div class="col group">
                     <div class="img-col relative">
                         <img class="w-full" src="./assets/images/key-issue-9.png" alt="" />
