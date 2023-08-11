@@ -71,7 +71,7 @@
     h1 {}
     h2 {@apply text-3xl leading-10 xl:text-5xl xl:leading-60 4xl:text-6xl 4xl:leading-72;} /*60*/
     h3 {@apply text-2xl leading-8 xl:text-5xl xl:leading-60 text-black-ish;} /*48*/
-    h4 {@apply text-2xl leading-8 xl:text-4xl xl:leading-44 text-black-ish;} /* 36 */
+    h4 {@apply text-xl leading-7 xl:text-4xl xl:leading-44 text-black-ish;} /* 36 */
     h5 {@apply text-xl leading-7 xl:text-3xl xl:leading-10;} /*30*/
     h6 {@apply text-xl leading-7 xl:text-2xl xl:leading-8;} /* 24 */
     
@@ -298,7 +298,7 @@ header nav .menu-wrapper {
 }
 
 .news-content{
-   @apply  w-full lg:w-3/5 lg:pl-11 lg:py-11 py-8;
+   @apply  w-full lg:w-3/5 lg:pl-11 lg:py-11 md:py-0 py-8;
   
 }
 .featured-news .news-content {
@@ -327,7 +327,7 @@ header nav .menu-wrapper {
 .latest-news .news-desc {@apply text-base font-medium leading-7;}
 .grid-view {@apply pb-10 xl:pb-16 mb-10 xl:mb-0;}
 .grid-view .news-title {@apply pb-6;}
-.list-view {@apply pb-7 md:pb-10 mb-7 md:mb-8 flex-col md:flex-row last:mb-0 last:pb-0;}
+.list-view {@apply pb-7 md:pb-10 mb-7 md:mb-8 flex-col md:flex-row xl:last:mb-0 xl:last:pb-0;}
 
 
 /* Explore Information */
@@ -684,9 +684,9 @@ footer ul.who-we-are li a {
 }
 
 .contact-accordian  .accordian-content{
-    @apply overflow-hidden scale-y-0 transition-all;
+    @apply h-0 transition overflow-hidden;
 }
 
 .contact-accordian  .accordionItem.open .accordian-content{
-    @apply scale-y-100 transition-all;
+    @apply h-full transition;
 }

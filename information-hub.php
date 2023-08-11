@@ -3,7 +3,7 @@
 <!-- Inner Banner -->
 <section class="inner-banner-nbg pt-40 pb-16 bg-off-white-100">
     <div class="custom-container mx-auto flex flex-wrap items-center justify-between">
-        <div class="w-full lg:w-7/12">
+        <div class="w-full xl:w-7/12">
             <span class="green-label">INFORMATION HUB</span>
             <h2 class="">Explore Our Resources</h2>            
             <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.</p>
@@ -17,8 +17,8 @@
                 </button>
             </form>
         </div>
-        <div class="w-full lg:w-5/12">
-            <img src="./assets/images/internal-banner-logo.png" alt="" class="max-w-5xl w-full" />
+        <div class="w-full xl:w-5/12">
+            <img src="./assets/images/internal-banner-logo.png" alt="" class="xl:max-w-5xl md:max-w-xl xl:m-0 mx-auto mt-10 w-full" />
         </div>
     </div>
 </section>

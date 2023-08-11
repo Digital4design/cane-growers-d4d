@@ -4,14 +4,14 @@
 
       <!-- Key issues -->
       <section class="bg-off-white-100 pt-24">
-        <div class="container mx-auto">
+        <div class="custom-container mx-auto">
             <div class="max-w-screen-lg mr-auto">
                 <div class="green-label mb-2">Membership benefits</div>
                 <h4>As a member of CANEGROWERS, you have access to the following products, services and benefits:</h4>
             </div>
         </div>
         <div class="membership-card mt-24">
-            <div class="container mx-auto mb-20 flex flelx-wrap gap-x-14">
+            <div class="custom-container mx-auto mb-20 flex flelx-wrap gap-x-14">
                 <div class="w-full sm:w-1/2 md:w-1/3">
                     <div class="flex flex-wrap items-center gap-x-3 membership-title">
                         <img src="./assets/images/tick-icon.svg" alt="" />
@@ -34,7 +34,7 @@
                     <p class="membership-description">A range of great deals on farm supplies, health and travel insurance, as well as access to competitive insurance through our team of qualified insurance professionals with brokers based in local area.</p>                    
                 </div>                
             </div>
-            <div class="container mx-auto flex flelx-wrap gap-x-14">
+            <div class="custom-container mx-auto flex flelx-wrap gap-x-14">
                 <div class="w-full sm:w-1/2 md:w-1/3">
                     <div class="flex flex-wrap items-center gap-x-3 membership-title">
                         <img src="./assets/images/tick-icon.svg" alt="" />
@@ -61,7 +61,7 @@
     </section>
 
     <section class="membership-scroll py-44 bg-off-white-100 relative overflow-hidden">
-        <div class="container max-w-2xl mx-auto text-center">
+        <div class="custom-container max-w-2xl mx-auto text-center">
             <h4>Six ways your membership with CANEGROWERS will help you and your business</h4>
             <svg class="scroll-down-membership mx-auto mt-12 cursor-pointer group" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
                 <circle class="group-hover:stroke-dark-green" cx="18" cy="18" r="17" transform="rotate(90 18 18)" fill="white" fill-opacity="0.16" stroke="#1E1E1E" stroke-width="2"/>
@@ -75,7 +75,7 @@
 
     <section class="membership-features">
         <div class="relative h-screen flex flex-wrap items-end bg-membership-overlay">
-            <div class="container mx-auto z-40 py-16">
+            <div class="custom-container mx-auto z-40 py-16">
                 <div class="max-w-xl top-0 left-0">
                     <h2 class="text-mid-green">1</h2>
                     <h3 class="text-white pb-4">Strong advocacy and representation</h3>
@@ -85,7 +85,7 @@
             <img src="./assets/images/membership-1.jpg" alt="" class="image-as-object absolute !z-down" />
         </div>
         <div class="relative h-screen flex flex-wrap items-end bg-membership-overlay">
-            <div class="container mx-auto z-40 py-16">
+            <div class="custom-container mx-auto z-40 py-16">
                 <div class="max-w-xl top-0 left-0">
                     <h2 class="text-mid-green">2</h2>
                     <h3 class="text-white pb-4">Access to influential organisations and decision makers</h3>
@@ -95,7 +95,7 @@
             <img src="./assets/images/membership-2.jpg" alt="" class="image-as-object absolute !z-down" />
         </div>
         <div class="relative h-screen flex flex-wrap items-end bg-membership-overlay">
-            <div class="container mx-auto z-40 py-16">
+            <div class="custom-container mx-auto z-40 py-16">
                 <div class="max-w-xl top-0 left-0">
                     <h2 class="text-mid-green">3</h2>
                     <h3 class="text-white pb-4">Representation from the farm up</h3>
@@ -105,7 +105,7 @@
             <img src="./assets/images/membership-3.jpg" alt="" class="image-as-object absolute !z-down" />
         </div>
         <div class="relative h-screen flex flex-wrap items-end bg-membership-overlay">
-            <div class="container mx-auto z-40 py-16">
+            <div class="custom-container mx-auto z-40 py-16">
                 <div class="max-w-xl top-0 left-0">
                     <h2 class="text-mid-green">4</h2>
                     <h3 class="text-white pb-4">Member services tailored to your business</h3>
@@ -115,7 +115,7 @@
             <img src="./assets/images/membership-4.jpg" alt="" class="image-as-object absolute !z-down" />
         </div>
         <div class="relative h-screen flex flex-wrap items-end bg-membership-overlay">
-            <div class="container mx-auto z-40 py-16">
+            <div class="custom-container mx-auto z-40 py-16">
                 <div class="max-w-xl top-0 left-0">
                     <h2 class="text-mid-green">5</h2>
                     <h3 class="text-white pb-4">Access to industry programs and incentives funding</h3>
@@ -125,7 +125,7 @@
             <img src="./assets/images/membership-5.jpg" alt="" class="image-as-object absolute !z-down" />
         </div>
         <div class="relative h-screen flex flex-wrap items-end bg-membership-overlay">
-            <div class="container mx-auto z-40 py-16">
+            <div class="custom-container mx-auto z-40 py-16">
                 <div class="max-w-xl top-0 left-0">
                     <h2 class="text-mid-green">6</h2>
                     <h3 class="text-white pb-4">Regular communications and grower events</h3>
