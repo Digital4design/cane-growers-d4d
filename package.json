@@ -14,6 +14,7 @@
     "tailwindcss-labeled-groups": "^0.0.2"
   },
   "dependencies": {
-    "slick-slider": "^1.8.2"
+    "slick-slider": "^1.8.2",
+    "swiper": "^10.1.0"
   }
 }

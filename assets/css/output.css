@@ -3504,9 +3504,9 @@ header nav .menu-wrapper {
   }
 }
 
-.classified .element {
-  margin: 0 12px;
-}
+/* .classified .element {
+    margin: 0 12px;
+} */
 
 .slick-list {
   padding-left: 0px!important;

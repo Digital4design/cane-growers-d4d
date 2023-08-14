@@ -9,6 +9,7 @@
     
     <link rel="stylesheet" type="text/css" href="./assets/css/slick.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link href="./assets/css/output.css" rel="stylesheet" />
 </head>
 

@@ -401,9 +401,9 @@ header nav .menu-wrapper {
 .classified-slider-wrapper .element > div {
     @apply border border-aplha-black-16 bg-white rounded pt-8 px-6 pb-6 pl-6; @apply xl:pr-14;
 }
-.classified .element {
+/* .classified .element {
     margin: 0 12px;
-}
+} */
 .slick-list {
     padding-left: 0px!important;
 }
