@@ -1,4 +1,4 @@
-   <?php @include 'header.php'; ?>
+   <?php require_once('header.php'); ?>
     
    <!-- Inner Banner -->
     <section class="single-advocacy-top">
@@ -90,112 +90,114 @@
             </div>
         </div>
         
-        <div class="key-issues-slider-wrap">        
-            <div class="gallery-with-half-content four-colsec-with-hover-info key-issues-slider">
-                <div class="col-grid col-grid-1 flex flex-stretch gap-x-6">
-                    <div class="col group !w-full !px-0">
-                        <div class="img-col relative">
-                            <img class="w-full" src="./assets/images/key-issue-1.jpg" alt="" />
-                            <div class="!bg-off-white-100 absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
+        <div class="key-issues-slider-wrap overflow-hidden">       
+            <div class="swiper key-issues-slider px-4">
+                <div class="gallery-with-half-content four-colsec-with-hover-info swiper-wrapper">
+                    <div class="col-grid col-grid-1 flex flex-stretch swiper-slide gap-x-6">
+                        <div class="col group !w-full !px-0">
+                            <div class="img-col relative">
+                                <img class="w-full" src="./assets/images/key-issue-1.jpg" alt="" />
+                                <div class="!bg-off-white-100 absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
+                                    <h6>Bulk Sugar Terminals</h6>
+                                </div>
+                            </div>
+                            <div class="text-col group-hover:bottom-0">
                                 <h6>Bulk Sugar Terminals</h6>
+                                <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
+                                <a>
+                                    Learn more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="7" height="10" viewBox="0 0 7 10" fill="none">
+                                        <path d="M1.00012 1L5.00012 5L1 9" stroke="#5E9732" stroke-width="2"/>
+                                    </svg>
+                                </a>
                             </div>
                         </div>
-                        <div class="text-col group-hover:bottom-0">
-                            <h6>Bulk Sugar Terminals</h6>
-                            <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
-                            <a>
-                                Learn more
-                                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="10" viewBox="0 0 7 10" fill="none">
-                                    <path d="M1.00012 1L5.00012 5L1 9" stroke="#5E9732" stroke-width="2"/>
-                                </svg>
-                            </a>
+                    </div>            
+                    <div class="col-grid col-grid-1 flex flex-stretch swiper-slide gap-x-6">
+                        <div class="col group !w-full !px-0">
+                            <div class="img-col relative">
+                                <img class="w-full" src="./assets/images/key-issue-1.jpg" alt="" />
+                                <div class="!bg-off-white-100 absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
+                                    <h6>Bulk Sugar Terminals</h6>
+                                </div>
+                            </div>
+                            <div class="text-col group-hover:bottom-0">
+                                <h6>Bulk Sugar Terminals</h6>
+                                <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
+                                <a>
+                                    Learn more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="7" height="10" viewBox="0 0 7 10" fill="none">
+                                        <path d="M1.00012 1L5.00012 5L1 9" stroke="#5E9732" stroke-width="2"/>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                    </div>
+                    </div> 
+                    <div class="col-grid col-grid-1 flex flex-stretch swiper-slide gap-x-6">
+                        <div class="col group !w-full !px-0">
+                            <div class="img-col relative">
+                                <img class="w-full" src="./assets/images/key-issue-1.jpg" alt="" />
+                                <div class="!bg-off-white-100 absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
+                                    <h6>Bulk Sugar Terminals</h6>
+                                </div>
+                            </div>
+                            <div class="text-col group-hover:bottom-0">
+                                <h6>Bulk Sugar Terminals</h6>
+                                <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
+                                <a>
+                                    Learn more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="7" height="10" viewBox="0 0 7 10" fill="none">
+                                        <path d="M1.00012 1L5.00012 5L1 9" stroke="#5E9732" stroke-width="2"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-grid col-grid-1 flex flex-stretch swiper-slide gap-x-6">
+                        <div class="col group !w-full !px-0">
+                            <div class="img-col relative">
+                                <img class="w-full" src="./assets/images/key-issue-1.jpg" alt="" />
+                                <div class="!bg-off-white-100 absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
+                                    <h6>Bulk Sugar Terminals</h6>
+                                </div>
+                            </div>
+                            <div class="text-col group-hover:bottom-0">
+                                <h6>Bulk Sugar Terminals</h6>
+                                <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
+                                <a>
+                                    Learn more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="7" height="10" viewBox="0 0 7 10" fill="none">
+                                        <path d="M1.00012 1L5.00012 5L1 9" stroke="#5E9732" stroke-width="2"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="col-grid col-grid-1 flex flex-stretch swiper-slide gap-x-6">
+                        <div class="col group !w-full !px-0">
+                            <div class="img-col relative">
+                                <img class="w-full" src="./assets/images/key-issue-1.jpg" alt="" />
+                                <div class="!bg-off-white-100 absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
+                                    <h6>Bulk Sugar Terminals</h6>
+                                </div>
+                            </div>
+                            <div class="text-col group-hover:bottom-0">
+                                <h6>Bulk Sugar Terminals</h6>
+                                <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
+                                <a>
+                                    Learn more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="7" height="10" viewBox="0 0 7 10" fill="none">
+                                        <path d="M1.00012 1L5.00012 5L1 9" stroke="#5E9732" stroke-width="2"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>             
                 </div>            
-                <div class="col-grid col-grid-1 flex flex-stretch gap-x-6">
-                    <div class="col group !w-full !px-0">
-                        <div class="img-col relative">
-                            <img class="w-full" src="./assets/images/key-issue-1.jpg" alt="" />
-                            <div class="!bg-off-white-100 absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
-                                <h6>Bulk Sugar Terminals</h6>
-                            </div>
-                        </div>
-                        <div class="text-col group-hover:bottom-0">
-                            <h6>Bulk Sugar Terminals</h6>
-                            <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
-                            <a>
-                                Learn more
-                                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="10" viewBox="0 0 7 10" fill="none">
-                                    <path d="M1.00012 1L5.00012 5L1 9" stroke="#5E9732" stroke-width="2"/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div> 
-                 <div class="col-grid col-grid-1 flex flex-stretch gap-x-6">
-                    <div class="col group !w-full !px-0">
-                        <div class="img-col relative">
-                            <img class="w-full" src="./assets/images/key-issue-1.jpg" alt="" />
-                            <div class="!bg-off-white-100 absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
-                                <h6>Bulk Sugar Terminals</h6>
-                            </div>
-                        </div>
-                        <div class="text-col group-hover:bottom-0">
-                            <h6>Bulk Sugar Terminals</h6>
-                            <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
-                            <a>
-                                Learn more
-                                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="10" viewBox="0 0 7 10" fill="none">
-                                    <path d="M1.00012 1L5.00012 5L1 9" stroke="#5E9732" stroke-width="2"/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div> 
-                 <div class="col-grid col-grid-1 flex flex-stretch gap-x-6">
-                    <div class="col group !w-full !px-0">
-                        <div class="img-col relative">
-                            <img class="w-full" src="./assets/images/key-issue-1.jpg" alt="" />
-                            <div class="!bg-off-white-100 absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
-                                <h6>Bulk Sugar Terminals</h6>
-                            </div>
-                        </div>
-                        <div class="text-col group-hover:bottom-0">
-                            <h6>Bulk Sugar Terminals</h6>
-                            <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
-                            <a>
-                                Learn more
-                                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="10" viewBox="0 0 7 10" fill="none">
-                                    <path d="M1.00012 1L5.00012 5L1 9" stroke="#5E9732" stroke-width="2"/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>  
-                <div class="col-grid col-grid-1 flex flex-stretch gap-x-6">
-                    <div class="col group !w-full !px-0">
-                        <div class="img-col relative">
-                            <img class="w-full" src="./assets/images/key-issue-1.jpg" alt="" />
-                            <div class="!bg-off-white-100 absolute left-0 right-0 bottom-0 bg-white p-8 text-black-ish group-hover:bottom-[-100%] transition-all duration-700">
-                                <h6>Bulk Sugar Terminals</h6>
-                            </div>
-                        </div>
-                        <div class="text-col group-hover:bottom-0">
-                            <h6>Bulk Sugar Terminals</h6>
-                            <p>Herbert River cane grower Robert Bonassi knows that soil health is key to slashing fertiliser rates without affecting yield. He's focused on fallow crops, mill by-products and soil tests in his transition to cane that...</p>
-                            <a>
-                                Learn more
-                                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="10" viewBox="0 0 7 10" fill="none">
-                                    <path d="M1.00012 1L5.00012 5L1 9" stroke="#5E9732" stroke-width="2"/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>             
             </div>            
         </div>
     </section> 
 
    
     <?php @include './components/footer-banner.php'; ?>
-    <?php @include 'footer.php'; ?>
+    <?php require_once('./footer.php'); ?>

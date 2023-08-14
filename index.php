@@ -212,7 +212,7 @@
             </div>
         </div>
         <div class="swiper-outer overflow-hidden pl-0 sm:pl-[calc((100vw-640px)/2)] md:pl-[calc((100vw-768px)/2)] lg:pl-[calc((100vw-1024px)/2)] xl:pl-[calc((100vw-1200px)/2)] 2xl:pl-[calc((100vw-1280px)/2)]">
-            <div class="swiper classified-slider-wrapper">
+            <div class="classified-swiper swiper classified-slider-wrapper px-4">
                 <div class="classified swiper-wrapper">
                     <div class="element swiper-slide">
                         <div>

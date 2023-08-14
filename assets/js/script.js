@@ -29,59 +29,114 @@ jQuery(document).ready(function() {
     //         },
     //       ]
     // })
-    var swiper = new Swiper(".swiper", {
-        slidesPerView: 2.5,
-        spaceBetween: 24,
-        // centeredSlides: true,
+    var keyIssueSwiper = new Swiper(".key-issues-slider", {
+        slidesPerView: 1.2,
+        spaceBetween: 16,
         navigation: {
             nextEl: '.classified-slider-arrow .next-arrow',
             prevEl: '.classified-slider-arrow .prev-arrow',
         },
+        breakpoints: {
+            640: {
+                slidesPerView: 2.5,
+                spaceBetween: 16,
+            },
+            1024: {
+                slidesPerView: 3.3,
+                spaceBetween: 30,
+            },
+            1199: {
+                slidesPerView: 4.5,
+                spaceBetween: 30,
+            },
+        },
     });
     
-    jQuery('.key-issues-slider').slick({
-        slidesToShow: 4,
-        centerMode: true,
-        centerPadding: '150px',
-        infinite:true,
-        slidesToScroll: 1,
-        autoplay: false,
-        nav:true,
-        autoplaySpeed: 2000,
-        prevArrow: $('.prev-arrow'),
-        nextArrow: $('.next-arrow'),
-    })
+    var classifiedSwiper = new Swiper(".classified-swiper", {
+        slidesPerView: 1.2,
+        spaceBetween: 16,
+        navigation: {
+            nextEl: '.classified-slider-arrow .next-arrow',
+            prevEl: '.classified-slider-arrow .prev-arrow',
+        },
+        breakpoints: {
+            767: {
+                slidesPerView: 1.5,
+                spaceBetween: 30,
+            },
+            1024: {
+                slidesPerView: 2.3,
+                spaceBetween: 30,
+            },
+        },
+    });
+
+    var classifiedSwiper = new Swiper(".team-row-slider", {
+        slidesPerView: 1.2,
+        spaceBetween: 16,
+        navigation: {
+            nextEl: '.classified-slider-arrow .next-arrow',
+            prevEl: '.classified-slider-arrow .prev-arrow',
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2.5,
+                spaceBetween: 30,
+            },
+            1024: {
+                slidesPerView: 3.3,
+                spaceBetween: 30,
+            },
+            1199: {
+                slidesPerView: 4.5,
+                spaceBetween: 30,
+            },
+        },
+    });
     
-    jQuery('.team-row-slider').slick({
-        slidesToShow: 4,
-        centerMode: true,
-        centerPadding: '150px',
-        infinite:true,
-        slidesToScroll: 1,
-        autoplay: false,
-        nav:true,
-        autoplaySpeed: 2000,
-        prevArrow: $('.prev-arrow'),
-        nextArrow: $('.next-arrow'),
-        responsive: [
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                centerPadding: '150px',
-              }
-            },
-            {
-              breakpoint: 640,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                centerPadding: '75px',
-              }
-            },
-          ]
-    })
+    // jQuery('.key-issues-slider').slick({
+    //     slidesToShow: 4,
+    //     centerMode: true,
+    //     centerPadding: '150px',
+    //     infinite:true,
+    //     slidesToScroll: 1,
+    //     autoplay: false,
+    //     nav:true,
+    //     autoplaySpeed: 2000,
+    //     prevArrow: $('.prev-arrow'),
+    //     nextArrow: $('.next-arrow'),
+    // })
+    
+    // jQuery('.team-row-slider').slick({
+    //     slidesToShow: 4,
+    //     centerMode: true,
+    //     centerPadding: '150px',
+    //     infinite:true,
+    //     slidesToScroll: 1,
+    //     autoplay: false,
+    //     nav:true,
+    //     autoplaySpeed: 2000,
+    //     prevArrow: $('.prev-arrow'),
+    //     nextArrow: $('.next-arrow'),
+    //     responsive: [
+    //         {
+    //           breakpoint: 768,
+    //           settings: {
+    //             slidesToShow: 1,
+    //             slidesToScroll: 1,
+    //             centerPadding: '150px',
+    //           }
+    //         },
+    //         {
+    //           breakpoint: 640,
+    //           settings: {
+    //             slidesToShow: 1,
+    //             slidesToScroll: 1,
+    //             centerPadding: '75px',
+    //           }
+    //         },
+    //       ]
+    // })
 });
 
 var oldScrollY = window.scrollY;

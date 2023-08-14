@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link href="https://api.fontshare.com/v2/css?f[]=general-sans@1,400&f[]=sentient@400,1&display=swap" rel="stylesheet" />
     
-    <link rel="stylesheet" type="text/css" href="./assets/css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/slick-theme.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick-theme.css" /> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link href="./assets/css/output.css" rel="stylesheet" />
 </head>

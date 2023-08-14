@@ -504,7 +504,7 @@ footer ul.who-we-are li a {
 .single-advocacy-top ul li {
     @apply text-base leading-7 font-medium text-black-ish opacity-50 ml-7 first:list-none first:ml-0;
 }
-.key-issues-slider .col-grid {margin: 0 12px;}
+/* .key-issues-slider .col-grid {margin: 0 12px;} */
 .key-issues-slider-wrap {padding-left: calc((100vw - 1280px)/2);}
 .quote-author {
     @apply text-lg leading-8 font-medium text-dark-green mt-6 block;
@@ -632,9 +632,9 @@ footer ul.who-we-are li a {
 .team-single-top .discription{
     @apply lg:mt-28 mt-4 mb-24 opacity-50 font-medium;
 }
-.team-row-slider .team-col {
+/* .team-row-slider .team-col {
     margin: 0 12px;
-}
+} */
 
 /* Region Page Or Contact Page */
 .address-col span{

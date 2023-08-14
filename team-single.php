@@ -48,48 +48,52 @@
             </div>
         </div>
     </div>
-    <div class="team-row key-issues-slider-wrap team-row-slider">
-        <div class="team-col">
-            <a href="#">
-                <img src="assets/images/Dan-Galligan.png" alt="">
-                <h6>Dan Galligan</h6>
-                <span>Chief Executive Officer</span>
-            </a>
-        </div>
-        <div class="team-col">
-            <a href="#">
-                <img src="assets/images/Jodie-Mittelheuser.jpg" alt="">
-                <h6>Jodie Mittelheuser</h6>
-                <span>Chief Financial Officer</span>
-            </a>
-        </div>
-        <div class="team-col">
-            <a href="#">
-                <img src="assets/images/Chris-Cooper.png" alt="">
-                <h6>Chris Cooper</h6>
-                <span>Solicitor</span>
-            </a>
-        </div>
-        <div class="team-col">
-            <a href="#">
-                <img src="assets/images/Dan-Galligan.png" alt="">
-                <h6>Dan Galligan</h6>
-                <span>Chief Executive Officer</span>
-            </a>
-        </div>
-        <div class="team-col">
-            <a href="#">
-                <img src="assets/images/Jodie-Mittelheuser.jpg" alt="">
-                <h6>Jodie Mittelheuser</h6>
-                <span>Chief Financial Officer</span>
-            </a>
-        </div>
-        <div class="team-col">
-            <a href="#">
-                <img src="assets/images/Chris-Cooper.png" alt="">
-                <h6>Chris Cooper</h6>
-                <span>Solicitor</span>
-            </a>
+    <div class="team-row key-issues-slider-wrap">
+        <div class="swiper team-row-slider">
+            <div class="swiper-wrapper px-4">
+                <div class="team-col swiper-slide">
+                    <a href="#">
+                        <img src="assets/images/Dan-Galligan.png" alt="">
+                        <h6>Dan Galligan</h6>
+                        <span>Chief Executive Officer</span>
+                    </a>
+                </div>
+                <div class="team-col swiper-slide">
+                    <a href="#">
+                        <img src="assets/images/Jodie-Mittelheuser.jpg" alt="">
+                        <h6>Jodie Mittelheuser</h6>
+                        <span>Chief Financial Officer</span>
+                    </a>
+                </div>
+                <div class="team-col swiper-slide">
+                    <a href="#">
+                        <img src="assets/images/Chris-Cooper.png" alt="">
+                        <h6>Chris Cooper</h6>
+                        <span>Solicitor</span>
+                    </a>
+                </div>
+                <div class="team-col swiper-slide">
+                    <a href="#">
+                        <img src="assets/images/Dan-Galligan.png" alt="">
+                        <h6>Dan Galligan</h6>
+                        <span>Chief Executive Officer</span>
+                    </a>
+                </div>
+                <div class="team-col swiper-slide">
+                    <a href="#">
+                        <img src="assets/images/Jodie-Mittelheuser.jpg" alt="">
+                        <h6>Jodie Mittelheuser</h6>
+                        <span>Chief Financial Officer</span>
+                    </a>
+                </div>
+                <div class="team-col swiper-slide">
+                    <a href="#">
+                        <img src="assets/images/Chris-Cooper.png" alt="">
+                        <h6>Chris Cooper</h6>
+                        <span>Solicitor</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
