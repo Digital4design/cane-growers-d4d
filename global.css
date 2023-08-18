@@ -131,7 +131,7 @@
     }
 }
 .site-header {
-    @apply fixed top-0 left-0 right-0 z-50;
+    @apply fixed top-0 left-0 right-0 z-zxl;
     @apply xl:w-auto xl:bottom-auto;
 }
 .site-header .mobile-logo {
@@ -273,7 +273,7 @@ header nav .menu-wrapper {
 .advocacy-membership .custom-container {@apply px-4 flex flex-col gap-6; @apply md:flex-row;}
 .advocacy-membership .advocacy-column {@apply w-full overflow-hidden relative even:flex even:flex-wrap even:self-start; @apply md:w-1/2 odd:md:mt-64;}
 .advocacy-membership .advocacy-column .content-part {@apply transition-all absolute bottom-0 left-0 right-0 w-full p-6; @apply lg:p-16;}
-
+.membership-features .custom-container{@apply px-4 md:px-0;}
 /* Cane to Coast */
 .coast-list ul li a {
     @apply w-full flex items-center justify-between text-white py-6 md:py-8 font-serif font-medium text-lg leading-7  border-b border-b-off-white-50 cursor-pointer;
@@ -562,11 +562,14 @@ footer ul.who-we-are li a {
 .our-vision{
     @apply lg:py-36 py-16;
 }
+.our-vision .container, .tabbed-top-sec, .tabbed-content .container{
+    @apply xl:px-0 px-4;
+}
 .our-vision h2{
     @apply text-white;
 }
 .vision-blocks {
-    @apply flex items-stretch gap-x-20 lg:mt-14 lg:pt-14 lg:mb-0 border-t mt-8 mb-8 pt-4;
+    @apply flex items-stretch lg:flex-nowrap flex-wrap gap-x-20 lg:mt-14 lg:pt-14 lg:mb-0 border-t mt-8 mb-8 pt-4;
 }
 .vision-blocks span {
     @apply label mb-4 text-light-green mt-6 block;
@@ -690,3 +693,8 @@ footer ul.who-we-are li a {
 .contact-accordian  .accordionItem.open .accordian-content{
     @apply h-full transition;
 }
+
+
+/***********Membership Slider***********/
+.membership-sticky{@apply h-screen items-center flex flex-wrap left-0 top-0 w-full; }
+.cover{@apply opacity-50 absolute top-0 left-0 right-0 bottom-0 bg-black;}

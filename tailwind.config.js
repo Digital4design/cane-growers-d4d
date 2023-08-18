@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       zIndex: {
         'down': '-1',
+        'zxl':'100',
       },
       margin: {
         'initial': 'initial',

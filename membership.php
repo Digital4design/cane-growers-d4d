@@ -3,30 +3,30 @@
     
 
       <!-- Key issues -->
-      <section class="bg-off-white-100 pt-24">
+      <section class="membership-top bg-off-white-100 pt-24">
         <div class="custom-container mx-auto">
-            <div class="max-w-screen-lg mr-auto">
+            <div class="max-w-screen-lg mr-auto px-4 lg:px-0">
                 <div class="green-label mb-2">Membership benefits</div>
                 <h4>As a member of CANEGROWERS, you have access to the following products, services and benefits:</h4>
             </div>
         </div>
         <div class="membership-card mt-24">
-            <div class="custom-container mx-auto mb-20 flex flelx-wrap gap-x-14">
-                <div class="w-full sm:w-1/2 md:w-1/3">
+            <div class="custom-container mx-auto md:mb-20 mb-0 flex flex-wrap md:flex-nowrap gap-x-14 px-4 lg:px-0">
+                <div class="w-full sm:w-1/2 md:w-1/3 mb-6 md:mb-0">
                     <div class="flex flex-wrap items-center gap-x-3 membership-title">
                         <img src="./assets/images/tick-icon.svg" alt="" />
                         Member benefits
                     </div>
                     <p class="membership-description">A range of great deals on farm supplies, health and travel insurance, as well as access to competitive insurance through our team of qualified insurance professionals with brokers based in local area.</p>                    
                 </div>
-                <div class="w-full sm:w-1/2 md:w-1/3">
+                <div class="w-full sm:w-1/2 md:w-1/3 mb-6 md:mb-0">
                     <div class="flex flex-wrap items-center gap-x-3 membership-title">
                         <img src="./assets/images/tick-icon.svg" alt="" />
                         Member benefits
                     </div>
                     <p class="membership-description">A range of great deals on farm supplies, health and travel insurance, as well as access to competitive insurance through our team of qualified insurance professionals with brokers based in local area.</p>                    
                 </div>
-                <div class="w-full sm:w-1/2 md:w-1/3">
+                <div class="w-full sm:w-1/2 md:w-1/3 mb-6 md:mb-0">
                     <div class="flex flex-wrap items-center gap-x-3 membership-title">
                         <img src="./assets/images/tick-icon.svg" alt="" />
                         Member benefits
@@ -34,22 +34,22 @@
                     <p class="membership-description">A range of great deals on farm supplies, health and travel insurance, as well as access to competitive insurance through our team of qualified insurance professionals with brokers based in local area.</p>                    
                 </div>                
             </div>
-            <div class="custom-container mx-auto flex flelx-wrap gap-x-14">
-                <div class="w-full sm:w-1/2 md:w-1/3">
+            <div class="custom-container mx-auto flex flex-wrap md:flex-nowrap gap-x-14 px-4 lg:px-0">
+                <div class="w-full sm:w-1/2 md:w-1/3 mb-6 md:mb-0">
                     <div class="flex flex-wrap items-center gap-x-3 membership-title">
                         <img src="./assets/images/tick-icon.svg" alt="" />
                         Member benefits
                     </div>
                     <p class="membership-description">A range of great deals on farm supplies, health and travel insurance, as well as access to competitive insurance through our team of qualified insurance professionals with brokers based in local area.</p>                    
                 </div>
-                <div class="w-full sm:w-1/2 md:w-1/3">
+                <div class="w-full sm:w-1/2 md:w-1/3 mb-6 md:mb-0">
                     <div class="flex flex-wrap items-center gap-x-3 membership-title">
                         <img src="./assets/images/tick-icon.svg" alt="" />
                         Member benefits
                     </div>
                     <p class="membership-description">A range of great deals on farm supplies, health and travel insurance, as well as access to competitive insurance through our team of qualified insurance professionals with brokers based in local area.</p>                    
                 </div>
-                <div class="w-full sm:w-1/2 md:w-1/3">
+                <div class="w-full sm:w-1/2 md:w-1/3 mb-6 md:mb-0">
                     <div class="flex flex-wrap items-center gap-x-3 membership-title">
                         <img src="./assets/images/tick-icon.svg" alt="" />
                         Member benefits
@@ -73,48 +73,61 @@
         </div>
     </section>
 
-    <section class="membership-features">
-        <div class="relative h-screen flex flex-wrap items-end bg-membership-overlay">
-            <div class="custom-container mx-auto z-40 py-16">
-                <div class="max-w-xl top-0 left-0">
-                    <h2 class="text-mid-green">1</h2>
-                    <h3 class="text-white pb-4">Strong advocacy and representation</h3>
-                    <p>Strong advocacy and representation from strong membership across Queensland gives you a legitimate voice and negotiating strength on important issues. Our views are heard by the community, government, politicians and industry through our influential networks and extensive media presence</p>
+   <section class="membership-features">
+        <div class="membership-outer sticky bottom-0 left-0 z-50">
+            <div class=" membership-sticky">
+                <div class="custom-container mx-auto z-40 py-16">
+                    <div class="max-w-xl top-0 left-0">
+                        <h2 class="text-mid-green">1</h2>
+                        <h3 class="text-white pb-4">Strong advocacy and representation</h3>
+                        <p>Strong advocacy and representation from strong membership across Queensland gives you a legitimate voice and negotiating strength on important issues. Our views are heard by the community, government, politicians and industry through our influential networks and extensive media presence</p>
+                    </div>
                 </div>
+                <img src="./assets/images/membership-1.jpg" alt="" class="image-as-object absolute !z-down" />
+                <div class="cover"></div>
             </div>
-            <img src="./assets/images/membership-1.jpg" alt="" class="image-as-object absolute !z-down" />
         </div>
-        <div class="relative h-screen flex flex-wrap items-end bg-membership-overlay">
-            <div class="custom-container mx-auto z-40 py-16">
-                <div class="max-w-xl top-0 left-0">
-                    <h2 class="text-mid-green">2</h2>
-                    <h3 class="text-white pb-4">Access to influential organisations and decision makers</h3>
-                    <p>Through membership and working directly with Queensland Farmers' Federation (QFF), National Farmers’ Federation (NFF) & the World Association of Beet and Cane Growers (WABCG). CANEGROWERS involvement gives you the benefits of lobbying power beyond our industry to collaboration with all of agriculture.</p>
+        <div class="membership-outer sticky bottom-0 left-0 z-40">
+            <div class=" membership-sticky">
+                <div class="custom-container mx-auto z-40 py-16">
+                    <div class="max-w-xl top-0 left-0">
+                        <h2 class="text-mid-green">2</h2>
+                        <h3 class="text-white pb-4">Access to influential organisations and decision makers</h3>
+                        <p>Through membership and working directly with Queensland Farmers' Federation (QFF), National Farmers’ Federation (NFF) & the World Association of Beet and Cane Growers (WABCG). CANEGROWERS involvement gives you the benefits of lobbying power beyond our industry to collaboration with all of agriculture.</p>
+                    </div>
                 </div>
+                <img src="./assets/images/membership-2.jpg" alt="" class="image-as-object absolute !z-down" />
+                <div class="cover"></div>
             </div>
-            <img src="./assets/images/membership-2.jpg" alt="" class="image-as-object absolute !z-down" />
         </div>
-        <div class="relative h-screen flex flex-wrap items-end bg-membership-overlay">
-            <div class="custom-container mx-auto z-40 py-16">
-                <div class="max-w-xl top-0 left-0">
-                    <h2 class="text-mid-green">3</h2>
-                    <h3 class="text-white pb-4">Representation from the farm up</h3>
-                    <p>From farm, to local, state, national and international forums, CANEGROWERS has your interests at its heart. You have access to 81 locally-elected grower representatives to ensure that your views are heard and shared. Our dedicated staff provide you with services and advice through 14 offices in Queensland.</p>
+        <div class="membership-outer sticky bottom-0 left-0 z-30">
+            <div class=" membership-sticky">
+                <div class="custom-container mx-auto z-40 py-16">
+                    <div class="max-w-xl top-0 left-0">
+                        <h2 class="text-mid-green">3</h2>
+                        <h3 class="text-white pb-4">Representation from the farm up</h3>
+                        <p>From farm, to local, state, national and international forums, CANEGROWERS has your interests at its heart. You have access to 81 locally-elected grower representatives to ensure that your views are heard and shared. Our dedicated staff provide you with services and advice through 14 offices in Queensland.</p>
+                    </div>
                 </div>
+                <img src="./assets/images/membership-3.jpg" alt="" class="image-as-object absolute !z-down" />
+                <div class="cover"></div>
             </div>
-            <img src="./assets/images/membership-3.jpg" alt="" class="image-as-object absolute !z-down" />
         </div>
-        <div class="relative h-screen flex flex-wrap items-end bg-membership-overlay">
-            <div class="custom-container mx-auto z-40 py-16">
-                <div class="max-w-xl top-0 left-0">
-                    <h2 class="text-mid-green">4</h2>
-                    <h3 class="text-white pb-4">Member services tailored to your business</h3>
-                    <p>Member services tailored to your business. CANEGROWERS offers a range of competitive industry products, services, training and other initiatives through its partnerships with Queensland businesses and the community.</p>
+        <div class="membership-outer sticky bottom-0 left-0 z-20">
+            <div class=" membership-sticky">
+                <div class="custom-container mx-auto z-40 py-16">
+                    <div class="max-w-xl top-0 left-0">
+                        <h2 class="text-mid-green">4</h2>
+                        <h3 class="text-white pb-4">Member services tailored to your business</h3>
+                        <p>Member services tailored to your business. CANEGROWERS offers a range of competitive industry products, services, training and other initiatives through its partnerships with Queensland businesses and the community.</p>
+                    </div>
                 </div>
+                <img src="./assets/images/membership-4.jpg" alt="" class="image-as-object absolute !z-down" />
+                <div class="cover"></div>
             </div>
-            <img src="./assets/images/membership-4.jpg" alt="" class="image-as-object absolute !z-down" />
         </div>
-        <div class="relative h-screen flex flex-wrap items-end bg-membership-overlay">
+        <div class="membership-outer sticky bottom-0 left-0 z-10">
+            <div class=" membership-sticky">
             <div class="custom-container mx-auto z-40 py-16">
                 <div class="max-w-xl top-0 left-0">
                     <h2 class="text-mid-green">5</h2>
@@ -123,16 +136,21 @@
                 </div>
             </div>
             <img src="./assets/images/membership-5.jpg" alt="" class="image-as-object absolute !z-down" />
-        </div>
-        <div class="relative h-screen flex flex-wrap items-end bg-membership-overlay">
-            <div class="custom-container mx-auto z-40 py-16">
-                <div class="max-w-xl top-0 left-0">
-                    <h2 class="text-mid-green">6</h2>
-                    <h3 class="text-white pb-4">Regular communications and grower events</h3>
-                    <p>Regular communications and grower events to support your business and influence community relationships. As well as the Australian CANEGROWER magazine, you will receive regular information from your local office, or via canegrowers.com.au, social media and directly to your email. CANEGROWERS also holds regular grower meetings and supports multiple industry events.</p>
-                </div>
+            <div class="cover"></div>
             </div>
-            <img src="./assets/images/membership-6.jpg" alt="" class="image-as-object absolute !z-down" />
+        </div>
+        <div class="membership-outer sticky bottom-0 left-0 z-0">
+            <div class=" membership-sticky">
+                <div class="custom-container mx-auto z-40 py-16">
+                    <div class="max-w-xl top-0 left-0">
+                        <h2 class="text-mid-green">6</h2>
+                        <h3 class="text-white pb-4">Regular communications and grower events</h3>
+                        <p>Regular communications and grower events to support your business and influence community relationships. As well as the Australian CANEGROWER magazine, you will receive regular information from your local office, or via canegrowers.com.au, social media and directly to your email. CANEGROWERS also holds regular grower meetings and supports multiple industry events.</p>
+                    </div>
+                </div>
+                <img src="./assets/images/membership-6.jpg" alt="" class="image-as-object absolute !z-down" />
+                <div class="cover"></div>
+            </div>
         </div>
     </section>
 
