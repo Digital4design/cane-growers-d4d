@@ -1399,6 +1399,10 @@ form textarea {
   justify-content: space-around;
 }
 
+.gap-0 {
+  gap: 0px;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -1723,6 +1727,10 @@ form textarea {
   padding-left: 0px;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .pl-5 {
   padding-left: 1.25rem;
 }
@@ -1785,11 +1793,6 @@ form textarea {
 
 .font-serif {
   font-family: Sentient, serif;
-}
-
-.\!text-xs {
-  font-size: 0.75rem !important;
-  line-height: 1rem !important;
 }
 
 .text-2xl {
@@ -4142,8 +4145,8 @@ footer ul.who-we-are li a {
   margin-bottom: 3rem;
   width: 100%;
   overflow: hidden;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .four-colsec-with-hover-info .text-col {
@@ -4695,8 +4698,15 @@ footer ul.who-we-are li a {
 .tabbed-content {
   --tw-bg-opacity: 1;
   background-color: rgb(245 244 236 / var(--tw-bg-opacity));
-  padding-top: 9rem;
-  padding-bottom: 9rem;
+  padding-top: 5rem;
+  padding-bottom: 0px;
+}
+
+@media (min-width: 1024px) {
+  .tabbed-content {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
 }
 
 .tabbed-content .content-col {
@@ -4844,9 +4854,51 @@ footer ul.who-we-are li a {
   }
 }
 
-/* .team-row-slider .team-col {
-    margin: 0 12px;
-} */
+.board-info .info-row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom-width: 1px;
+  border-color: rgb(56 75 0 / var(--tw-border-opacity));
+  --tw-border-opacity: 0.05;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.board-info .info-row label {
+  width: 100%;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(56 75 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .board-info .info-row label {
+    width: 25%;
+  }
+}
+
+.board-info .info-row span {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(30 30 30 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .board-info .info-row span {
+    width: 75%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
 
 /* Region Page Or Contact Page */
 
@@ -5016,6 +5068,7 @@ footer ul.who-we-are li a {
 
 .membership-sticky {
   left: 0px;
+  right: 0px;
   top: 0px;
   display: flex;
   height: 100vh;
@@ -5347,12 +5400,20 @@ footer ul.who-we-are li a {
     flex-direction: row;
   }
 
+  .lg\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
   .lg\:items-end {
     align-items: flex-end;
   }
 
   .lg\:justify-end {
     justify-content: flex-end;
+  }
+
+  .lg\:gap-4 {
+    gap: 1rem;
   }
 
   .lg\:border-b-0 {
@@ -5422,6 +5483,14 @@ footer ul.who-we-are li a {
 
   .lg\:pt-12 {
     padding-top: 3rem;
+  }
+
+  .lg\:pl-0 {
+    padding-left: 0px;
+  }
+
+  .lg\:pr-24 {
+    padding-right: 6rem;
   }
 }
 
@@ -5599,6 +5668,10 @@ footer ul.who-we-are li a {
     padding-bottom: 8rem;
   }
 
+  .xl\:pl-0 {
+    padding-left: 0px;
+  }
+
   .xl\:pl-10 {
     padding-left: 2.5rem;
   }
@@ -5629,6 +5702,10 @@ footer ul.who-we-are li a {
 
   .xl\:pt-16 {
     padding-top: 4rem;
+  }
+
+  .xl\:pl-4 {
+    padding-left: 1rem;
   }
 
   .xl\:font-serif {

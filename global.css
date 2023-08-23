@@ -460,7 +460,7 @@ footer ul.who-we-are li a {
 /* .container {@apply px-4;} */
 * div p:last-child{@apply mb-0;}
 
-.four-colsec-with-hover-info .col {@apply mb-12 px-3 w-full relative overflow-hidden;}
+.four-colsec-with-hover-info .col {@apply mb-12 px-0 w-full relative overflow-hidden;}
 .four-colsec-with-hover-info .text-col {@apply duration-700 min-h-1/2 w-auto absolute -bottom-full p-8 left-0 right-0 w-full bg-white text-black transition-all;}
 .four-colsec-with-hover-info .text-col h6 {@apply pb-5;}
 .four-colsec-with-hover-info .text-col p {@apply text-black font-medium opacity-50;}
@@ -592,7 +592,7 @@ footer ul.who-we-are li a {
     @apply border-white opacity-100;
 }
 .tabbed-content{
-    @apply bg-off-white-100 py-36;
+    @apply bg-off-white-100 lg:pt-36 lg:pb-36 pt-20 pb-0;
 }
 .tabbed-content .content-col {@apply hidden;}
 .tabbed-content .content-col.active {@apply block;}
@@ -635,9 +635,16 @@ footer ul.who-we-are li a {
 .team-single-top .discription{
     @apply lg:mt-28 mt-4 mb-24 opacity-50 font-medium;
 }
-/* .team-row-slider .team-col {
-    margin: 0 12px;
-} */
+
+.board-info .info-row{
+    @apply py-2 border-b border-dark-green border-opacity-5 w-full flex flex-wrap justify-between;
+}
+.board-info .info-row label{
+    @apply md:w-1/4 w-full text-xs uppercase text-dark-green font-medium;
+}
+.board-info .info-row span{
+    @apply md:w-3/4 w-full md:px-6 px-0 text-lg text-black-ish;
+}
 
 /* Region Page Or Contact Page */
 .address-col span{
@@ -689,12 +696,9 @@ footer ul.who-we-are li a {
 .contact-accordian  .accordian-content{
     @apply h-0 transition overflow-hidden;
 }
-
 .contact-accordian  .accordionItem.open .accordian-content{
     @apply h-full transition;
 }
-
-
 /***********Membership Slider***********/
-.membership-sticky{@apply h-screen items-center flex flex-wrap left-0 top-0 w-full; }
+.membership-sticky{@apply h-screen items-center flex flex-wrap left-0 right-0 top-0 w-full; }
 .cover{@apply opacity-50 absolute top-0 left-0 right-0 bottom-0 bg-black;}

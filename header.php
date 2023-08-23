@@ -15,7 +15,7 @@
 
 <body>
  <!-- Header -->
- <header id="site-header" class="site-header">
+ <header id="site-header" class="site-header secondry-header">
     <div class="container">
         <div class="site-logo">
             <!-- Logo -->

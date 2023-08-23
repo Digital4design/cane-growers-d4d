@@ -4,8 +4,8 @@
 <!-- Inner Banner -->
 <section class="contact-banner pt-40 pb-16 bg-off-white-100">
     <div class="container max-w-screen-2xl mx-auto flex flex-wrap justify-between">
-        <h4 class="w-full mb-8">Contact Us</h4>
-        <div class="w-full md:w-1/2 md:pr-24 pr-0">
+        <h4 class="w-full mb-8 xl:px-0 px-4">Contact Us</h4>
+        <div class="w-full lg:w-1/2 lg:pr-24 pr-0 xl:pl-0 pl-4">
             <p>We look forward to hearing from you. If you have any questions regarding any of our services or general enquiries, please feel free to call us on the number below:</p>
              <div class="contact-office">
                 <span>Head Office</span>
@@ -37,8 +37,8 @@
                 </ul>
              </div>
                 
-            </div>
-            <div class="w-full md:w-1/2">
+        </div>
+        <div class="w-full lg:w-1/2">
             <form action="" class="contact-form custom-form">
                 <div class="form-col w-full">
                     <label for="">Name</label>
@@ -82,8 +82,8 @@
   <section class="contact-map-info">
         <div class="container-right-full">
             <div class="flex flex-wrap w-full">
-                <div class="w-1/2 h-900 pt-8">
-                    <div class="contact-accordian py-8 pr-8 mr-4 h-900 overflow-auto custom-scroll">
+                <div class="lg:w-1/2 w-full h-900 pt-8">
+                    <div class="contact-accordian py-8 pr-8 mr-4 pl-4 xl:pl-0 h-900 overflow-auto custom-scroll">
                         <div class="accordian-list accordionItem close accordionItem close">
                             
                                 <div class="list-title flex justify-between accordionItemHeading">
@@ -761,7 +761,7 @@
 
                     </div>
                 </div>
-                <div class="md:w-1/2 w-full">
+                <div class="lg:w-1/2 w-full xl:px-0 px-4">
                     <img class="w-full h-900" src="assets/images/contact-map.jpg" alt="">
                 </div>
             </div>
