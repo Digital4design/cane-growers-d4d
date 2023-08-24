@@ -105,8 +105,31 @@
         <div class="w-full xl:w-1/2">
             <h2 class="text-2xl xl:text-4xl text-black leading-8 xl:leading-44 capitalize font-serif font-medium">All Information Hub Resources</h2>
         </div>
-        <div class="hidden md:flex justify-end w-full xl:w-1/2">
-            
+        <div class="hidden xl:flex justify-end w-full xl:w-1/2">
+            <div class="filter-block">
+                <ul>
+                    <li>
+                        <label for="">Category</label>
+                        <select name="" id="">
+                            <option value="">All Resources</option>
+                            <option value="">All Resources2</option>
+                            <option value="">All Resources3</option>
+                            <option value="">All Resources4</option>
+                            <option value="">All Resources5</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="">Filter By</label>
+                        <select name="" id="">
+                            <option value="">Date Posted</option>
+                            <option value="">Date Posted</option>
+                            <option value="">Date Posted</option>
+                            
+                        </select>
+                    </li>
+                </ul>
+
+            </div>
         </div>
     </div>
     <div class="grid-view-wrap">

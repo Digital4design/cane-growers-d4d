@@ -152,7 +152,7 @@
         </div>
         <div class="tabbed-content">
            
-                <div class="content-col active" data-match="office">
+                <div class="content-col active bg-[url('../../assets/images/Queensland.png')] bg-no-repeat bg-left-bottom" data-match="office">
                     <div class="container max-w-screen-2xl mx-auto">
                         <div class="content-top">
                             <div class="green-label mb-3">Our Offices</div>
@@ -917,8 +917,8 @@
 
                             <p>The district boards nominate representatives to sit on the 20-person Policy Council which decides the overall strategic direction of CANEGROWERS. It elects an eight-member QCGO Board which is responsible for corporate governance.</p>
                         </div>
-                       <div class="board-info flex flex-wrap lg:flex-nowrap gap-0 lg:gap-4">
-                            <div class="lg:w-1/2 w-full">
+                       <div class="board-info flex flex-wrap">
+                            <div class="lg:w-1/2 w-full px-4">
                                 <div class="info-row">
                                     <label>Mossman</label>
                                     <span>Matthew Watson</span>
@@ -948,7 +948,7 @@
                                     <span>Chris Bosworth (QCGO Board) and Steve Marbelli</span>
                                 </div>
                             </div>
-                            <div class="lg:w-1/2 w-full">
+                            <div class="lg:w-1/2 w-full px-4">
                                 <div class="info-row">
                                     <label>Tully</label>
                                     <span>Bryce Macdonald</span>
