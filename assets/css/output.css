@@ -2177,6 +2177,18 @@ form textarea {
   }
 }
 
+.gallery-with-half-content .custom-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .gallery-with-half-content .custom-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
 .single-advocacy-top .custom-container {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -2504,7 +2516,7 @@ header.header-fixed ul li a {
   color: rgba(30,30,30,0.5);
 }
 
-header.header-fixed .site-logo svg path.logo-text {
+header.header-fixed .site-logo svg path.logo-text, header.header-fixed svg.toggle-mobile-menu-icon path, .secondry-header svg.toggle-mobile-menu-icon path {
   fill: #1e1e1e;
 }
 
@@ -2988,7 +3000,7 @@ header nav .menu-wrapper {
   padding-right: 1rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .membership-features .custom-container {
     padding-left: 0px;
     padding-right: 0px;
@@ -4053,6 +4065,18 @@ footer ul.who-we-are li a {
   }
 }
 
+.gallery-with-half-content .middle-footer {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .gallery-with-half-content .middle-footer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
 .single-advocacy-top .middle-footer {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -4114,7 +4138,7 @@ footer ul.who-we-are li a {
   padding-right: 1rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .membership-features .middle-footer {
     padding-left: 0px;
     padding-right: 0px;
@@ -4144,6 +4168,42 @@ footer ul.who-we-are li a {
   .footer-bottom .middle-footer {
     align-items: flex-start;
     padding-bottom: 3rem;
+  }
+}
+
+.membership-card .middle-footer, .membership-top .middle-footer,  .membership-sticky .middle-footer {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .membership-card .middle-footer, .membership-top .middle-footer,  .membership-sticky .middle-footer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.membership-card .middle-footer, .membership-top .middle-footer,  .membership-sticky .middle-footer {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .membership-card .middle-footer, .membership-top .middle-footer,  .membership-sticky .middle-footer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.membership-card .middle-footer, .membership-top .middle-footer,  .membership-sticky .middle-footer {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .membership-card .middle-footer, .membership-top .middle-footer,  .membership-sticky .middle-footer {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -4230,11 +4290,17 @@ footer ul.who-we-are li a {
 
 .four-colsec-with-hover-info .col {
   position: relative;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   width: 100%;
   overflow: hidden;
   padding-left: 0px;
   padding-right: 0px;
+}
+
+@media (min-width: 768px) {
+  .four-colsec-with-hover-info .col {
+    margin-bottom: 3rem;
+  }
 }
 
 .four-colsec-with-hover-info .text-col {
@@ -4294,6 +4360,18 @@ footer ul.who-we-are li a {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.gallery-with-half-content .container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .gallery-with-half-content .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 .four-colsec-with-hover-info .col-grid-4 .col {
@@ -4815,7 +4893,7 @@ footer ul.who-we-are li a {
 .tabbed-top-sec ul::after {
   position: absolute;
   right: 0px;
-  bottom: 1rem;
+  top: 3rem;
   height: 11px;
   width: 7px;
   --tw-rotate: 90deg;
@@ -4968,9 +5046,15 @@ footer ul.who-we-are li a {
 }
 
 .tabbed-content .content-top {
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   width: 100%;
   max-width: 768px;
+}
+
+@media (min-width: 768px) {
+  .tabbed-content .content-top {
+    margin-bottom: 4rem;
+  }
 }
 
 .tabbed-content .content-top p {
@@ -5375,6 +5459,18 @@ footer ul.who-we-are li a {
   border-color: rgba(0,0,0,0.16);
 }
 
+.contact-form.custom-form {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .contact-form.custom-form {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
 .contact-office {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -5476,6 +5572,26 @@ footer ul.who-we-are li a {
   transition-duration: 150ms;
 }
 
+.stay-conected {
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 1200px) {
+  .stay-conected {
+    padding-bottom: 0px;
+  }
+}
+
+.contact-map-info img {
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .contact-map-info img {
+    height: 900px;
+  }
+}
+
 /***********Membership Slider***********/
 
 .secondry-header ul li a {
@@ -5511,6 +5627,18 @@ footer ul.who-we-are li a {
 
 .swiper-wrapper {
   height: auto;
+}
+
+.membership-card .custom-container, .membership-top .custom-container,  .membership-sticky .custom-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .membership-card .custom-container, .membership-top .custom-container,  .membership-sticky .custom-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 /*****Filters*******/
@@ -5903,6 +6031,24 @@ footer ul.who-we-are li a {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding: 2rem;
+}
+
+.custom-form .btn {
+  position: relative;
+  bottom: 0px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.custom-form .btn::after {
+  position: absolute;
+  right: 1rem;
+  top: 0px;
+  height: 11px;
+  width: 8px;
+  background-image: url('../../assets/images/btn-arrow.svg');
+  --tw-content: '';
+  content: var(--tw-content);
 }
 
 .before\:top-0::before {
@@ -6545,4 +6691,4 @@ footer ul.who-we-are li a {
   .\32xl\:pl-\[calc\(\(100vw-1280px\)\/2\)\] {
     padding-left: calc((100vw - 1280px) / 2);
   }
-} 
+}
