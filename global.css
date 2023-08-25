@@ -579,18 +579,21 @@ footer ul.who-we-are li a {
     @apply text-off-white-50 font-medium leading-7;
 }
 .tabbed-top-sec{
-    @apply bg-dark-green text-off-white-100 pt-16 text-center;
+    @apply bg-dark-green text-off-white-100 pt-16 text-center md:pb-0 pb-4;
 }
+
 .tabbed-top-sec ul{
-    @apply flex flex-wrap justify-between text-center border-t border-alpha-white pt-9;
+    @apply relative md:flex md:flex-wrap md:flex-row flex-col justify-between text-center border-t border-alpha-white pt-9 md:after:hidden after:content-[''] after:right-0 after:bottom-4
+    after:absolute after:w-[7px] after:rotate-90 after:bg-contain h-[80px] after:bg-tab-arrow after:h-[11px] overflow-hidden; 
 }
+.tabbed-top-sec ul.autoHeight {height:auto;}
+
 .tabbed-top-sec ul li{
-    @apply relative w-1/3 transition-all hover:transition-all text-lg border-b-8 font-medium text-center border-transparent
-     hover:border-white text-white opacity-50 hover:opacity-100 pb-3 cursor-pointer;
-   
+    @apply relative md:w-1/3 w-full transition-all hover:transition-all text-lg md:border-b-8 border-b-2 font-medium text-center border-transparent
+     hover:border-white text-white opacity-50 hover:opacity-100 pb-3 cursor-pointer first:border-white first:opacity-100;   
 }
-.tabbed-top-sec ul li.active{
-    @apply border-white opacity-100;
+.tabbed-top-sec ul li.active {
+    @apply border-white opacity-100 block;
 }
 .tabbed-content{
     @apply bg-off-white-100 lg:pt-36 lg:pb-36 pt-20 pb-0;
@@ -648,138 +651,75 @@ footer ul.who-we-are li a {
 }
 
 /* Region Page Or Contact Page */
-.address-col span{
-    @apply text-black-ish text-xs opacity-50 block font-medium;
-}
-.address-col p{
-    @apply text-sm font-medium text-black-ish mb-4 uppercase;
-}
-.form-col{
-    @apply mb-8;
-}
-.form-col label{
-    @apply block text-sm font-medium text-black-ish mb-1;
-}
-.list-title{
-    @apply gap-4 text-lg text-black-ish flex flex-wrap items-center cursor-pointer py-5;
-}
-.list-title .num{
-    @apply h-9 w-8 bg-no-repeat bg-center flex pt-1 justify-center leading-5 text-white;
-}
-.accordionItem .address-col{
-    @apply my-6;
-}
-.accordian-icon span{
-    @apply border-2 border-dark-green rounded-3xl text-dark-green text-xl font-medium h-5 w-5 flex items-center justify-center;
-}
-.accordionItem{
-    @apply border-b border-aplha-black-16 ;
-}
-.contact-office{
-    @apply py-10 text-black-ish text-base font-medium;
-}
-.contact-office > span, .stay-conected > span{
-    @apply font-medium mb-4 block text-lg;
-}
-.contact-office li{
-    @apply flex flex-wrap items-center gap-3 mb-4;
-}
-.contact-office li i{
-    @apply h-8 w-8 text-mid-green flex items-center justify-center border border-mid-green rounded-2xl;
-}
-.contact-office li a{
-    @apply text-black-ish;
-}
-.stay-conected ul{
-    @apply flex gap-3 items-center text-3xl text-mid-green;
-}
+.address-col span{    @apply text-black-ish text-xs opacity-50 block font-medium;}
+.address-col p{    @apply text-sm font-medium text-black-ish mb-4 uppercase;}
+.form-col{    @apply mb-8;}
+.form-col label{    @apply block text-sm font-medium text-black-ish mb-1;}
+.list-title{    @apply gap-4 text-lg text-black-ish flex flex-wrap items-center cursor-pointer py-5;}
+.list-title .num{    @apply h-9 w-8 bg-no-repeat bg-center flex pt-1 justify-center leading-5 text-white;}
+.accordionItem .address-col{    @apply my-6;}
+.accordian-icon span{    @apply border-2 border-dark-green rounded-3xl text-dark-green text-xl font-medium h-5 w-5 flex items-center justify-center;}
+.accordionItem{    @apply border-b border-aplha-black-16 ;}
+.contact-office{    @apply py-10 text-black-ish text-base font-medium;}
+.contact-office > span, .stay-conected > span{    @apply font-medium mb-4 block text-lg;}
+.contact-office li{    @apply flex flex-wrap items-center gap-3 mb-4;}
+.contact-office li i{    @apply h-8 w-8 text-mid-green flex items-center justify-center border border-mid-green rounded-2xl;}
+.contact-office li a{    @apply text-black-ish;}
+.stay-conected ul{    @apply flex gap-3 items-center text-3xl text-mid-green;}
+.contact-accordian  .accordian-content{    @apply h-0 transition overflow-hidden;}
+.contact-accordian  .accordionItem.open .accordian-content{    @apply h-full transition;}
 
-.contact-accordian  .accordian-content{
-    @apply h-0 transition overflow-hidden;
-}
-.contact-accordian  .accordionItem.open .accordian-content{
-    @apply h-full transition;
-}
 /***********Membership Slider***********/
-.secondry-header ul li a{
-    @apply text-black-ish;
-}
+.secondry-header ul li a{    @apply text-black-ish;}
 .secondry-header .site-logo svg path.logo-text {@apply fill-black-ish}
 .membership-sticky{@apply h-screen items-center flex flex-wrap left-0 right-0 top-0 w-full; }
 .cover{@apply opacity-50 absolute top-0 left-0 right-0 bottom-0 bg-black;}
 .swiper-wrapper{    @apply h-auto;}
 
 /*****Filters*******/
-.filter-block ul{
-    @apply flex flex-wrap text-base text-black-ish gap-5;
-}
-.filter-block ul li{
-    @apply flex flex-wrap text-base text-black-ish gap-4;
-}
-.filter-block ul label{
-    @apply opacity-50;
-}
-.filter-block ul select{
-    @apply border-b-2 border-green font-normal focus:outline-none md:w-40;
-}
+.filter-block ul{    @apply flex flex-wrap text-base text-black-ish gap-5;}
+.filter-block ul li{    @apply flex flex-wrap text-base text-black-ish gap-4;}
+.filter-block ul label{    @apply opacity-50;}
+.filter-block ul select{    @apply border-b-2 border-green font-normal focus:outline-none md:w-40;}
+
 /*****Classifieds************/
-
-.classifieds-tabbed-sec .tabbed-top-sec{
-    @apply bg-off-white-100 shadow-md pt-44 text-black-ish
+.classified-popup {@apply hidden;}
+.classified-popup.block {@apply flex fixed left-0 right-0 mx-auto top-0 bottom-0 bg-black bg-opacity-50 items-center justify-center max-w-full}
+.classified-popup .step-form {    @apply  bg-white max-w-[600px] w-full overflow-hidden z-zxl p-8;
 }
-
-.classifieds-tabbed-sec .tabbed-top-sec h2{
-    @apply text-left w-full border-b border-black-ish border-opacity-20;
-}
-.classifieds-tabbed-sec .tabbed-top-sec ul li{
-    @apply text-black-ish w-1/5 hover:border-mid-green;
-}
-.classifieds-tabbed-sec .tabbed-top-sec ul li.active{
-    @apply border-mid-green;
-}
-.classifieds-tabbed-sec .tabbed-top-sec ul{
-    @apply border-0;
-}
-.classifieds-tabbed-sec .noc{
-    @apply text-base text-black-ish font-medium mb-4;
-}
-
-.classifieds-tabbed-sec .noc span{
-    @apply text-mid-green;
-}
-.classifieds-blocks{
-    @apply pr-4 mr-4;
-}
-.classifieds-tabbed-sec .tabbed-content{
-    @apply pb-0 pt-5;
-}
-.classifieds-blocks .block{
-    @apply bg-white rounded border border-black-ish border-opacity-20 p-8 mb-4;
-}
-
-.classifieds-blocks .cat-name{
-    @apply text-dark-green mb-4 uppercase text-sm font-medium;
-}
-
-.classifieds-blocks .title{
- @apply text-xl text-black-ish mb-4;
-}
-
-.classifieds-blocks .disc{
-    @apply text-sm text-black-ish text-opacity-50 mb-4;
-}
-.classifieds-blocks ul{
-    @apply flex flex-wrap gap-4 items-center;
-}
-.classifieds-blocks ul li{
-    @apply flex flex-wrap gap-2 items-center;
-}
-.tab-navigation{
-    @apply justify-between items-center 
-}
-.tab-navigation ul{
-    @apply md:w-3/4 w-full
-}
-.tab-navigation .btn-block{
-    @apply md:w-3/12 w-full md:text-right;
-}
+.classified-popup .step-content {@apply hidden text-left;}
+.classified-popup .step-content.active {@apply flex flex-col;}
+.classifieds-tabbed-sec .tabbed-top-sec{    @apply bg-off-white-100 shadow-md pt-44 text-black-ish relative z-20}
+.classifieds-tabbed-sec .tabbed-top-sec h2{    @apply text-left w-full border-b border-black-ish border-opacity-20;}
+.classifieds-tabbed-sec .tabbed-top-sec ul li{  @apply text-black-ish w-1/5 hover:border-mid-green;}
+.classifieds-tabbed-sec .tabbed-top-sec ul li.active{  @apply border-mid-green;}
+.classifieds-tabbed-sec .tabbed-top-sec ul{  @apply border-0;}
+.classifieds-tabbed-sec .noc{ @apply text-base text-black-ish font-medium mb-4 pt-8;}
+.classifieds-tabbed-sec .noc span{    @apply text-mid-green;}
+.classifieds-blocks{    @apply pr-4 mr-4;}
+.classifieds-tabbed-sec .tabbed-content{  @apply pb-0 pt-0;}
+.classifieds-blocks .block{    @apply bg-white rounded border border-black-ish border-opacity-20 p-8 mb-4;}
+.classifieds-blocks .cat-name{    @apply text-dark-green mb-4 uppercase text-sm font-medium;}
+.classifieds-blocks .title{ @apply text-xl text-black-ish mb-4;}
+.classifieds-blocks .disc{    @apply text-sm text-black-ish text-opacity-50 mb-4;}
+.classifieds-blocks ul{  @apply flex flex-wrap gap-4 items-center;}
+.classifieds-blocks ul li{  @apply flex flex-wrap gap-2 items-center;}
+.tab-navigation{  @apply justify-between items-center }
+.classifieds-tabbed-sec .tab-navigation ul{  @apply md:w-2/3 w-full}
+.tab-navigation .btn-block{    @apply md:w-3/12 w-full md:text-right;}
+.tab-navigation h2{  @apply pb-8;}
+.radio-option { @apply border border-black-ish border-opacity-5 rounded relative px-6 py-4 mb-3 h-16;}
+.radio-option label {@apply flex items-center gap-3 absolute top-0 left-0 w-full h-full pl-5 py-4 bg-white rounded cursor-pointer text-base font-medium;}
+.radio-option input { @apply w-full h-full absolute left-0 top-0 bottom-0 right-0 opacity-0 py-4 ;}
+.radio-option input:checked + label { @apply bg-green text-off-white-100;}
+.radio-option input:checked + label svg path{  @apply stroke-off-white-100;}
+.form-top h2{@apply text-xl mb-5 pb-4}
+.form-top p, .form-top p:last-child{@apply mb-4 text-sm opacity-50;}
+.next-btn{ @apply flex items-center justify-between uppercase font-medium mt-7;}
+.next-btn .btn{@apply mt-0;}
+.step-form input, .step-form select, .step-form textarea { @apply bg-white w-full max-w-full border border-black-ish border-opacity-10 p-3 text-sm;}
+.listing-detail-fields { @apply flex flex-wrap justify-between mb-4 items-center;}
+.listing-detail-fields .full-field { @apply w-full;}
+.listing-detail-fields .half-field { @apply w-48;}
+.listing-detail-fields .half-field.city-name label {@apply text-mid-green text-lg font-medium p-0;}
+.listing-detail-fields label { @apply mb-1 block text-base font-medium;} 

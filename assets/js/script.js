@@ -286,3 +286,136 @@ var accItem = document.getElementsByClassName('accordionItem');
             this.parentNode.className = 'accordionItem open';
         }
     }
+
+    window.addEventListener('DOMContentLoaded', (event) => {
+
+        let svgImages = document.querySelectorAll("img.svg-icon");
+        
+        if (svgImages) {
+            svgImages.forEach(function (img) {
+                var imgID = img.id;
+                var imgClass = img.className;
+                var imgURL = img.src;
+        
+                fetch(imgURL).then(function (response) {
+                    return response.text();
+                }).then(function (text) {
+                    var parser = new DOMParser();
+                    var xmlDoc = parser.parseFromString(text, "text/xml");
+        
+                    // Get the SVG tag, ignore the rest
+                    var svg = xmlDoc.getElementsByTagName('svg')[0];
+        
+                    // Add replaced image's ID to the new SVG
+                    if (typeof imgID !== 'undefined') {
+                        svg.setAttribute('id', imgID);
+                    }
+                    // Add replaced image's classes to the new SVG
+                    if (typeof imgClass !== 'undefined') {
+                        svg.setAttribute('class', imgClass + ' replaced-svg');
+                    }
+        
+                    // Remove any invalid XML tags as per http://validator.w3.org
+                    svg.removeAttribute('xmlns:a');
+        
+                    // Check if the viewport is set, if the viewport is not set the SVG wont't scale.
+                    if (!svg.getAttribute('viewBox') && svg.getAttribute('height') && svg.getAttribute('width')) {
+                        svg.setAttribute('viewBox', '0 0 ' + svg.getAttribute('height') + ' ' + svg.getAttribute('width'))
+                    }
+        
+                    // Replace image with new SVG
+                    img.parentNode.replaceChild(svg, img);
+                });
+            })
+        }
+        });
+
+/* About Tabs as Accordion Work in mobile view */
+    if(window.innerWidth <= 768) {      
+        let aboutTabs = document.querySelector('.tab-list');
+        let tabListItems = aboutTabs.querySelectorAll('li.item');
+        let aboutTabSelectedValue = document.querySelector('.selectedValue');
+        
+        aboutTabSelectedValue.addEventListener('click', aboutList);
+        function aboutList() {
+            aboutTabs.classList.add('autoHeight');
+        }
+        
+        
+        tabListItems.forEach(item=>{
+            item.addEventListener('click', aboutAccordion);
+        })
+        
+        function aboutAccordion() {
+            aboutTabs.classList.remove('autoHeight');
+            aboutTabSelectedValue.textContent = this.textContent
+        }   
+    }
+
+    /* Classified Modal */
+    let classifiedBtn = document.querySelector('.classified-popup-btn');
+    classifiedBtn.addEventListener('click', openClassifiedModal);
+
+    function openClassifiedModal() {
+        this.parentNode.nextElementSibling.classList.toggle('block');
+    }
+
+
+    let classifiedNextStep = document.querySelector('.classified-next-step');
+    let classifiedPrevStep = document.querySelector('.classified-prev-step');
+    let stepContentOne = document.querySelector('.classified-popup .step-one');
+    let stepContentTwo = document.querySelector('.classified-popup .step-two');
+    let stepContentThree = document.querySelector('.classified-popup .step-three');
+    let stepContentFour = document.querySelector('.classified-popup .step-four');
+
+    classifiedNextStep.addEventListener('click', changeFormNextSteps);
+    function changeFormNextSteps() {
+        let dataId = this.getAttribute('data-id');
+        switch(dataId) {
+            case 'one': 
+                    this.setAttribute('data-id','two');
+                    classifiedPrevStep.setAttribute('data-id','two');
+                    stepContentOne.classList.remove('active')
+                    stepContentTwo.classList.add('active')
+                break;
+            case 'two':
+                this.setAttribute('data-id','three');
+                classifiedPrevStep.setAttribute('data-id','three');
+                stepContentTwo.classList.remove('active')
+                stepContentThree.classList.add('active')
+                break;
+            case 'three': 
+                this.setAttribute('data-id','four');
+                classifiedPrevStep.setAttribute('data-id','four');
+                stepContentThree.classList.remove('active')
+                stepContentFour.classList.add('active')
+                break;
+        }
+    }
+
+    // let classifiedPrevStep = document.querySelector('.classified-prev-step');
+    classifiedPrevStep.addEventListener('click', changeFormPrevSteps);
+    function changeFormPrevSteps() {
+        let dataId = this.getAttribute('data-id');
+        switch(dataId) {
+            case 'four': 
+                this.setAttribute('data-id','three');
+                classifiedNextStep.setAttribute('data-id','three');
+                stepContentFour.classList.remove('active')
+                stepContentThree.classList.add('active')
+                break;
+            case 'three': 
+                this.setAttribute('data-id','two');
+                classifiedNextStep.setAttribute('data-id','two');
+                stepContentThree.classList.remove('active')
+                stepContentTwo.classList.add('active')
+                break;
+            case 'two': 
+                this.setAttribute('data-id','one');
+                classifiedNextStep.setAttribute('data-id','one');
+                stepContentTwo.classList.remove('active')
+                stepContentOne.classList.add('active')
+                break;
+        }
+    }
+

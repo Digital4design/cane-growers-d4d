@@ -142,10 +142,11 @@
             <div class="container max-w-screen-2xl mx-auto">
                 <div class="tab-navigation">
                     <h4 class="text-white mb-12">Grower-led advocacy for Queensland's sugarcane industry</h4>
-                    <ul class="flex justify-center">
-                        <li data-id="office" class="office active">Our Offices</li>
-                        <li data-id="team" class="team">Meet the Team</li>
-                        <li data-id="board" class="board">Policy Council and Board</li>
+                    <ul class="flex justify-center tab-list">
+                        <li class="selectedValue block md:hidden">Our Offices</li>
+                        <li data-id="office" class="item office active">Our Offices</li>
+                        <li data-id="team" class="item team">Meet the Team</li>
+                        <li data-id="board" class="item board">Policy Council and Board</li>
                     </ul>
                 </div>
             </div>

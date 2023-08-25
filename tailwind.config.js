@@ -36,6 +36,7 @@ module.exports = {
         'membership-overlay':'linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.90) 100%, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%)',
         'cane-banner-overlay':'linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%)',
         'gallery-overlay':' linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%)',
+        'tab-arrow': "url('../../assets/images/btn-arrow.svg')"
       },
       boxShadow: {
         'caneBanner': '0px 10px 10px -5px rgba(0, 0, 0, 0.04), 0px 20px 25px -5px rgba(0, 0, 0, 0.10)',
@@ -59,6 +60,9 @@ module.exports = {
         '826':'826px',
         '923':'923px',
         '900':'900px',
+      },
+      width:{
+        '48': '48%'
       },
       colors: {
         'green':'#5E9732',
@@ -95,6 +99,7 @@ module.exports = {
       fontFamily: {
         'sans': ['"General Sans"', 'sans-serif'],
         'serif': ['Sentient', 'serif'],
+        '': ['Font Awesome 6 Pro']
       },
     },
   },
